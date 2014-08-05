@@ -1,0 +1,25 @@
+Dryer, Matthew S.. 2011. Double negation in verb-initial languages.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 144U.
+Available online at http://wals.info/feature/144U
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+kbl	Kabyle	1	NegVNegSO	36.500	5.000	Berber	Afro-Asiatic	Word Order
+cak	Cakchiquel	2	NegVNegOS	14.500	-91.000	Mayan	Mayan	Word Order
+kro	Krongo	3	NegVSONeg	10.500	30.000	Kadugli	Kadugli	Word Order
+tsi	Tsimshian (Coast)	4	NegNegVSO	52.500	-129.000	Tsimshianic	Penutian	Word Order
+hdi	Hdi	5	VNegSONeg	11.867	13.717	Biu-Mandara	Afro-Asiatic	Word Order
+amr	Arabic (Moroccan)	6	VS & VO & [Neg-V-Neg]	34.000	-6.000	Semitic	Afro-Asiatic	Word Order
+miy	Miya	7	NegVOSNeg/VNegOSNeg/SNegVONeg/SVNegONeg	10.917	9.667	West Chadic	Afro-Asiatic	Word Order
+lmg	Lamang	8	V(Neg)SONeg	11.250	13.583	Biu-Mandara	Afro-Asiatic	Word Order
+rap	Rapanui	9	Neg(Neg)VSO	-27.117	-109.367	Oceanic	Austronesian	Word Order
+pkt	Pokot	10	NegVSO/[Neg-V-Neg]SO	1.500	35.500	Nilotic	Nilo-Saharan	Word Order
+tsk	Tamashek	11	NegVSO&OptStemChange	20.000	-2.000	Berber	Afro-Asiatic	Word Order
+bbu	Barambu	12	SVO/VSO but [Neg-V]SO(Neg)	3.500	27.000	Ubangi	Niger-Congo	Word Order
+ond	Oneida	13	VS&VO&Neg[(Neg-)V]	43.000	-75.667	Northern Iroquoian	Iroquoian	Word Order
+ann	Anindilyakwa	13	VS&VO&Neg[(Neg-)V]	-14.000	136.500	Anindilyakwa	Australian	Word Order
+dom	Domari	14	VS&VO&NegV/[(Neg-)V-Neg]	32.000	35.000	Indic	Indo-European	Word Order
+chj	Chuj	15	VOS & NegVNeg	15.917	-91.583	Mayan	Mayan	Word Order
+rwe	Romani (Welsh)	16	VSO/SVO & (Neg)V(Neg)	52.000	-4.000	Indic	Indo-European	Word Order

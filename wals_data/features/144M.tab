@@ -1,0 +1,62 @@
+Dryer, Matthew S.. 2011. Multiple Negative Constructions in SOV Languages.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 144M.
+Available online at http://wals.info/feature/144M
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+eip	Eipo	1	SONegV/SOVNeg	-4.333	140.083	Mek	Trans-New Guinea	Word Order
+aym	Aymara	2	SNegOV/SONegV	-17.000	-69.000	Aymaran	Aymaran	Word Order
+kae	Kaki Ae	2	SNegOV/SONegV	-8.000	145.833	Tate	Eleman	Word Order
+nav	Navajo	3	NegSOV/SNegOV/SONegV	36.167	-108.000	Athapaskan	Na-Dene	Word Order
+qim	Quechua (Imbabura)	3	NegSOV/SNegOV/SONegV	0.333	-78.000	Quechuan	Quechuan	Word Order
+pba	Pima Bajo	3	NegSOV/SNegOV/SONegV	29.000	-111.000	Tepiman	Uto-Aztecan	Word Order
+cmn	Comanche	3	NegSOV/SNegOV/SONegV	33.500	-101.500	Numic	Uto-Aztecan	Word Order
+cup	Cupeño	4	NegSOV/2ndPos	33.167	-116.500	Takic	Uto-Aztecan	Word Order
+krc	Karachay-Balkar	5	SOVNeg/SO[V-Neg]	43.500	42.000	Turkic	Altaic	Word Order
+kyr	Karkar-Yuri	5	SOVNeg/SO[V-Neg]	-3.750	141.083	Karkar-Yuri	Karkar-Yuri	Word Order
+mkh	Mongol (Khamnigan)	5	SOVNeg/SO[V-Neg]	49.000	117.000	Mongolic	Altaic	Word Order
+ijo	Ijo (Kolokuma)	5	SOVNeg/SO[V-Neg]	4.917	5.667	Ijoid	Niger-Congo	Word Order
+nas	Nasioi	5	SOVNeg/SO[V-Neg]	-6.333	155.583	East Bougainville	East Bougainville	Word Order
+lav	Lavukaleve	5	SOVNeg/SO[V-Neg]	-9.083	159.200	Lavukaleve	Solomons East Papuan	Word Order
+kol	Kolami	5	SOVNeg/SO[V-Neg]	20.000	78.500	Central Dravidian	Dravidian	Word Order
+paw	Pawaian	5	SOVNeg/SO[V-Neg]	-7.000	145.083	Pawaian	Teberan-Pawaian	Word Order
+pum	Pumi	6	SO[Neg-V]/SO[V-Neg]	28.000	101.000	Qiangic	Sino-Tibetan	Word Order
+lad	Ladakhi	6	SO[Neg-V]/SO[V-Neg]	34.000	78.000	Bodic	Sino-Tibetan	Word Order
+abk	Abkhaz	6	SO[Neg-V]/SO[V-Neg]	43.083	41.000	Northwest Caucasian	Northwest Caucasian	Word Order
+uby	Ubykh	6	SO[Neg-V]/SO[V-Neg]	43.667	39.667	Northwest Caucasian	Northwest Caucasian	Word Order
+kll	Kaluli	6	SO[Neg-V]/SO[V-Neg]	-6.500	142.750	Bosavi	Bosavi	Word Order
+sar	Sare	6	SO[Neg-V]/SO[V-Neg]	-4.500	143.167	Sepik Hill	Sepik	Word Order
+nwd	Newar (Dolakha)	7	SO[Neg-V]/SOVwithNegInfix	27.333	86.000	Bodic	Sino-Tibetan	Word Order
+ram	Rama	8	SNegOV/SONegV/SO[V-Neg]	11.750	-83.750	Rama	Chibchan	Word Order
+ger	German	9	SONegV/SVONeg	52.000	10.000	Germanic	Indo-European	Word Order
+dut	Dutch	9	SONegV/SVONeg	52.500	6.000	Germanic	Indo-European	Word Order
+tru	Trumai	10	SOVNeg/SVNegO	-11.917	-53.583	Trumai	Trumai	Word Order
+ldu	Lendu	11	SNegOV/SOVNeg/SVONeg	2.000	30.500	Lendu	Nilo-Saharan	Word Order
+nti	Ngiti	12	NegSOV/SNegOV/NegSVO/SVNegO	1.333	30.250	Lendu	Nilo-Saharan	Word Order
+cai	Chai	13	SONegV/SOVNeg/SNegVO/SVONeg	5.333	35.333	Surmic	Nilo-Saharan	Word Order
+twn	Tiwa (Northern)	14	SO[Neg-V]/S[Neg-V]O	36.500	-105.500	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+ton	Tonkawa	15	SO[V-Neg]/S[V-Neg]O/	30.250	-96.750	Tonkawa	Tonkawa	Word Order
+kwz	Kwazá	15	SO[V-Neg]/S[V-Neg]O/	-12.583	-60.667	Kwaza	Kwaza	Word Order
+arm	Armenian (Eastern)	16	SONegV/SO[Neg-V]/SNegVO/S[Neg-V]O	40.000	45.000	Armenian	Indo-European	Word Order
+wic	Wichita	17	NegSOV/NegOVS	33.333	-97.333	Caddoan	Caddoan	Word Order
+mac	Macushi	18	SOVNeg/OVNegS	4.000	-60.000	Cariban	Cariban	Word Order
+apl	Apalaí	19	SO[V-Neg]/O[V-Neg]S	0.000	-54.000	Cariban	Cariban	Word Order
+mtu	Motu	20	SOV & NegV/VNeg	-9.333	147.000	Oceanic	Austronesian	Word Order
+nag	Nagatman	20	SOV & NegV/VNeg	-3.750	141.500	Yale	Yale	Word Order
+blt	Balti	20	SOV & NegV/VNeg	35.000	76.000	Bodic	Sino-Tibetan	Word Order
+eka	Ekari	20	SOV & NegV/VNeg	-3.833	135.500	Wissel Lakes-Kemandoga	Trans-New Guinea	Word Order
+tmo	Tibetan (Modern Literary)	20	SOV & NegV/VNeg	29.833	91.500	Bodic	Sino-Tibetan	Word Order
+oro	Orokaiva	21	SOV & NegV/[Neg-V]	-8.833	148.250	Binanderean	Trans-New Guinea	Word Order
+amb	Ambulas	21	SOV & NegV/[Neg-V]	-3.833	143.000	Middle Sepik	Sepik	Word Order
+gug	Gugada	21	SOV & NegV/[Neg-V]	-30.000	134.000	Pama-Nyungan	Australian	Word Order
+pra	Prasuni	22	SOV & NegV/[V-Neg]	35.500	71.000	Indic	Indo-European	Word Order
+arw	Armenian (Western)	22	SOV & NegV/[V-Neg]	38.500	43.500	Armenian	Indo-European	Word Order
+ajg	Ajagbe	23	SOV & NegV/VNeg	7.000	1.750	Kwa	Niger-Congo	Word Order
+bod	Bodo	24	SV & OV & NegV/VNeg	26.833	92.000	Bodo-Garo	Sino-Tibetan	Word Order
+kmk	Kalmyk	24	SV & OV & NegV/VNeg	44.000	83.000	Mongolic	Altaic	Word Order
+lho	Lhomi	25	SV & OV & NegV/[V-Neg]	27.667	87.417	Bodic	Sino-Tibetan	Word Order
+dmi	Dumi	26	SV & OV & [Neg-V]/[V-Neg]	27.250	86.667	Bodic	Sino-Tibetan	Word Order
+klg	Kulung	26	SV & OV & [Neg-V]/[V-Neg]	27.500	87.000	Bodic	Sino-Tibetan	Word Order
+pit	Pitjantjatjara	27	SV & OV & VNeg/[V-Neg]	-26.000	130.000	Pama-Nyungan	Australian	Word Order

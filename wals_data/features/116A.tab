@@ -1,0 +1,962 @@
+Dryer, Matthew S.. 2011. Polar Questions.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 116A.
+Available online at http://wals.info/feature/116A
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+juh	Ju|'hoan	1	Question particle	-19.000	21.000	Northern Khoisan	Khoisan	Simple Clauses
+krn	Korana	1	Question particle	-29.500	20.500	Central Khoisan	Khoisan	Simple Clauses
+kho	Khoekhoe	1	Question particle	-25.500	18.000	Central Khoisan	Khoisan	Simple Clauses
+ani	//Ani	1	Question particle	-18.917	21.917	Central Khoisan	Khoisan	Simple Clauses
+kxo	Kxoe	1	Question particle	-17.500	22.500	Central Khoisan	Khoisan	Simple Clauses
+xoo	!Xóõ	1	Question particle	-24.000	21.500	Southern Khoisan	Khoisan	Simple Clauses
+bus	Busa	1	Question particle	9.667	4.000	Eastern Mande	Niger-Congo	Simple Clauses
+dan	Dan	1	Question particle	7.500	-8.000	Eastern Mande	Niger-Congo	Simple Clauses
+maw	Maninka (Western)	1	Question particle	13.000	-11.000	Western Mande	Niger-Congo	Simple Clauses
+bam	Bambara	1	Question particle	12.500	-7.500	Western Mande	Niger-Congo	Simple Clauses
+mka	Mauka	1	Question particle	8.333	-7.500	Western Mande	Niger-Congo	Simple Clauses
+snn	Soninke	1	Question particle	15.000	-10.500	Western Mande	Niger-Congo	Simple Clauses
+fua	Fula (Cameroonian)	1	Question particle	9.167	13.500	Northern Atlantic	Niger-Congo	Simple Clauses
+wlf	Wolof	1	Question particle	15.250	-16.000	Northern Atlantic	Niger-Congo	Simple Clauses
+tne	Temne	1	Question particle	8.667	-13.083	Southern Atlantic	Niger-Congo	Simple Clauses
+grb	Grebo	1	Question particle	5.000	-8.000	Kru	Niger-Congo	Simple Clauses
+dds	Donno So	1	Question particle	14.333	-3.583	Dogon	Niger-Congo	Simple Clauses
+tny	Tenyer	1	Question particle	10.667	-4.500	Gur	Niger-Congo	Simple Clauses
+sup	Supyire	1	Question particle	11.500	-5.583	Gur	Niger-Congo	Simple Clauses
+kfe	Koromfe	1	Question particle	14.250	-0.917	Gur	Niger-Congo	Simple Clauses
+moo	Mooré	1	Question particle	12.833	-1.250	Gur	Niger-Congo	Simple Clauses
+kby	Kabiyé	1	Question particle	9.667	1.167	Gur	Niger-Congo	Simple Clauses
+doy	Doyayo	1	Question particle	8.667	13.083	Adamawa	Niger-Congo	Simple Clauses
+mum	Mumuye	1	Question particle	9.000	11.667	Adamawa	Niger-Congo	Simple Clauses
+mbm	Mbum	1	Question particle	7.750	13.167	Adamawa	Niger-Congo	Simple Clauses
+gbb	Gbeya Bossangoa	1	Question particle	6.667	17.500	Ubangi	Niger-Congo	Simple Clauses
+ngb	Ngbaka	1	Question particle	3.500	20.000	Ubangi	Niger-Congo	Simple Clauses
+san	Sango	1	Question particle	5.000	18.000	Ubangi	Niger-Congo	Simple Clauses
+lnd	Linda	1	Question particle	6.500	20.750	Ubangi	Niger-Congo	Simple Clauses
+akn	Akan	1	Question particle	6.500	-1.250	Kwa	Niger-Congo	Simple Clauses
+nkn	Nkonya	1	Question particle	7.167	0.250	Kwa	Niger-Congo	Simple Clauses
+ega	Ega	1	Question particle	5.500	-5.500	Kwa	Niger-Congo	Simple Clauses
+ewe	Ewe	1	Question particle	6.333	0.417	Kwa	Niger-Congo	Simple Clauses
+adi	Adioukrou	1	Question particle	5.417	-4.583	Kwa	Niger-Congo	Simple Clauses
+ebi	Ebira	1	Question particle	8.167	7.000	Nupoid	Niger-Congo	Simple Clauses
+nup	Nupe	1	Question particle	9.167	5.417	Nupoid	Niger-Congo	Simple Clauses
+gwa	Gwari	1	Question particle	9.500	7.000	Nupoid	Niger-Congo	Simple Clauses
+ige	Igede	1	Question particle	7.000	8.167	Idomoid	Niger-Congo	Simple Clauses
+egn	Engenni	1	Question particle	5.167	6.383	Edoid	Niger-Congo	Simple Clauses
+izi	Izi	1	Question particle	6.333	8.000	Igboid	Niger-Congo	Simple Clauses
+juk	Jukun	1	Question particle	6.917	10.417	Platoid	Niger-Congo	Simple Clauses
+bir	Birom	1	Question particle	9.667	8.833	Platoid	Niger-Congo	Simple Clauses
+fye	Fyem	1	Question particle	9.583	9.333	Platoid	Niger-Congo	Simple Clauses
+obo	Obolo	1	Question particle	4.583	7.833	Cross River	Niger-Congo	Simple Clauses
+efi	Efik	1	Question particle	4.917	8.500	Cross River	Niger-Congo	Simple Clauses
+gok	Gokana	1	Question particle	4.583	7.333	Cross River	Niger-Congo	Simple Clauses
+duk	Duka	1	Question particle	11.167	5.083	Kainji	Niger-Congo	Simple Clauses
+amo	Amo	1	Question particle	10.333	8.667	Kainji	Niger-Congo	Simple Clauses
+jar	Jarawa (in Nigeria)	1	Question particle	9.500	10.500	Bantoid	Niger-Congo	Simple Clauses
+mgk	Mungaka	1	Question particle	5.917	10.000	Bantoid	Niger-Congo	Simple Clauses
+mbi	Mbili	1	Question particle	6.117	10.200	Bantoid	Niger-Congo	Simple Clauses
+bab	Babungo	1	Question particle	6.117	10.417	Bantoid	Niger-Congo	Simple Clauses
+non	Noni	1	Question particle	6.417	10.583	Bantoid	Niger-Congo	Simple Clauses
+ldo	Londo	1	Question particle	5.000	9.167	Bantoid	Niger-Congo	Simple Clauses
+bkn	Bakundu	1	Question particle	4.833	9.333	Bantoid	Niger-Congo	Simple Clauses
+tnn	Tunen	1	Question particle	4.750	10.667	Bantoid	Niger-Congo	Simple Clauses
+ewo	Ewondo	1	Question particle	4.000	12.000	Bantoid	Niger-Congo	Simple Clauses
+ifm	Ifumu	1	Question particle	-3.667	15.333	Bantoid	Niger-Congo	Simple Clauses
+dng	Ding	1	Question particle	-4.333	19.500	Bantoid	Niger-Congo	Simple Clauses
+cga	Chaga	1	Question particle	-3.000	37.000	Bantoid	Niger-Congo	Simple Clauses
+swa	Swahili	1	Question particle	-6.500	39.000	Bantoid	Niger-Congo	Simple Clauses
+nko	Nkore-Kiga	1	Question particle	-0.917	29.833	Bantoid	Niger-Congo	Simple Clauses
+hnd	Hunde	1	Question particle	-1.167	28.833	Bantoid	Niger-Congo	Simple Clauses
+luv	Luvale	1	Question particle	-12.000	22.000	Bantoid	Niger-Congo	Simple Clauses
+kwn	Kwangali	1	Question particle	-18.000	19.500	Bantoid	Niger-Congo	Simple Clauses
+kil	Kiluba	1	Question particle	-8.000	26.000	Bantoid	Niger-Congo	Simple Clauses
+bem	Bemba	1	Question particle	-10.000	28.250	Bantoid	Niger-Congo	Simple Clauses
+lmb	Lamba	1	Question particle	-13.000	28.000	Bantoid	Niger-Congo	Simple Clauses
+toz	Tonga (in Zambia)	1	Question particle	-17.000	27.000	Bantoid	Niger-Congo	Simple Clauses
+cic	Chichewa	1	Question particle	-14.000	34.000	Bantoid	Niger-Congo	Simple Clauses
+loz	Lozi	1	Question particle	-17.833	26.000	Bantoid	Niger-Congo	Simple Clauses
+xho	Xhosa	1	Question particle	-32.000	27.000	Bantoid	Niger-Congo	Simple Clauses
+zul	Zulu	1	Question particle	-30.000	30.000	Bantoid	Niger-Congo	Simple Clauses
+swt	Swati	1	Question particle	-26.500	31.000	Bantoid	Niger-Congo	Simple Clauses
+tsn	Tsonga	1	Question particle	-24.000	32.000	Bantoid	Niger-Congo	Simple Clauses
+laa	Laal	1	Question particle	10.000	17.667	Laal	Laal	Simple Clauses
+kse	Koyraboro Senni	1	Question particle	16.000	0.000	Songhay	Nilo-Saharan	Simple Clauses
+tbu	Tubu	1	Question particle	16.000	15.000	Western Saharan	Nilo-Saharan	Simple Clauses
+maj	Majang	1	Question particle	6.750	35.000	Surmic	Nilo-Saharan	Simple Clauses
+mee	Me'en	1	Question particle	5.000	37.000	Surmic	Nilo-Saharan	Simple Clauses
+nar	Nara (in Ethiopia)	1	Question particle	15.083	37.583	Nara	Nilo-Saharan	Simple Clauses
+bar	Bari	1	Question particle	5.000	31.667	Nilotic	Nilo-Saharan	Simple Clauses
+maa	Maasai	1	Question particle	-3.000	36.000	Nilotic	Nilo-Saharan	Simple Clauses
+kmj	Karimojong	1	Question particle	3.000	34.167	Nilotic	Nilo-Saharan	Simple Clauses
+tna	Turkana	1	Question particle	3.000	35.500	Nilotic	Nilo-Saharan	Simple Clauses
+nan	Nandi	1	Question particle	0.250	35.000	Nilotic	Nilo-Saharan	Simple Clauses
+ik	Ik	1	Question particle	3.750	34.167	Kuliak	Nilo-Saharan	Simple Clauses
+so	So	1	Question particle	2.583	34.750	Kuliak	Nilo-Saharan	Simple Clauses
+kre	Kresh	1	Question particle	8.500	24.500	Kresh	Nilo-Saharan	Simple Clauses
+bgo	Bongo	1	Question particle	7.500	28.500	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+ngm	Ngambay	1	Question particle	8.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+mby	Mbay	1	Question particle	8.250	17.500	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+bag	Bagirmi	1	Question particle	11.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+gul	Gula (in Central African Republic)	1	Question particle	9.500	22.500	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+ken	Kenga	1	Question particle	12.000	18.000	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+kar	Kara (in Central African Republic)	1	Question particle	10.000	23.000	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+yul	Yulu	1	Question particle	8.500	25.250	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+mou	Moru	1	Question particle	4.750	29.750	Moru-Ma'di	Nilo-Saharan	Simple Clauses
+lug	Lugbara	1	Question particle	3.083	30.917	Moru-Ma'di	Nilo-Saharan	Simple Clauses
+mad	Ma'di	1	Question particle	3.250	31.500	Moru-Ma'di	Nilo-Saharan	Simple Clauses
+mmv	Mamvu	1	Question particle	3.250	29.000	Mangbutu-Efe	Nilo-Saharan	Simple Clauses
+ldu	Lendu	1	Question particle	2.000	30.500	Lendu	Nilo-Saharan	Simple Clauses
+nti	Ngiti	1	Question particle	1.333	30.250	Lendu	Nilo-Saharan	Simple Clauses
+ber	Berta	1	Question particle	10.333	34.667	Berta	Nilo-Saharan	Simple Clauses
+cop	Coptic	1	Question particle	26.000	32.000	Egyptian-Coptic	Afro-Asiatic	Simple Clauses
+tgh	Tuareg (Ghat)	1	Question particle	25.000	10.167	Berber	Afro-Asiatic	Simple Clauses
+brf	Berber (Rif)	1	Question particle	34.500	-4.000	Berber	Afro-Asiatic	Simple Clauses
+bfg	Berber (Figuig)	1	Question particle	32.500	-1.500	Berber	Afro-Asiatic	Simple Clauses
+mas	Masa	1	Question particle	10.500	15.500	Masa	Afro-Asiatic	Simple Clauses
+lel	Lele	1	Question particle	9.083	15.583	East Chadic	Afro-Asiatic	Simple Clauses
+ker	Kera	1	Question particle	9.833	15.083	East Chadic	Afro-Asiatic	Simple Clauses
+ter	Tera	1	Question particle	11.000	11.833	Biu-Mandara	Afro-Asiatic	Simple Clauses
+mrg	Margi	1	Question particle	11.000	13.000	Biu-Mandara	Afro-Asiatic	Simple Clauses
+lmg	Lamang	1	Question particle	11.250	13.583	Biu-Mandara	Afro-Asiatic	Simple Clauses
+pod	Podoko	1	Question particle	11.000	14.083	Biu-Mandara	Afro-Asiatic	Simple Clauses
+uld	Uldeme	1	Question particle	10.950	14.117	Biu-Mandara	Afro-Asiatic	Simple Clauses
+gud	Gude	1	Question particle	10.417	13.417	Biu-Mandara	Afro-Asiatic	Simple Clauses
+mgu	Musgu	1	Question particle	10.833	14.917	Biu-Mandara	Afro-Asiatic	Simple Clauses
+mbr	Mbara	1	Question particle	11.000	15.417	Biu-Mandara	Afro-Asiatic	Simple Clauses
+bud	Buduma	1	Question particle	13.500	14.500	Biu-Mandara	Afro-Asiatic	Simple Clauses
+lag	Lagwan	1	Question particle	11.500	14.833	Biu-Mandara	Afro-Asiatic	Simple Clauses
+hau	Hausa	1	Question particle	12.000	7.000	West Chadic	Afro-Asiatic	Simple Clauses
+knk	Kanakuru	1	Question particle	10.000	12.000	West Chadic	Afro-Asiatic	Simple Clauses
+per	Pero	1	Question particle	9.583	11.000	West Chadic	Afro-Asiatic	Simple Clauses
+anc	Angas	1	Question particle	9.500	9.500	West Chadic	Afro-Asiatic	Simple Clauses
+mup	Mupun	1	Question particle	9.500	8.833	West Chadic	Afro-Asiatic	Simple Clauses
+ron	Ron	1	Question particle	9.000	8.750	West Chadic	Afro-Asiatic	Simple Clauses
+miy	Miya	1	Question particle	10.917	9.667	West Chadic	Afro-Asiatic	Simple Clauses
+som	Somali	1	Question particle	3.000	45.000	Eastern Cushitic	Afro-Asiatic	Simple Clauses
+heb	Hebrew (Modern)	1	Question particle	31.500	34.833	Semitic	Afro-Asiatic	Simple Clauses
+aeg	Arabic (Egyptian)	1	Question particle	30.000	31.000	Semitic	Afro-Asiatic	Simple Clauses
+ams	Arabic (Modern Standard)	1	Question particle	25.000	42.000	Semitic	Afro-Asiatic	Simple Clauses
+amr	Arabic (Moroccan)	1	Question particle	34.000	-6.000	Semitic	Afro-Asiatic	Simple Clauses
+asy	Arabic (Syrian)	1	Question particle	34.000	38.000	Semitic	Afro-Asiatic	Simple Clauses
+chh	Chaha	1	Question particle	8.113	37.933	Semitic	Afro-Asiatic	Simple Clauses
+bsq	Basque	1	Question particle	43.000	-3.000	Basque	Basque	Simple Clauses
+rwe	Romani (Welsh)	1	Question particle	52.000	-4.000	Indic	Indo-European	Simple Clauses
+dmk	Dumaki	1	Question particle	36.167	74.000	Indic	Indo-European	Simple Clauses
+mhi	Marathi	1	Question particle	19.000	76.000	Indic	Indo-European	Simple Clauses
+hin	Hindi	1	Question particle	25.000	77.000	Indic	Indo-European	Simple Clauses
+urd	Urdu	1	Question particle	25.000	67.000	Indic	Indo-European	Simple Clauses
+lmn	Lamani	1	Question particle	17.000	77.000	Indic	Indo-European	Simple Clauses
+pan	Panjabi	1	Question particle	31.000	74.000	Indic	Indo-European	Simple Clauses
+kum	Kumauni	1	Question particle	30.000	80.000	Indic	Indo-European	Simple Clauses
+nep	Nepali	1	Question particle	28.000	85.000	Indic	Indo-European	Simple Clauses
+bho	Bhojpuri	1	Question particle	26.000	84.000	Indic	Indo-European	Simple Clauses
+prs	Persian	1	Question particle	32.000	54.000	Iranian	Indo-European	Simple Clauses
+taj	Tajik	1	Question particle	38.667	70.000	Iranian	Indo-European	Simple Clauses
+alb	Albanian	1	Question particle	41.000	20.000	Albanian	Indo-European	Simple Clauses
+grk	Greek (Modern)	1	Question particle	39.000	22.000	Greek	Indo-European	Simple Clauses
+srd	Sardinian	1	Question particle	40.000	9.000	Romance	Indo-European	Simple Clauses
+fre	French	1	Question particle	48.000	2.000	Romance	Indo-European	Simple Clauses
+por	Portuguese	1	Question particle	39.000	-8.000	Romance	Indo-European	Simple Clauses
+iri	Irish	1	Question particle	53.000	-8.000	Celtic	Indo-European	Simple Clauses
+bre	Breton	1	Question particle	48.000	-3.000	Celtic	Indo-European	Simple Clauses
+wel	Welsh	1	Question particle	52.000	-3.000	Celtic	Indo-European	Simple Clauses
+crn	Cornish	1	Question particle	50.333	-5.000	Celtic	Indo-European	Simple Clauses
+lat	Latvian	1	Question particle	57.000	24.000	Baltic	Indo-European	Simple Clauses
+lit	Lithuanian	1	Question particle	55.000	24.000	Baltic	Indo-European	Simple Clauses
+rus	Russian	1	Question particle	56.000	38.000	Slavic	Indo-European	Simple Clauses
+blr	Belorussian	1	Question particle	54.000	28.000	Slavic	Indo-European	Simple Clauses
+ukr	Ukrainian	1	Question particle	49.000	33.000	Slavic	Indo-European	Simple Clauses
+pol	Polish	1	Question particle	52.000	20.000	Slavic	Indo-European	Simple Clauses
+bul	Bulgarian	1	Question particle	42.500	25.000	Slavic	Indo-European	Simple Clauses
+mcd	Macedonian	1	Question particle	41.667	21.750	Slavic	Indo-European	Simple Clauses
+slo	Slovene	1	Question particle	46.000	15.000	Slavic	Indo-European	Simple Clauses
+scr	Serbian-Croatian	1	Question particle	44.000	19.000	Slavic	Indo-European	Simple Clauses
+hun	Hungarian	1	Question particle	47.000	20.000	Ugric	Uralic	Simple Clauses
+sno	Saami (Northern)	1	Question particle	69.000	24.000	Saami	Uralic	Simple Clauses
+fin	Finnish	1	Question particle	62.000	25.000	Finnic	Uralic	Simple Clauses
+est	Estonian	1	Question particle	59.000	26.000	Finnic	Uralic	Simple Clauses
+dgr	Dagur	1	Question particle	48.000	124.000	Mongolic	Altaic	Simple Clauses
+kha	Khalkha	1	Question particle	47.000	105.000	Mongolic	Altaic	Simple Clauses
+evn	Even	1	Question particle	68.000	130.000	Tungusic	Altaic	Simple Clauses
+eve	Evenki	1	Question particle	56.000	125.000	Tungusic	Altaic	Simple Clauses
+aze	Azerbaijani	1	Question particle	40.500	48.500	Turkic	Altaic	Simple Clauses
+tur	Turkish	1	Question particle	39.000	35.000	Turkic	Altaic	Simple Clauses
+bsk	Bashkir	1	Question particle	53.000	58.000	Turkic	Altaic	Simple Clauses
+tvo	Tatar	1	Question particle	56.000	49.500	Turkic	Altaic	Simple Clauses
+kgz	Kirghiz	1	Question particle	42.000	75.000	Turkic	Altaic	Simple Clauses
+tuv	Tuvan	1	Question particle	52.000	95.000	Turkic	Altaic	Simple Clauses
+ain	Ainu	1	Question particle	43.000	143.000	Ainu	Ainu	Simple Clauses
+jpn	Japanese	1	Question particle	37.000	140.000	Japanese	Japanese	Simple Clauses
+ite	Itelmen	1	Question particle	57.000	157.500	Southern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Simple Clauses
+niv	Nivkh	1	Question particle	53.333	142.000	Nivkh	Nivkh	Simple Clauses
+ket	Ket	1	Question particle	64.000	87.000	Yeniseian	Yeniseian	Simple Clauses
+ttu	Tsova-Tush	1	Question particle	42.500	45.500	Nakh	Nakh-Daghestanian	Simple Clauses
+ava	Avar	1	Question particle	42.500	46.500	Avar-Andic-Tsezic	Nakh-Daghestanian	Simple Clauses
+gon	Gondi	1	Question particle	19.000	81.000	South-Central Dravidian	Dravidian	Simple Clauses
+kuv	Kuvi	1	Question particle	18.750	82.667	South-Central Dravidian	Dravidian	Simple Clauses
+knd	Kannada	1	Question particle	14.000	76.000	Southern Dravidian	Dravidian	Simple Clauses
+mym	Malayalam	1	Question particle	10.000	76.500	Southern Dravidian	Dravidian	Simple Clauses
+mun	Mundari	1	Question particle	23.000	84.667	Munda	Austro-Asiatic	Simple Clauses
+ho	Ho	1	Question particle	22.000	86.000	Munda	Austro-Asiatic	Simple Clauses
+mnd	Mandarin	1	Question particle	34.000	110.000	Chinese	Sino-Tibetan	Simple Clauses
+cnt	Cantonese	1	Question particle	23.000	113.000	Chinese	Sino-Tibetan	Simple Clauses
+kpw	Karen (Pwo)	1	Question particle	13.000	99.167	Karen	Sino-Tibetan	Simple Clauses
+kyl	Kayah Li (Eastern)	1	Question particle	19.000	97.500	Karen	Sino-Tibetan	Simple Clauses
+kbw	Karen (Bwe)	1	Question particle	19.500	97.000	Karen	Sino-Tibetan	Simple Clauses
+ksg	Karen (Sgaw)	1	Question particle	18.000	97.000	Karen	Sino-Tibetan	Simple Clauses
+new	Newari (Kathmandu)	1	Question particle	27.667	85.500	Bodic	Sino-Tibetan	Simple Clauses
+nwd	Newar (Dolakha)	1	Question particle	27.333	86.000	Bodic	Sino-Tibetan	Simple Clauses
+tgl	Tshangla	1	Question particle	27.833	92.167	Bodic	Sino-Tibetan	Simple Clauses
+tam	Tamang	1	Question particle	28.000	85.250	Bodic	Sino-Tibetan	Simple Clauses
+gur	Gurung	1	Question particle	28.333	84.333	Bodic	Sino-Tibetan	Simple Clauses
+she	Sherpa	1	Question particle	27.750	86.833	Bodic	Sino-Tibetan	Simple Clauses
+skk	Sikkimese	1	Question particle	27.833	88.500	Bodic	Sino-Tibetan	Simple Clauses
+ghr	Gahri	1	Question particle	32.500	77.000	Bodic	Sino-Tibetan	Simple Clauses
+drm	Darma	1	Question particle	30.000	79.750	Bodic	Sino-Tibetan	Simple Clauses
+bya	Byansi	1	Question particle	30.167	80.500	Bodic	Sino-Tibetan	Simple Clauses
+khg	Khaling	1	Question particle	27.500	86.667	Bodic	Sino-Tibetan	Simple Clauses
+bel	Belhare	1	Question particle	26.967	87.300	Bodic	Sino-Tibetan	Simple Clauses
+pum	Pumi	1	Question particle	28.000	101.000	Qiangic	Sino-Tibetan	Simple Clauses
+nax	Naxi	1	Question particle	27.500	100.000	Naxi	Sino-Tibetan	Simple Clauses
+lun	Lungchang	1	Question particle	27.500	96.417	Northern Naga	Sino-Tibetan	Simple Clauses
+mei	Meithei	1	Question particle	24.750	94.000	Kuki-Chin	Sino-Tibetan	Simple Clauses
+ao	Ao	1	Question particle	26.583	94.667	Kuki-Chin	Sino-Tibetan	Simple Clauses
+nma	Naga (Mao)	1	Question particle	25.500	94.333	Kuki-Chin	Sino-Tibetan	Simple Clauses
+sem	Sema	1	Question particle	26.000	94.500	Kuki-Chin	Sino-Tibetan	Simple Clauses
+agm	Angami	1	Question particle	25.667	94.500	Kuki-Chin	Sino-Tibetan	Simple Clauses
+nze	Naga (Zeme)	1	Question particle	25.167	93.500	Kuki-Chin	Sino-Tibetan	Simple Clauses
+cti	Chin (Tiddim)	1	Question particle	23.333	93.667	Kuki-Chin	Sino-Tibetan	Simple Clauses
+chs	Chin (Siyin)	1	Question particle	23.833	94.000	Kuki-Chin	Sino-Tibetan	Simple Clauses
+miz	Mizo	1	Question particle	23.167	92.833	Kuki-Chin	Sino-Tibetan	Simple Clauses
+lai	Lai	1	Question particle	22.667	93.667	Kuki-Chin	Sino-Tibetan	Simple Clauses
+baw	Bawm	1	Question particle	22.500	92.250	Kuki-Chin	Sino-Tibetan	Simple Clauses
+cmr	Chin (Mara)	1	Question particle	23.000	93.167	Kuki-Chin	Sino-Tibetan	Simple Clauses
+jng	Jingpho	1	Question particle	25.417	97.000	Jinghpo	Sino-Tibetan	Simple Clauses
+acn	Achang	1	Question particle	25.000	98.500	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+mru	Maru	1	Question particle	23.500	98.500	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+yi	Yi	1	Question particle	24.000	104.000	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+lal	Lalo	1	Question particle	25.000	100.250	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+akh	Akha	1	Question particle	21.833	99.833	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+lah	Lahu	1	Question particle	20.000	98.167	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+bai	Bai	1	Question particle	26.000	100.000	Bai	Sino-Tibetan	Simple Clauses
+raw	Rawang	1	Question particle	27.500	97.500	Nungish	Sino-Tibetan	Simple Clauses
+bgn	Bugun	1	Question particle	27.500	92.583	Western Arunachal	Sino-Tibetan	Simple Clauses
+apt	Apatani	1	Question particle	27.500	93.750	Tani	Sino-Tibetan	Simple Clauses
+slg	Sulung	1	Question particle	28.333	93.250	Sulung	Sulung	Simple Clauses
+lep	Lepcha	1	Question particle	27.167	88.500	Lepcha	Sino-Tibetan	Simple Clauses
+hmo	Hmong Njua	1	Question particle	28.000	105.000	Hmong-Mien	Hmong-Mien	Simple Clauses
+mie	Mien	1	Question particle	25.000	111.000	Hmong-Mien	Hmong-Mien	Simple Clauses
+khs	Khasi	1	Question particle	25.500	92.000	Khasian	Austro-Asiatic	Simple Clauses
+kmu	Khmu'	1	Question particle	21.000	102.000	Palaung-Khmuic	Austro-Asiatic	Simple Clauses
+vie	Vietnamese	1	Question particle	10.500	106.500	Viet-Muong	Austro-Asiatic	Simple Clauses
+sti	Stieng	1	Question particle	11.833	106.750	Bahnaric	Austro-Asiatic	Simple Clauses
+chr	Chrau	1	Question particle	10.750	107.500	Bahnaric	Austro-Asiatic	Simple Clauses
+sre	Sre	1	Question particle	11.500	108.000	Bahnaric	Austro-Asiatic	Simple Clauses
+sap	Sapuan	1	Question particle	15.167	106.833	Bahnaric	Austro-Asiatic	Simple Clauses
+bra	Brao	1	Question particle	14.167	107.500	Bahnaric	Austro-Asiatic	Simple Clauses
+sed	Sedang	1	Question particle	14.833	108.000	Bahnaric	Austro-Asiatic	Simple Clauses
+khm	Khmer	1	Question particle	12.500	105.000	Khmer	Austro-Asiatic	Simple Clauses
+mon	Mon	1	Question particle	14.833	100.500	Monic	Austro-Asiatic	Simple Clauses
+nnc	Nancowry	1	Question particle	8.050	93.500	Nicobarese	Austro-Asiatic	Simple Clauses
+don	Dong	1	Question particle	27.000	109.000	Kam-Tai	Tai-Kadai	Simple Clauses
+nun	Nung (in Vietnam)	1	Question particle	21.917	106.417	Kam-Tai	Tai-Kadai	Simple Clauses
+lao	Lao	1	Question particle	18.000	103.000	Kam-Tai	Tai-Kadai	Simple Clauses
+tha	Thai	1	Question particle	16.000	101.000	Kam-Tai	Tai-Kadai	Simple Clauses
+ata	Atayal	1	Question particle	24.500	121.333	Atayalic	Austronesian	Simple Clauses
+cha	Chamorro	1	Question particle	13.450	144.750	Chamorro	Austronesian	Simple Clauses
+agc	Agta (Central)	1	Question particle	17.967	121.833	Northern Philippines	Austronesian	Simple Clauses
+ifu	Ifugao (Batad)	1	Question particle	16.833	121.083	Northern Philippines	Austronesian	Simple Clauses
+btk	Bontok	1	Question particle	17.083	120.917	Northern Philippines	Austronesian	Simple Clauses
+mwb	Manobo (Western Bukidnon)	1	Question particle	7.667	124.750	Southern Philippines	Austronesian	Simple Clauses
+tag	Tagalog	1	Question particle	15.000	121.000	Meso-Philippine	Austronesian	Simple Clauses
+mmn	Mamanwa	1	Question particle	9.417	125.500	Meso-Philippine	Austronesian	Simple Clauses
+hil	Hiligaynon	1	Question particle	10.250	123.000	Meso-Philippine	Austronesian	Simple Clauses
+tbo	Tboli	1	Question particle	6.167	124.500	South Mindanao	Austronesian	Simple Clauses
+bug	Bugis	1	Question particle	-4.000	120.000	Sulawesi	Austronesian	Simple Clauses
+tuk	Tukang Besi	1	Question particle	-5.500	123.500	Sulawesi	Austronesian	Simple Clauses
+tim	Timugon	1	Question particle	5.000	116.000	Northwest Malayo-Polynesian	Austronesian	Simple Clauses
+kdz	Kadazan	1	Question particle	5.917	117.167	Northwest Malayo-Polynesian	Austronesian	Simple Clauses
+tat	Tatana'	1	Question particle	5.500	115.500	Northwest Malayo-Polynesian	Austronesian	Simple Clauses
+mal	Malagasy	1	Question particle	-20.000	47.000	Barito	Austronesian	Simple Clauses
+sun	Sundanese	1	Question particle	-7.000	107.000	Sundanese	Austronesian	Simple Clauses
+lmp	Lampung	1	Question particle	-5.000	105.000	Lampungic	Austronesian	Simple Clauses
+nia	Nias	1	Question particle	1.000	97.750	Sumatra	Austronesian	Simple Clauses
+bkr	Batak (Karo)	1	Question particle	3.250	98.250	Sumatra	Austronesian	Simple Clauses
+iba	Iban	1	Question particle	2.000	112.000	Malayic	Austronesian	Simple Clauses
+url	Urak Lawoi'	1	Question particle	8.000	98.333	Malayic	Austronesian	Simple Clauses
+ind	Indonesian	1	Question particle	0.000	106.000	Malayic	Austronesian	Simple Clauses
+mds	Manadonese	1	Question particle	1.500	124.833	Malayic	Austronesian	Simple Clauses
+ace	Acehnese	1	Question particle	5.500	95.500	Malayic	Austronesian	Simple Clauses
+chw	Cham (Western)	1	Question particle	12.000	105.500	Malayic	Austronesian	Simple Clauses
+aln	Alune	1	Question particle	-3.000	128.333	Central Malayo-Polynesian	Austronesian	Simple Clauses
+ttn	Tetun	1	Question particle	-9.000	126.000	Central Malayo-Polynesian	Austronesian	Simple Clauses
+mor	Mor	1	Question particle	-2.950	135.750	South Halmahera - West New Guinea	Austronesian	Simple Clauses
+amq	Ambai	1	Question particle	-1.833	136.500	South Halmahera - West New Guinea	Austronesian	Simple Clauses
+msn	Maisin	1	Question particle	-9.500	149.167	Oceanic	Austronesian	Simple Clauses
+tak	Takia	1	Question particle	-4.667	146.000	Oceanic	Austronesian	Simple Clauses
+sio	Sio	1	Question particle	-5.950	147.333	Oceanic	Austronesian	Simple Clauses
+mmb	Mangap-Mbula	1	Question particle	-5.667	148.083	Oceanic	Austronesian	Simple Clauses
+jab	Jabêm	1	Question particle	-6.583	147.783	Oceanic	Austronesian	Simple Clauses
+gap	Gapapaiwa	1	Question particle	-9.750	149.833	Oceanic	Austronesian	Simple Clauses
+slb	Saliba (in Papua New Guinea)	1	Question particle	-10.583	150.717	Oceanic	Austronesian	Simple Clauses
+mke	Mekeo	1	Question particle	-8.333	146.500	Oceanic	Austronesian	Simple Clauses
+mtu	Motu	1	Question particle	-9.333	147.000	Oceanic	Austronesian	Simple Clauses
+sng	Sinaugoro	1	Question particle	-9.833	147.833	Oceanic	Austronesian	Simple Clauses
+kau	Kaulong	1	Question particle	-6.167	149.667	Oceanic	Austronesian	Simple Clauses
+tla	Tolai	1	Question particle	-4.250	152.083	Oceanic	Austronesian	Simple Clauses
+tgk	Tigak	1	Question particle	-2.717	150.800	Oceanic	Austronesian	Simple Clauses
+kel	Kele	1	Question particle	-2.083	147.083	Oceanic	Austronesian	Simple Clauses
+sis	Sisiqa	1	Question particle	-7.000	156.833	Oceanic	Austronesian	Simple Clauses
+anj	Anejom	1	Question particle	-20.200	169.800	Oceanic	Austronesian	Simple Clauses
+len	Lenakel	1	Question particle	-19.450	169.250	Oceanic	Austronesian	Simple Clauses
+cem	Cèmuhî	1	Question particle	-20.833	165.167	Oceanic	Austronesian	Simple Clauses
+tin	Tinrin	1	Question particle	-21.667	165.750	Oceanic	Austronesian	Simple Clauses
+iaa	Iaai	1	Question particle	-20.417	166.583	Oceanic	Austronesian	Simple Clauses
+dre	Drehu	1	Question particle	-21.000	167.250	Oceanic	Austronesian	Simple Clauses
+kos	Kosraean	1	Question particle	5.300	163.000	Oceanic	Austronesian	Simple Clauses
+mok	Mokilese	1	Question particle	6.667	159.750	Oceanic	Austronesian	Simple Clauses
+son	Sonsorol-Tobi	1	Question particle	5.333	132.250	Oceanic	Austronesian	Simple Clauses
+gel	Gela	1	Question particle	-9.083	160.250	Oceanic	Austronesian	Simple Clauses
+aro	Arosi	1	Question particle	-10.250	161.333	Oceanic	Austronesian	Simple Clauses
+mae	Mae	1	Question particle	-16.000	167.250	Oceanic	Austronesian	Simple Clauses
+rot	Rotuman	1	Question particle	-12.500	177.067	Oceanic	Austronesian	Simple Clauses
+niu	Niuean	1	Question particle	-19.050	-170.117	Oceanic	Austronesian	Simple Clauses
+sam	Samoan	1	Question particle	-13.917	-171.833	Oceanic	Austronesian	Simple Clauses
+fut	Futuna-Aniwa	1	Question particle	-19.533	170.217	Oceanic	Austronesian	Simple Clauses
+rap	Rapanui	1	Question particle	-27.117	-109.367	Oceanic	Austronesian	Simple Clauses
+tah	Tahitian	1	Question particle	-17.667	-149.583	Oceanic	Austronesian	Simple Clauses
+ygr	Yagaria	1	Question particle	-6.333	145.417	Eastern Highlands	Trans-New Guinea	Simple Clauses
+wah	Wahgi	1	Question particle	-5.833	144.717	Chimbu	Trans-New Guinea	Simple Clauses
+kew	Kewa	1	Question particle	-6.500	143.833	Engan	Trans-New Guinea	Simple Clauses
+asm	Asmat	1	Question particle	-5.500	138.500	Asmat-Kamoro	Trans-New Guinea	Simple Clauses
+krw	Korowai	1	Question particle	-5.250	140.000	Awju-Dumut	Trans-New Guinea	Simple Clauses
+pis	Pisa	1	Question particle	-5.167	139.167	Awju-Dumut	Trans-New Guinea	Simple Clauses
+wbn	Wambon	1	Question particle	-5.500	140.417	Awju-Dumut	Trans-New Guinea	Simple Clauses
+kmb	Kombai	1	Question particle	-5.583	140.000	Awju-Dumut	Trans-New Guinea	Simple Clauses
+ham	Hamtai	1	Question particle	-7.500	146.250	Angan	Trans-New Guinea	Simple Clauses
+yqy	Yaqay	1	Question particle	-6.583	139.250	Marind Proper	Marind	Simple Clauses
+guh	Guhu-Samane	1	Question particle	-8.000	147.333	Binanderean	Trans-New Guinea	Simple Clauses
+kta	Koita	1	Question particle	-9.333	147.083	Koiarian	Trans-New Guinea	Simple Clauses
+kmo	Koiali (Mountain)	1	Question particle	-9.000	147.500	Koiarian	Trans-New Guinea	Simple Clauses
+baa	Barai	1	Question particle	-9.333	148.083	Koiarian	Trans-New Guinea	Simple Clauses
+omi	Ömie	1	Question particle	-9.050	148.083	Koiarian	Trans-New Guinea	Simple Clauses
+yar	Yareba	1	Question particle	-9.500	148.500	Yareban	Yareban	Simple Clauses
+kob	Kobon	1	Question particle	-5.167	144.333	Madang	Trans-New Guinea	Simple Clauses
+sro	Siroi	1	Question particle	-5.500	146.000	Madang	Trans-New Guinea	Simple Clauses
+bon	Bongu	1	Question particle	-5.500	145.917	Madang	Trans-New Guinea	Simple Clauses
+ame	Amele	1	Question particle	-5.250	145.583	Madang	Trans-New Guinea	Simple Clauses
+wsk	Waskia	1	Question particle	-4.500	146.000	Madang	Trans-New Guinea	Simple Clauses
+amx	Anamuxra	1	Question particle	-4.667	145.000	Madang	Trans-New Guinea	Simple Clauses
+tau	Tauya	1	Question particle	-5.750	145.333	Madang	Trans-New Guinea	Simple Clauses
+rum	Rumu	1	Question particle	-7.167	144.250	Turama-Kikorian	Turama-Kikorian	Simple Clauses
+kiw	Kiwai	1	Question particle	-8.000	143.500	Kiwaian	Kiwaian	Simple Clauses
+mri	Moraori	1	Question particle	-8.583	140.667	Morehead and Upper Maro Rivers	Morehead and Upper Maro Rivers	Simple Clauses
+amn	Amanab	1	Question particle	-3.583	141.250	Border	Border	Simple Clauses
+imo	Imonda	1	Question particle	-3.333	141.167	Border	Border	Simple Clauses
+kim	Kimaghama	1	Question particle	-8.000	138.500	Kolopom	Kolopom	Simple Clauses
+abu	Abun	1	Question particle	-0.500	132.500	North-Central Bird's Head	West Papuan	Simple Clauses
+may	Maybrat	1	Question particle	-1.333	132.500	North-Central Bird's Head	West Papuan	Simple Clauses
+hat	Hatam	1	Question particle	-1.000	134.000	Hatam	West Papuan	Simple Clauses
+mpu	Mpur	1	Question particle	-0.750	133.250	Kebar	West Papuan	Simple Clauses
+dum	Dumo	1	Question particle	-2.683	141.300	Western Skou	Skou	Simple Clauses
+pok	Poko-Rawo	1	Question particle	-2.833	141.583	Serra Hills	Skou	Simple Clauses
+sgb	Sougb	1	Question particle	-1.500	134.000	East Bird's Head	East Bird's Head	Simple Clauses
+mea	Meyah	1	Question particle	-1.167	133.500	East Bird's Head	East Bird's Head	Simple Clauses
+olo	Olo	1	Question particle	-3.417	142.000	Wapei-Palei	Torricelli	Simple Clauses
+arp	Arapesh (Mountain)	1	Question particle	-3.467	143.167	Kombio-Arapesh	Torricelli	Simple Clauses
+aab	Arapesh (Abu)	1	Question particle	-3.450	142.950	Kombio-Arapesh	Torricelli	Simple Clauses
+awt	Awtuw	1	Question particle	-3.583	142.000	Ram	Sepik	Simple Clauses
+nam	Namia	1	Question particle	-3.833	141.750	Yellow River	Sepik	Simple Clauses
+kwo	Kwoma	1	Question particle	-4.167	142.750	Middle Sepik	Sepik	Simple Clauses
+amb	Ambulas	1	Question particle	-3.833	143.000	Middle Sepik	Sepik	Simple Clauses
+lav	Lavukaleve	1	Question particle	-9.083	159.200	Lavukaleve	Solomons East Papuan	Simple Clauses
+nas	Nasioi	1	Question particle	-6.333	155.583	East Bougainville	East Bougainville	Simple Clauses
+nag	Nagatman	1	Question particle	-3.750	141.500	Yale	Yale	Simple Clauses
+ann	Anindilyakwa	1	Question particle	-14.000	136.500	Anindilyakwa	Australian	Simple Clauses
+tiw	Tiwi	1	Question particle	-11.500	131.000	Tiwian	Australian	Simple Clauses
+mpa	Murrinh-Patha	1	Question particle	-14.667	129.667	Murrinh-Patha	Australian	Simple Clauses
+iwa	Iwaidja	1	Question particle	-11.500	132.667	Iwaidjan	Australian	Simple Clauses
+mau	Maung	1	Question particle	-11.917	133.500	Iwaidjan	Australian	Simple Clauses
+myi	Mangarrayi	1	Question particle	-14.667	133.500	Mangarrayi	Australian	Simple Clauses
+nug	Nunggubuyu	1	Question particle	-13.750	135.667	Nunggubuyu	Australian	Simple Clauses
+ngn	Ngandi	1	Question particle	-13.833	135.000	Ngandi	Australian	Simple Clauses
+bbw	Bininj Gun-Wok	1	Question particle	-12.500	133.750	Gunwinygic	Australian	Simple Clauses
+nkb	Ngalkbun	1	Question particle	-13.500	134.833	Gunwinygic	Australian	Simple Clauses
+dji	Djingili	1	Question particle	-17.750	134.000	West Barkly	Australian	Simple Clauses
+grr	Garrwa	1	Question particle	-17.083	137.167	Garrwan	Australian	Simple Clauses
+mir	Miriwung	1	Question particle	-15.667	129.000	Djeragan	Australian	Simple Clauses
+nyn	Nyigina	1	Question particle	-18.000	124.333	Nyulnyulan	Australian	Simple Clauses
+yuk	Yukulta	1	Question particle	-17.333	138.833	Tangkic	Australian	Simple Clauses
+mrw	Muruwari	1	Question particle	-28.750	147.000	Pama-Nyungan	Australian	Simple Clauses
+bnj	Bandjalang	1	Question particle	-28.750	153.000	Pama-Nyungan	Australian	Simple Clauses
+rit	Ritharngu	1	Question particle	-12.833	135.500	Pama-Nyungan	Australian	Simple Clauses
+kya	Kuku-Yalanji	1	Question particle	-16.000	145.000	Pama-Nyungan	Australian	Simple Clauses
+dyi	Dyirbal	1	Question particle	-17.833	145.583	Pama-Nyungan	Australian	Simple Clauses
+mny	Margany	1	Question particle	-27.000	144.500	Pama-Nyungan	Australian	Simple Clauses
+ggu	Gureng Gureng	1	Question particle	-25.250	151.000	Pama-Nyungan	Australian	Simple Clauses
+ngi	Ngiyambaa	1	Question particle	-31.750	145.500	Pama-Nyungan	Australian	Simple Clauses
+yuw	Yuwaalaraay	1	Question particle	-29.500	148.000	Pama-Nyungan	Australian	Simple Clauses
+wth	Wathawurrung	1	Question particle	-38.000	144.000	Pama-Nyungan	Australian	Simple Clauses
+bnu	Bularnu	1	Question particle	-21.000	138.000	Pama-Nyungan	Australian	Simple Clauses
+amp	Arrernte (Mparntwe)	1	Question particle	-24.000	136.000	Pama-Nyungan	Australian	Simple Clauses
+krj	Karadjeri	1	Question particle	-19.000	122.000	Pama-Nyungan	Australian	Simple Clauses
+yin	Yindjibarndi	1	Question particle	-21.750	117.917	Pama-Nyungan	Australian	Simple Clauses
+gug	Gugada	1	Question particle	-30.000	134.000	Pama-Nyungan	Australian	Simple Clauses
+wrl	Warlpiri	1	Question particle	-20.000	132.333	Pama-Nyungan	Australian	Simple Clauses
+ypk	Yup'ik (Central)	1	Question particle	59.500	-160.000	Eskimo	Eskimo-Aleut	Simple Clauses
+hai	Haida	1	Question particle	53.000	-132.000	Haida	Haida	Simple Clauses
+sla	Slave	1	Question particle	67.000	-125.000	Athapaskan	Na-Dene	Simple Clauses
+chp	Chipewyan	1	Question particle	59.000	-106.000	Athapaskan	Na-Dene	Simple Clauses
+nav	Navajo	1	Question particle	36.167	-108.000	Athapaskan	Na-Dene	Simple Clauses
+kut	Kutenai	1	Question particle	49.500	-116.000	Kutenai	Kutenai	Simple Clauses
+wiy	Wiyot	1	Question particle	40.833	-124.167	Wiyot	Algic	Simple Clauses
+yur	Yurok	1	Question particle	41.333	-124.000	Yurok	Algic	Simple Clauses
+cre	Cree (Plains)	1	Question particle	54.000	-110.000	Algonquian	Algic	Simple Clauses
+cea	Cree (Eastern)	1	Question particle	51.000	-74.000	Algonquian	Algic	Simple Clauses
+mak	Makah	1	Question particle	48.333	-124.667	Southern Wakashan	Wakashan	Simple Clauses
+squ	Squamish	1	Question particle	49.667	-123.167	Central Salish	Salishan	Simple Clauses
+shu	Shuswap	1	Question particle	52.000	-120.000	Interior Salish	Salishan	Simple Clauses
+ksa	Keresan (Santa Ana)	1	Question particle	35.417	-106.667	Keresan	Keresan	Simple Clauses
+yuc	Yuchi	1	Question particle	35.750	-86.750	Yuchi	Yuchi	Simple Clauses
+lkt	Lakhota	1	Question particle	43.833	-101.833	Siouan	Siouan	Simple Clauses
+omh	Omaha	1	Question particle	42.000	-97.250	Siouan	Siouan	Simple Clauses
+blx	Biloxi	1	Question particle	30.500	-88.667	Siouan	Siouan	Simple Clauses
+wic	Wichita	1	Question particle	33.333	-97.333	Caddoan	Caddoan	Simple Clauses
+ond	Oneida	1	Question particle	43.000	-75.667	Northern Iroquoian	Iroquoian	Simple Clauses
+tus	Tuscarora	1	Question particle	36.000	-77.500	Northern Iroquoian	Iroquoian	Simple Clauses
+che	Cherokee	1	Question particle	35.500	-83.500	Southern Iroquoian	Iroquoian	Simple Clauses
+nsg	Nisgha	1	Question particle	55.000	-130.000	Tsimshianic	Penutian	Simple Clauses
+git	Gitksan	1	Question particle	55.333	-127.750	Tsimshianic	Penutian	Simple Clauses
+tkl	Takelma	1	Question particle	42.500	-123.000	Takelma	Takelma	Simple Clauses
+coo	Coos (Hanis)	1	Question particle	43.500	-124.167	Coosan	Oregon Coast	Simple Clauses
+siu	Siuslaw	1	Question particle	44.000	-124.000	Siuslawan	Oregon Coast	Simple Clauses
+klm	Klamath	1	Question particle	42.500	-121.500	Klamath-Modoc	Penutian	Simple Clauses
+nez	Nez Perce	1	Question particle	46.000	-116.000	Sahaptian	Penutian	Simple Clauses
+nsn	Nisenan	1	Question particle	39.000	-121.000	Maiduan	Penutian	Simple Clauses
+wik	Wikchamni	1	Question particle	36.417	-119.083	Yokuts	Penutian	Simple Clauses
+yok	Yokuts (Yaudanchi)	1	Question particle	36.083	-119.083	Yokuts	Penutian	Simple Clauses
+ywl	Yawelmani	1	Question particle	35.417	-119.000	Yokuts	Penutian	Simple Clauses
+mut	Mutsun	1	Question particle	36.833	-121.500	Costanoan	Penutian	Simple Clauses
+ctm	Chitimacha	1	Question particle	29.667	-91.000	Chitimacha	Chitimacha	Simple Clauses
+cct	Choctaw	1	Question particle	32.250	-88.500	Muskogean	Muskogean	Simple Clauses
+txj	Totonac (Xicotepec de Juárez)	1	Question particle	20.417	-97.833	Totonacan	Totonacan	Simple Clauses
+mco	Mixe (Coatlán)	1	Question particle	16.917	-95.667	Mixe-Zoque	Mixe-Zoque	Simple Clauses
+lac	Lacandón	1	Question particle	17.000	-91.500	Mayan	Mayan	Simple Clauses
+tzo	Tzotzil	1	Question particle	16.500	-92.667	Mayan	Mayan	Simple Clauses
+mam	Mam	1	Question particle	15.000	-91.833	Mayan	Mayan	Simple Clauses
+tzu	Tzutujil	1	Question particle	14.667	-91.333	Mayan	Mayan	Simple Clauses
+was	Washo	1	Question particle	39.250	-120.000	Washo	Washo	Simple Clauses
+ser	Seri	1	Question particle	29.000	-112.000	Seri	Hokan	Simple Clauses
+tja	Tiipay (Jamul)	1	Question particle	32.167	-116.500	Yuman	Hokan	Simple Clauses
+chx	Chontal (Huamelultec Oaxaca)	1	Question particle	16.000	-95.750	Tequistlatecan	Tequistlatecan	Simple Clauses
+otm	Otomí (Mezquital)	1	Question particle	20.167	-99.167	Otomian	Oto-Manguean	Simple Clauses
+ocu	Ocuilteco	1	Question particle	18.917	-99.667	Otomian	Oto-Manguean	Simple Clauses
+mxj	Mixtec (Jicaltepec)	1	Question particle	16.333	-98.000	Mixtecan	Oto-Manguean	Simple Clauses
+mxo	Mixtec (Ocotepec)	1	Question particle	17.167	-97.750	Mixtecan	Oto-Manguean	Simple Clauses
+mxp	Mixtec (Peñoles)	1	Question particle	17.083	-96.917	Mixtecan	Oto-Manguean	Simple Clauses
+mzh	Mazatec (Huautla)	1	Question particle	18.250	-96.833	Popolocan	Oto-Manguean	Simple Clauses
+ccm	Chinantec (Comaltepec)	1	Question particle	17.583	-96.417	Chinantecan	Oto-Manguean	Simple Clauses
+cle	Chinantec (Lealao)	1	Question particle	17.333	-95.917	Chinantecan	Oto-Manguean	Simple Clauses
+chq	Chinantec (Quiotepec)	1	Question particle	17.583	-96.667	Chinantecan	Oto-Manguean	Simple Clauses
+cso	Chatino (Sierra Occidental)	1	Question particle	16.250	-97.333	Zapotecan	Oto-Manguean	Simple Clauses
+zai	Zapotec (Isthmus)	1	Question particle	16.417	-95.000	Zapotecan	Oto-Manguean	Simple Clauses
+zap	Zapotec (Mitla)	1	Question particle	16.800	-96.250	Zapotecan	Oto-Manguean	Simple Clauses
+zya	Zapotec (Yatzachi)	1	Question particle	17.200	-96.200	Zapotecan	Oto-Manguean	Simple Clauses
+tlp	Tlapanec	1	Question particle	17.083	-99.000	Subtiaba-Tlapanec	Oto-Manguean	Simple Clauses
+kio	Kiowa	1	Question particle	37.000	-99.000	Kiowa-Tanoan	Kiowa-Tanoan	Simple Clauses
+pno	Paiute (Northern)	1	Question particle	42.000	-118.000	Numic	Uto-Aztecan	Simple Clauses
+mno	Mono (in United States)	1	Question particle	38.000	-119.000	Numic	Uto-Aztecan	Simple Clauses
+cmn	Comanche	1	Question particle	33.500	-101.500	Numic	Uto-Aztecan	Simple Clauses
+tsh	Tümpisa Shoshone	1	Question particle	37.000	-117.000	Numic	Uto-Aztecan	Simple Clauses
+ute	Ute	1	Question particle	39.000	-109.000	Numic	Uto-Aztecan	Simple Clauses
+cmh	Chemehuevi	1	Question particle	34.333	-115.167	Numic	Uto-Aztecan	Simple Clauses
+lui	Luiseño	1	Question particle	33.333	-117.167	Takic	Uto-Aztecan	Simple Clauses
+hop	Hopi	1	Question particle	36.000	-110.000	Hopi	Uto-Aztecan	Simple Clauses
+ood	O'odham	1	Question particle	32.000	-112.000	Tepiman	Uto-Aztecan	Simple Clauses
+nev	Nevome	1	Question particle	31.000	-112.500	Tepiman	Uto-Aztecan	Simple Clauses
+tpn	Tepehuan (Northern)	1	Question particle	26.333	-107.000	Tepiman	Uto-Aztecan	Simple Clauses
+twe	Tarahumara (Western)	1	Question particle	27.500	-108.000	Tarahumaran	Uto-Aztecan	Simple Clauses
+yaq	Yaqui	1	Question particle	27.500	-110.250	Cahita	Uto-Aztecan	Simple Clauses
+eud	Eudeve	1	Question particle	29.167	-109.667	Cahita	Uto-Aztecan	Simple Clauses
+shi	Shiriana	1	Question particle	3.500	-62.833	Yanomam	Yanomam	Simple Clauses
+awp	Awa Pit	1	Question particle	1.500	-78.250	Barbacoan	Barbacoan	Simple Clauses
+jeb	Jebero	1	Question particle	-5.417	-76.500	Cahuapanan	Cahuapanan	Simple Clauses
+qim	Quechua (Imbabura)	1	Question particle	0.333	-78.000	Quechuan	Quechuan	Simple Clauses
+aym	Aymara	1	Question particle	-17.000	-69.000	Aymaran	Aymaran	Simple Clauses
+gav	Gavião	1	Question particle	-10.667	-62.000	Monde	Tupian	Simple Clauses
+kaa	Karó (Arára)	1	Question particle	-10.333	-62.000	Ramarama	Tupian	Simple Clauses
+mek	Mekens	1	Question particle	-12.500	-61.500	Tupari	Tupian	Simple Clauses
+urk	Urubú-Kaapor	1	Question particle	-2.333	-46.500	Tupi-Guaraní	Tupian	Simple Clauses
+gua	Guaraní	1	Question particle	-26.000	-56.000	Tupi-Guaraní	Tupian	Simple Clauses
+way	Wayampi	1	Question particle	1.000	-52.000	Tupi-Guaraní	Tupian	Simple Clauses
+coc	Cocama	1	Question particle	-5.000	-74.500	Tupi-Guaraní	Tupian	Simple Clauses
+srn	Sirionó	1	Question particle	-15.583	-64.000	Tupi-Guaraní	Tupian	Simple Clauses
+pir	Piro	1	Question particle	-11.000	-73.500	Arawakan	Arawakan	Simple Clauses
+cax	Campa (Axininca)	1	Question particle	-12.000	-74.000	Arawakan	Arawakan	Simple Clauses
+plk	Palikur	1	Question particle	3.000	-51.000	Arawakan	Arawakan	Simple Clauses
+res	Resígaro	1	Question particle	-2.417	-71.500	Arawakan	Arawakan	Simple Clauses
+goa	Goajiro	1	Question particle	12.000	-72.000	Arawakan	Arawakan	Simple Clauses
+yag	Yagua	1	Question particle	-3.500	-72.000	Peba-Yaguan	Peba-Yaguan	Simple Clauses
+mos	Mosetén	1	Question particle	-14.750	-67.833	Mosetenan	Mosetenan	Simple Clauses
+wch	Wichí	1	Question particle	-22.500	-62.583	Matacoan	Matacoan	Simple Clauses
+cbo	Chácobo	1	Question particle	-12.167	-66.750	Panoan	Panoan	Simple Clauses
+amc	Amahuaca	1	Question particle	-10.500	-72.500	Panoan	Panoan	Simple Clauses
+shh	Sharanahua	1	Question particle	-11.000	-70.000	Panoan	Panoan	Simple Clauses
+shk	Shipibo-Konibo	1	Question particle	-7.500	-75.000	Panoan	Panoan	Simple Clauses
+ese	Ese Ejja	1	Question particle	-11.000	-66.000	Tacanan	Tacanan	Simple Clauses
+tac	Tacana	1	Question particle	-13.500	-68.000	Tacanan	Tacanan	Simple Clauses
+xav	Xavánte	1	Question particle	-15.000	-52.500	Ge-Kaingang	Macro-Ge	Simple Clauses
+api	Apinayé	1	Question particle	-5.500	-48.000	Ge-Kaingang	Macro-Ge	Simple Clauses
+kyp	Kayapó	1	Question particle	-9.000	-52.000	Ge-Kaingang	Macro-Ge	Simple Clauses
+ckr	Canela-Krahô	1	Question particle	-6.000	-46.000	Ge-Kaingang	Macro-Ge	Simple Clauses
+noo	Noon	1	Question particle	14.833	-16.833	Northern Atlantic	Niger-Congo	Simple Clauses
+map	Mapudungun	1	Question particle	-38.000	-72.000	Araucanian	Araucanian	Simple Clauses
+mpr	Maipure	1	Question particle	5.500	-67.500	Arawakan	Arawakan	Simple Clauses
+mkh	Mongol (Khamnigan)	1	Question particle	49.000	117.000	Mongolic	Altaic	Simple Clauses
+goe	Goemai	1	Question particle	8.667	9.750	West Chadic	Afro-Asiatic	Simple Clauses
+tao	Tarao	1	Question particle	24.250	94.167	Kuki-Chin	Sino-Tibetan	Simple Clauses
+ndb	Ndebele (in South Africa)	1	Question particle	-25.333	29.000	Bantoid	Niger-Congo	Simple Clauses
+hma	Hmar	1	Question particle	24.167	93.000	Kuki-Chin	Sino-Tibetan	Simple Clauses
+pga	Pilagá	1	Question particle	-25.000	-60.000	Guaicuruan	Guaicuruan	Simple Clauses
+obg	Ogbronuagum	1	Question particle	4.750	6.867	Cross River	Niger-Congo	Simple Clauses
+bma	Berber (Middle Atlas)	1	Question particle	33.000	-5.000	Berber	Afro-Asiatic	Simple Clauses
+oya	Oriya	1	Question particle	21.000	85.000	Indic	Indo-European	Simple Clauses
+trb	Teribe	1	Question particle	9.333	-82.667	Talamanca	Chibchan	Simple Clauses
+sle	Samba Leko	1	Question particle	8.500	12.500	Adamawa	Niger-Congo	Simple Clauses
+nyu	Nyulnyul	1	Question particle	-17.000	122.833	Nyulnyulan	Australian	Simple Clauses
+tri	Trique (Copala)	1	Question particle	17.167	-97.917	Mixtecan	Oto-Manguean	Simple Clauses
+mxy	Mixtec (Yosondúa)	1	Question particle	16.917	-97.583	Mixtecan	Oto-Manguean	Simple Clauses
+ret	Retuarã	1	Question particle	-0.500	-70.667	Tucanoan	Tucanoan	Simple Clauses
+guw	Gungbe	1	Question particle	6.500	2.500	Kwa	Niger-Congo	Simple Clauses
+urt	Urat	1	Question particle	-3.667	142.833	Wapei-Palei	Torricelli	Simple Clauses
+oji	Ojibwa (Eastern)	1	Question particle	46.000	-80.000	Algonquian	Algic	Simple Clauses
+nke	Nkem	1	Question particle	6.583	8.583	Bantoid	Niger-Congo	Simple Clauses
+ncm	Ncàm	1	Question particle	9.333	0.667	Gur	Niger-Congo	Simple Clauses
+lgt	Logoti	1	Question particle	3.500	30.000	Moru-Ma'di	Nilo-Saharan	Simple Clauses
+ina	Inanwatan	1	Question particle	-2.083	132.083	South Bird's Head	Marind	Simple Clauses
+kno	Kanoê	1	Question particle	-13.250	-61.000	Kapixana	Kapixana	Simple Clauses
+hve	Huave (San Mateo del Mar)	1	Question particle	16.217	-95.000	Huavean	Huavean	Simple Clauses
+brp	Barupu	1	Question particle	-3.083	142.083	Warapu	Skou	Simple Clauses
+tho	Thompson	1	Question particle	49.750	-121.750	Interior Salish	Salishan	Simple Clauses
+tee	Tepehua (Huehuetla)	1	Question particle	20.500	-98.000	Totonacan	Totonacan	Simple Clauses
+mcc	Mochica	1	Question particle	-7.500	-79.333	Chimúan	Chimúan	Simple Clauses
+mrq	Marquesan	1	Question particle	-8.917	-140.083	Oceanic	Austronesian	Simple Clauses
+hdi	Hdi	1	Question particle	11.867	13.717	Biu-Mandara	Afro-Asiatic	Simple Clauses
+ksn	Kasong	1	Question particle	12.750	102.117	Pearic	Austro-Asiatic	Simple Clauses
+mpt	Mian	1	Question particle	-4.750	141.500	Ok	Trans-New Guinea	Simple Clauses
+cnm	Canamarí	1	Question particle	-6.500	-68.500	Katukinan	Katukinan	Simple Clauses
+huc	=|Hoan	1	Question particle	-25.500	25.000	=|Hoan	Khoisan	Simple Clauses
+iwm	Iwam	1	Question particle	-4.333	142.000	Upper Sepik	Sepik	Simple Clauses
+max	Maxakalí	1	Question particle	-18.000	-40.000	Maxakalí	Macro-Ge	Simple Clauses
+ney	Neyo	1	Question particle	5.000	-6.000	Kru	Niger-Congo	Simple Clauses
+dun	Duna	1	Question particle	-5.500	142.500	Duna	Trans-New Guinea	Simple Clauses
+khn	Khün	1	Question particle	21.000	100.000	Kam-Tai	Tai-Kadai	Simple Clauses
+xsm	Kàsim	1	Question particle	11.000	-1.333	Gur	Niger-Congo	Simple Clauses
+zhn	Zhuang (Northern)	1	Question particle	24.000	108.000	Kam-Tai	Tai-Kadai	Simple Clauses
+xas	Xasonga	1	Question particle	14.250	-10.500	Western Mande	Niger-Congo	Simple Clauses
+all	Ala'ala	1	Question particle	-8.917	146.750	Oceanic	Austronesian	Simple Clauses
+mkj	Makasae	1	Question particle	-8.667	126.500	Makasae-Fataluku-Oirata	Timor-Alor-Pantar	Simple Clauses
+dhi	Dhivehi	1	Question particle	4.167	73.500	Indic	Indo-European	Simple Clauses
+lew	Lewo	1	Question particle	-16.750	168.333	Oceanic	Austronesian	Simple Clauses
+pnx	Panará	1	Question particle	-10.000	-55.000	Ge-Kaingang	Macro-Ge	Simple Clauses
+eme	Émérillon	1	Question particle	3.167	-52.417	Tupi-Guaraní	Tupian	Simple Clauses
+err	Erromangan	1	Question particle	-18.833	169.167	Oceanic	Austronesian	Simple Clauses
+jms	Jamsay	1	Question particle	14.417	-2.500	Dogon	Niger-Congo	Simple Clauses
+tib	Tibetan (Standard Spoken)	1	Question particle	30.000	91.000	Bodic	Sino-Tibetan	Simple Clauses
+bbf	Bobo Fing	1	Question particle	11.833	-4.417	Western Mande	Niger-Congo	Simple Clauses
+sko	Skou	1	Question particle	-2.667	140.917	Western Skou	Skou	Simple Clauses
+tsk	Tamashek	1	Question particle	20.000	-2.000	Berber	Afro-Asiatic	Simple Clauses
+mus	Mussau	1	Question particle	-1.450	149.617	Oceanic	Austronesian	Simple Clauses
+agd	Agta (Dupaningan)	1	Question particle	18.000	122.083	Northern Philippines	Austronesian	Simple Clauses
+dul	Dulong	1	Question particle	28.000	98.333	Nungish	Sino-Tibetan	Simple Clauses
+tet	Tetela	1	Question particle	-4.000	24.000	Bantoid	Niger-Congo	Simple Clauses
+qum	Sipakapense	1	Question particle	15.250	-91.750	Mayan	Mayan	Simple Clauses
+avk	Avikam	1	Question particle	5.167	-5.500	Kwa	Niger-Congo	Simple Clauses
+bwc	Bajau (West Coast)	1	Question particle	6.333	116.333	Sama-Bajaw	Austronesian	Simple Clauses
+mdo	Mbodomo	1	Question particle	4.500	15.500	Ubangi	Niger-Congo	Simple Clauses
+mmi	Mambai	1	Question particle	9.667	14.000	Adamawa	Niger-Congo	Simple Clauses
+anu	Anufo	1	Question particle	10.083	0.250	Kwa	Niger-Congo	Simple Clauses
+sob	Sobei	1	Question particle	-1.917	138.750	Oceanic	Austronesian	Simple Clauses
+mey	Menya	1	Question particle	-7.250	146.000	Angan	Trans-New Guinea	Simple Clauses
+wwa	Waama	1	Question particle	10.583	1.667	Gur	Niger-Congo	Simple Clauses
+aoj	Mufian	1	Question particle	-3.500	143.000	Kombio-Arapesh	Torricelli	Simple Clauses
+mxx	Mixe (Ayutla)	1	Question particle	17.083	-96.083	Mixe-Zoque	Mixe-Zoque	Simple Clauses
+ajg	Ajagbe	1	Question particle	7.000	1.750	Kwa	Niger-Congo	Simple Clauses
+wn	Wik Ngathana	1	Question particle	-13.917	141.500	Pama-Nyungan	Australian	Simple Clauses
+khr	Kharia	1	Question particle	22.500	84.333	Munda	Austro-Asiatic	Simple Clauses
+tvt	Tutsa	1	Question particle	27.500	96.500	Northern Naga	Sino-Tibetan	Simple Clauses
+kyz	Kayabí	1	Question particle	-11.000	-55.500	Tupi-Guaraní	Tupian	Simple Clauses
+wal	Walman	1	Question particle	-3.217	142.500	Wapei-Palei	Torricelli	Simple Clauses
+hna	Mina	1	Question particle	10.333	13.833	Biu-Mandara	Afro-Asiatic	Simple Clauses
+ijo	Ijo (Kolokuma)	2	Interrogative verb morphology	4.917	5.667	Ijoid	Niger-Congo	Simple Clauses
+bmb	Bimoba	2	Interrogative verb morphology	10.500	0.000	Gur	Niger-Congo	Simple Clauses
+kan	Kana	2	Interrogative verb morphology	4.750	7.417	Cross River	Niger-Congo	Simple Clauses
+kro	Krongo	2	Interrogative verb morphology	10.500	30.000	Kadugli	Kadugli	Simple Clauses
+knr	Kanuri	2	Interrogative verb morphology	12.000	13.000	Western Saharan	Nilo-Saharan	Simple Clauses
+mab	Maba	2	Interrogative verb morphology	13.750	20.833	Maban	Nilo-Saharan	Simple Clauses
+msl	Masalit	2	Interrogative verb morphology	13.333	22.000	Maban	Nilo-Saharan	Simple Clauses
+run	Runga	2	Interrogative verb morphology	10.333	21.000	Maban	Nilo-Saharan	Simple Clauses
+koe	Koegu	2	Interrogative verb morphology	7.000	36.083	Surmic	Nilo-Saharan	Simple Clauses
+knm	Kunama	2	Interrogative verb morphology	14.500	37.000	Kunama	Nilo-Saharan	Simple Clauses
+gmz	Gumuz	2	Interrogative verb morphology	12.500	35.833	Gumuz	Nilo-Saharan	Simple Clauses
+aar	Aari	2	Interrogative verb morphology	6.000	36.583	South Omotic	Afro-Asiatic	Simple Clauses
+dim	Dime	2	Interrogative verb morphology	6.167	36.250	South Omotic	Afro-Asiatic	Simple Clauses
+gim	Gimira	2	Interrogative verb morphology	7.000	35.750	North Omotic	Afro-Asiatic	Simple Clauses
+wly	Wolaytta	2	Interrogative verb morphology	6.833	37.750	North Omotic	Afro-Asiatic	Simple Clauses
+bej	Beja	2	Interrogative verb morphology	18.000	36.000	Beja	Afro-Asiatic	Simple Clauses
+kem	Kemant	2	Interrogative verb morphology	12.667	37.417	Central Cushitic	Afro-Asiatic	Simple Clauses
+bln	Bilin	2	Interrogative verb morphology	15.750	38.500	Central Cushitic	Afro-Asiatic	Simple Clauses
+irq	Iraqw	2	Interrogative verb morphology	-4.000	35.500	Southern Cushitic	Afro-Asiatic	Simple Clauses
+brn	Burunge	2	Interrogative verb morphology	-5.333	36.000	Southern Cushitic	Afro-Asiatic	Simple Clauses
+sna	Shina	2	Interrogative verb morphology	36.000	74.000	Indic	Indo-European	Simple Clauses
+wak	Wakhi	2	Interrogative verb morphology	36.500	72.000	Iranian	Indo-European	Simple Clauses
+gae	Gaelic (Scots)	2	Interrogative verb morphology	57.000	-4.000	Celtic	Indo-European	Simple Clauses
+ene	Enets	2	Interrogative verb morphology	67.500	86.500	Samoyedic	Uralic	Simple Clauses
+nga	Nganasan	2	Interrogative verb morphology	71.000	93.000	Samoyedic	Uralic	Simple Clauses
+kmk	Kalmyk	2	Interrogative verb morphology	44.000	83.000	Mongolic	Altaic	Simple Clauses
+mnc	Manchu	2	Interrogative verb morphology	49.500	127.500	Tungusic	Altaic	Simple Clauses
+chv	Chuvash	2	Interrogative verb morphology	55.500	47.500	Turkic	Altaic	Simple Clauses
+uzb	Uzbek	2	Interrogative verb morphology	39.000	66.000	Turkic	Altaic	Simple Clauses
+kkp	Karakalpak	2	Interrogative verb morphology	43.000	60.000	Turkic	Altaic	Simple Clauses
+kor	Korean	2	Interrogative verb morphology	37.500	128.000	Korean	Korean	Simple Clauses
+uby	Ubykh	2	Interrogative verb morphology	43.667	39.667	Northwest Caucasian	Northwest Caucasian	Simple Clauses
+abk	Abkhaz	2	Interrogative verb morphology	43.083	41.000	Northwest Caucasian	Northwest Caucasian	Simple Clauses
+chc	Chechen	2	Interrogative verb morphology	43.250	45.833	Nakh	Nakh-Daghestanian	Simple Clauses
+ing	Ingush	2	Interrogative verb morphology	43.167	45.083	Nakh	Nakh-Daghestanian	Simple Clauses
+hzb	Hunzib	2	Interrogative verb morphology	42.167	46.250	Avar-Andic-Tsezic	Nakh-Daghestanian	Simple Clauses
+arc	Archi	2	Interrogative verb morphology	42.000	46.833	Lezgic	Nakh-Daghestanian	Simple Clauses
+khi	Khinalug	2	Interrogative verb morphology	41.167	48.083	Lezgic	Nakh-Daghestanian	Simple Clauses
+lez	Lezgian	2	Interrogative verb morphology	41.667	47.833	Lezgic	Nakh-Daghestanian	Simple Clauses
+bur	Burushaski	2	Interrogative verb morphology	36.500	74.500	Burushaski	Burushaski	Simple Clauses
+kol	Kolami	2	Interrogative verb morphology	20.000	78.500	Central Dravidian	Dravidian	Simple Clauses
+tel	Telugu	2	Interrogative verb morphology	16.000	79.000	South-Central Dravidian	Dravidian	Simple Clauses
+tml	Tamil	2	Interrogative verb morphology	11.000	78.500	Southern Dravidian	Dravidian	Simple Clauses
+stl	Santali	2	Interrogative verb morphology	24.500	87.000	Munda	Austro-Asiatic	Simple Clauses
+gdb	Gutob	2	Interrogative verb morphology	19.000	83.667	Munda	Austro-Asiatic	Simple Clauses
+rem	Remo	2	Interrogative verb morphology	18.000	82.000	Munda	Austro-Asiatic	Simple Clauses
+nph	Nar-Phu	2	Interrogative verb morphology	28.667	84.250	Bodic	Sino-Tibetan	Simple Clauses
+tmo	Tibetan (Modern Literary)	2	Interrogative verb morphology	29.833	91.500	Bodic	Sino-Tibetan	Simple Clauses
+lho	Lhomi	2	Interrogative verb morphology	27.667	87.417	Bodic	Sino-Tibetan	Simple Clauses
+lad	Ladakhi	2	Interrogative verb morphology	34.000	78.000	Bodic	Sino-Tibetan	Simple Clauses
+prk	Purki	2	Interrogative verb morphology	34.667	76.000	Bodic	Sino-Tibetan	Simple Clauses
+blt	Balti	2	Interrogative verb morphology	35.000	76.000	Bodic	Sino-Tibetan	Simple Clauses
+nyk	Nyamkad	2	Interrogative verb morphology	32.000	78.500	Bodic	Sino-Tibetan	Simple Clauses
+kmh	Kham	2	Interrogative verb morphology	28.500	82.750	Bodic	Sino-Tibetan	Simple Clauses
+knn	Kinnauri	2	Interrogative verb morphology	31.500	78.000	Bodic	Sino-Tibetan	Simple Clauses
+ptt	Pattani	2	Interrogative verb morphology	32.750	76.750	Bodic	Sino-Tibetan	Simple Clauses
+tni	Tinani	2	Interrogative verb morphology	32.333	77.167	Bodic	Sino-Tibetan	Simple Clauses
+ath	Athpare	2	Interrogative verb morphology	27.000	87.333	Bodic	Sino-Tibetan	Simple Clauses
+deu	Deuri	2	Interrogative verb morphology	26.000	90.250	Bodo-Garo	Sino-Tibetan	Simple Clauses
+bod	Bodo	2	Interrogative verb morphology	26.833	92.000	Bodo-Garo	Sino-Tibetan	Simple Clauses
+kok	Kokborok	2	Interrogative verb morphology	24.333	92.500	Bodo-Garo	Sino-Tibetan	Simple Clauses
+gar	Garo	2	Interrogative verb morphology	25.667	90.500	Bodo-Garo	Sino-Tibetan	Simple Clauses
+jug	Jugli	2	Interrogative verb morphology	27.500	96.333	Northern Naga	Sino-Tibetan	Simple Clauses
+noc	Nocte	2	Interrogative verb morphology	27.000	95.500	Northern Naga	Sino-Tibetan	Simple Clauses
+mik	Mikir	2	Interrogative verb morphology	26.333	93.500	Kuki-Chin	Sino-Tibetan	Simple Clauses
+lot	Lotha	2	Interrogative verb morphology	26.500	94.250	Kuki-Chin	Sino-Tibetan	Simple Clauses
+ngt	Naga (Tangkhul)	2	Interrogative verb morphology	25.000	94.500	Kuki-Chin	Sino-Tibetan	Simple Clauses
+brm	Burmese	2	Interrogative verb morphology	21.000	96.000	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+lis	Lisu	2	Interrogative verb morphology	26.000	98.000	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+biu	Bisu	2	Interrogative verb morphology	19.750	100.000	Burmese-Lolo	Sino-Tibetan	Simple Clauses
+gal	Gallong	2	Interrogative verb morphology	28.167	94.667	Tani	Sino-Tibetan	Simple Clauses
+msg	Mising	2	Interrogative verb morphology	28.500	94.833	Tani	Sino-Tibetan	Simple Clauses
+idu	Idu	2	Interrogative verb morphology	29.333	95.833	Digaroan	Sino-Tibetan	Simple Clauses
+aga	Agarabi	2	Interrogative verb morphology	-6.167	146.000	Eastern Highlands	Trans-New Guinea	Simple Clauses
+gds	Gadsup	2	Interrogative verb morphology	-6.250	146.000	Eastern Highlands	Trans-New Guinea	Simple Clauses
+usr	Usarufa	2	Interrogative verb morphology	-6.417	145.583	Eastern Highlands	Trans-New Guinea	Simple Clauses
+hua	Hua	2	Interrogative verb morphology	-6.333	145.333	Eastern Highlands	Trans-New Guinea	Simple Clauses
+sia	Siane	2	Interrogative verb morphology	-6.083	145.200	Eastern Highlands	Trans-New Guinea	Simple Clauses
+gah	Gahuku	2	Interrogative verb morphology	-6.000	145.417	Eastern Highlands	Trans-New Guinea	Simple Clauses
+gln	Golin	2	Interrogative verb morphology	-6.333	144.750	Chimbu	Trans-New Guinea	Simple Clauses
+syu	Salt-Yui	2	Interrogative verb morphology	-6.283	145.033	Chimbu	Trans-New Guinea	Simple Clauses
+kmn	Kuman	2	Interrogative verb morphology	-5.917	145.000	Chimbu	Trans-New Guinea	Simple Clauses
+foe	Foe	2	Interrogative verb morphology	-6.500	143.500	Kutubuan	Trans-New Guinea	Simple Clauses
+fas	Fasu	2	Interrogative verb morphology	-6.583	143.333	Fasu	Trans-New Guinea	Simple Clauses
+kmr	Kamoro	2	Interrogative verb morphology	-4.333	136.000	Asmat-Kamoro	Trans-New Guinea	Simple Clauses
+dni	Dani (Lower Grand Valley)	2	Interrogative verb morphology	-4.333	138.833	Dani	Trans-New Guinea	Simple Clauses
+mni	Moni	2	Interrogative verb morphology	-3.667	137.000	Wissel Lakes-Kemandoga	Trans-New Guinea	Simple Clauses
+sue	Suena	2	Interrogative verb morphology	-7.750	147.550	Binanderean	Trans-New Guinea	Simple Clauses
+paw	Pawaian	2	Interrogative verb morphology	-7.000	145.083	Pawaian	Teberan-Pawaian	Simple Clauses
+yal	Yale (Kosarek)	2	Interrogative verb morphology	-4.083	139.500	Mek	Trans-New Guinea	Simple Clauses
+una	Una	2	Interrogative verb morphology	-4.667	140.000	Mek	Trans-New Guinea	Simple Clauses
+ang	Anggor	2	Interrogative verb morphology	-3.750	141.167	Senagi	Senagi	Simple Clauses
+wtm	Watam	2	Interrogative verb morphology	-3.917	144.500	Lower Ramu	Lower Sepik-Ramu	Simple Clauses
+grw	Greenlandic (West)	2	Interrogative verb morphology	64.000	-51.000	Eskimo	Eskimo-Aleut	Simple Clauses
+src	Sarcee	2	Interrogative verb morphology	52.500	-116.000	Athapaskan	Na-Dene	Simple Clauses
+apw	Apache (Western)	2	Interrogative verb morphology	33.750	-110.000	Athapaskan	Na-Dene	Simple Clauses
+bla	Blackfoot	2	Interrogative verb morphology	50.000	-112.667	Algonquian	Algic	Simple Clauses
+men	Menomini	2	Interrogative verb morphology	45.500	-88.333	Algonquian	Algic	Simple Clauses
+qui	Quileute	2	Interrogative verb morphology	47.917	-124.250	Chimakuan	Chimakuan	Simple Clauses
+bco	Bella Coola	2	Interrogative verb morphology	52.500	-126.667	Bella Coola	Salishan	Simple Clauses
+mdn	Mandan	2	Interrogative verb morphology	46.500	-102.500	Siouan	Siouan	Simple Clauses
+knw	Konkow	2	Interrogative verb morphology	39.500	-121.500	Maiduan	Penutian	Simple Clauses
+mne	Maidu (Northeast)	2	Interrogative verb morphology	40.000	-120.667	Maiduan	Penutian	Simple Clauses
+tun	Tunica	2	Interrogative verb morphology	32.667	-91.000	Tunica	Tunica	Simple Clauses
+smn	Seminole	2	Interrogative verb morphology	33.000	-84.000	Muskogean	Muskogean	Simple Clauses
+wap	Wappo	2	Interrogative verb morphology	38.500	-122.500	Wappo	Wappo-Yukian	Simple Clauses
+zqc	Zoque (Copainalá)	2	Interrogative verb morphology	17.000	-93.250	Mixe-Zoque	Mixe-Zoque	Simple Clauses
+chi	Chimariko	2	Interrogative verb morphology	41.000	-123.000	Chimariko	Hokan	Simple Clauses
+pme	Pomo (Eastern)	2	Interrogative verb morphology	39.000	-122.667	Pomoan	Hokan	Simple Clauses
+pso	Pomo (Southeastern)	2	Interrogative verb morphology	39.000	-122.500	Pomoan	Hokan	Simple Clauses
+cba	Chumash (Barbareño)	2	Interrogative verb morphology	34.500	-120.250	Chumash	Chumash	Simple Clauses
+sal	Salinan	2	Interrogative verb morphology	36.000	-121.000	Salinan	Salinan	Simple Clauses
+klw	Kiliwa	2	Interrogative verb morphology	31.333	-115.667	Yuman	Hokan	Simple Clauses
+die	Diegueño (Mesa Grande)	2	Interrogative verb morphology	32.667	-116.167	Yuman	Hokan	Simple Clauses
+mar	Maricopa	2	Interrogative verb morphology	33.167	-113.167	Yuman	Hokan	Simple Clauses
+ton	Tonkawa	2	Interrogative verb morphology	30.250	-96.750	Tonkawa	Tonkawa	Simple Clauses
+coa	Coahuilteco	2	Interrogative verb morphology	28.000	-100.000	Coahuiltecan	Coahuiltecan	Simple Clauses
+ito	Itonama	2	Interrogative verb morphology	-12.833	-64.333	Itonama	Itonama	Simple Clauses
+wra	Warao	2	Interrogative verb morphology	9.333	-61.667	Warao	Warao	Simple Clauses
+emb	Embera	2	Interrogative verb morphology	6.833	-77.167	Choco	Choco	Simple Clauses
+epe	Epena Pedee	2	Interrogative verb morphology	3.000	-77.000	Choco	Choco	Simple Clauses
+pae	Páez	2	Interrogative verb morphology	2.667	-76.000	Páezan	Páezan	Simple Clauses
+wao	Waorani	2	Interrogative verb morphology	-1.000	-76.500	Waorani	Waorani	Simple Clauses
+qaw	Qawasqar	2	Interrogative verb morphology	-49.000	-75.000	Alacalufan	Alacalufan	Simple Clauses
+nmb	Nambikuára	2	Interrogative verb morphology	-13.000	-59.000	Nambikuaran	Nambikuaran	Simple Clauses
+tuc	Tucano	2	Interrogative verb morphology	0.500	-69.167	Tucanoan	Tucanoan	Simple Clauses
+tuy	Tuyuca	2	Interrogative verb morphology	0.500	-70.083	Tucanoan	Tucanoan	Simple Clauses
+crp	Carapana	2	Interrogative verb morphology	0.833	-70.750	Tucanoan	Tucanoan	Simple Clauses
+brs	Barasano	2	Interrogative verb morphology	-0.167	-70.667	Tucanoan	Tucanoan	Simple Clauses
+kje	Koreguaje	2	Interrogative verb morphology	1.000	-75.500	Tucanoan	Tucanoan	Simple Clauses
+can	Candoshi	2	Interrogative verb morphology	-4.167	-77.000	Candoshi	Candoshi	Simple Clauses
+acu	Achuar	2	Interrogative verb morphology	-2.667	-76.000	Jivaroan	Jivaroan	Simple Clauses
+pau	Paumarí	2	Interrogative verb morphology	-6.000	-64.000	Arauan	Arauan	Simple Clauses
+car	Carib	2	Interrogative verb morphology	5.500	-56.000	Cariban	Cariban	Simple Clauses
+ana	Araona	2	Interrogative verb morphology	-12.333	-67.750	Tacanan	Tacanan	Simple Clauses
+ful	Fulniô	2	Interrogative verb morphology	-8.000	-37.500	Yatê	Macro-Ge	Simple Clauses
+kyk	Kyaka	2	Interrogative verb morphology	-5.550	144.083	Engan	Trans-New Guinea	Simple Clauses
+qhu	Quechua (Huallaga)	2	Interrogative verb morphology	-9.500	-75.500	Quechuan	Quechuan	Simple Clauses
+nbd	Nubian (Dongolese)	2	Interrogative verb morphology	18.250	30.750	Nubian	Nilo-Saharan	Simple Clauses
+bti	Betoi	2	Interrogative verb morphology	7.167	-71.250	Betoi	Betoi	Simple Clauses
+bao	Bao'an	2	Interrogative verb morphology	35.583	102.000	Mongolic	Altaic	Simple Clauses
+sta	Santa	2	Interrogative verb morphology	31.500	107.500	Mongolic	Altaic	Simple Clauses
+kae	Kaki Ae	2	Interrogative verb morphology	-8.000	145.833	Tate	Eleman	Simple Clauses
+mgg	Mangghuer	2	Interrogative verb morphology	36.000	102.000	Mongolic	Altaic	Simple Clauses
+mtt	Massachusett	2	Interrogative verb morphology	42.500	-71.000	Algonquian	Algic	Simple Clauses
+tte	Tutelo	2	Interrogative verb morphology	37.667	-78.750	Siouan	Siouan	Simple Clauses
+ass	Assamese	2	Interrogative verb morphology	26.000	93.000	Indic	Indo-European	Simple Clauses
+mts	Matis	2	Interrogative verb morphology	-4.417	-70.250	Panoan	Panoan	Simple Clauses
+krc	Karachay-Balkar	2	Interrogative verb morphology	43.500	42.000	Turkic	Altaic	Simple Clauses
+tsf	Tsafiki	2	Interrogative verb morphology	-1.000	-79.333	Barbacoan	Barbacoan	Simple Clauses
+cub	Cubeo	2	Interrogative verb morphology	1.333	-70.500	Tucanoan	Tucanoan	Simple Clauses
+msc	Muisca	2	Interrogative verb morphology	5.000	-74.000	Chibchan Proper	Chibchan	Simple Clauses
+qia	Qiang	2	Interrogative verb morphology	32.000	102.667	Qiangic	Sino-Tibetan	Simple Clauses
+kwz	Kwazá	2	Interrogative verb morphology	-12.583	-60.667	Kwaza	Kwaza	Simple Clauses
+cpy	Chipaya	2	Interrogative verb morphology	-18.750	-67.833	Uru-Chipaya	Uru-Chipaya	Simple Clauses
+nnd	Nend	2	Interrogative verb morphology	-5.000	144.917	Madang	Trans-New Guinea	Simple Clauses
+eip	Eipo	2	Interrogative verb morphology	-4.333	140.083	Mek	Trans-New Guinea	Simple Clauses
+ryu	Shuri	2	Interrogative verb morphology	26.500	127.500	Japanese	Japanese	Simple Clauses
+zag	Beria	2	Interrogative verb morphology	16.000	23.000	Eastern Saharan	Nilo-Saharan	Simple Clauses
+gyc	Gyarong (Cogtse)	2	Interrogative verb morphology	31.500	102.000	rGyalrong	Sino-Tibetan	Simple Clauses
+tsz	Tsez	2	Interrogative verb morphology	42.250	45.750	Avar-Andic-Tsezic	Nakh-Daghestanian	Simple Clauses
+des	Desano	2	Interrogative verb morphology	0.833	-69.833	Tucanoan	Tucanoan	Simple Clauses
+tbx	Tangbe	2	Interrogative verb morphology	28.917	83.750	Bodic	Sino-Tibetan	Simple Clauses
+pdp	Folopa	2	Interrogative verb morphology	-7.000	144.500	Teberan	Teberan-Pawaian	Simple Clauses
+mro	Moro	3	Mixture of previous two types	11.000	30.167	Heiban	Niger-Congo	Simple Clauses
+tas	Tashlhiyt	3	Mixture of previous two types	31.000	-5.000	Berber	Afro-Asiatic	Simple Clauses
+amh	Amharic	3	Mixture of previous two types	10.000	38.000	Semitic	Afro-Asiatic	Simple Clauses
+kas	Kashmiri	3	Mixture of previous two types	34.000	76.000	Indic	Indo-European	Simple Clauses
+mns	Mansi	3	Mixture of previous two types	62.000	62.000	Ugric	Uralic	Simple Clauses
+chn	Chantyal	3	Mixture of previous two types	28.583	83.417	Bodic	Sino-Tibetan	Simple Clauses
+chg	Chang	3	Mixture of previous two types	26.333	94.750	Northern Naga	Sino-Tibetan	Simple Clauses
+ong	Onge	3	Mixture of previous two types	10.750	92.417	South Andamanese	South Andamanese	Simple Clauses
+mrd	Marind	3	Mixture of previous two types	-7.833	140.167	Marind Proper	Marind	Simple Clauses
+oro	Orokaiva	3	Mixture of previous two types	-8.833	148.250	Binanderean	Trans-New Guinea	Simple Clauses
+djp	Djapu	3	Mixture of previous two types	-12.667	136.000	Pama-Nyungan	Australian	Simple Clauses
+mis	Miskito	3	Mixture of previous two types	14.000	-83.667	Misumalpan	Misumalpan	Simple Clauses
+ika	Ika	3	Mixture of previous two types	10.667	-73.750	Aruak	Chibchan	Simple Clauses
+prh	Pirahã	3	Mixture of previous two types	-7.000	-62.000	Mura	Mura	Simple Clauses
+kgy	Kyirong	3	Mixture of previous two types	28.417	85.333	Bodic	Sino-Tibetan	Simple Clauses
+spa	Spanish	4	Interrogative word order	40.000	-4.000	Romance	Indo-European	Simple Clauses
+dsh	Danish	4	Interrogative word order	56.000	10.000	Germanic	Indo-European	Simple Clauses
+swe	Swedish	4	Interrogative word order	60.000	15.000	Germanic	Indo-European	Simple Clauses
+nor	Norwegian	4	Interrogative word order	61.000	8.000	Germanic	Indo-European	Simple Clauses
+dut	Dutch	4	Interrogative word order	52.500	6.000	Germanic	Indo-European	Simple Clauses
+ger	German	4	Interrogative word order	52.000	10.000	Germanic	Indo-European	Simple Clauses
+eng	English	4	Interrogative word order	52.000	0.000	Germanic	Indo-European	Simple Clauses
+fri	Frisian	4	Interrogative word order	53.000	5.000	Germanic	Indo-European	Simple Clauses
+cze	Czech	4	Interrogative word order	50.000	15.000	Slavic	Indo-European	Simple Clauses
+pal	Palauan	4	Interrogative word order	7.500	134.583	Palauan	Austronesian	Simple Clauses
+mng	Manggarai	4	Interrogative word order	-8.500	120.333	Central Malayo-Polynesian	Austronesian	Simple Clauses
+wrk	Warekena	4	Interrogative word order	1.500	-67.500	Arawakan	Arawakan	Simple Clauses
+hpd	Hup	4	Interrogative word order	0.167	-69.250	Nadahup	Nadahup	Simple Clauses
+din	Dinka	5	Absence of declarative morphemes	8.500	28.000	Nilotic	Nilo-Saharan	Simple Clauses
+zay	Zayse	5	Absence of declarative morphemes	5.917	37.333	North Omotic	Afro-Asiatic	Simple Clauses
+kab	Kabardian	5	Absence of declarative morphemes	43.500	43.500	Northwest Caucasian	Northwest Caucasian	Simple Clauses
+puq	Puquina	5	Absence of declarative morphemes	-16.500	-68.500	Puquina	Puquina	Simple Clauses
+man	Mano	6	Interrogative intonation only	7.000	-9.000	Eastern Mande	Niger-Congo	Simple Clauses
+mde	Mende	6	Interrogative intonation only	7.833	-11.500	Western Mande	Niger-Congo	Simple Clauses
+dio	Diola-Fogny	6	Interrogative intonation only	13.000	-16.250	Northern Atlantic	Niger-Congo	Simple Clauses
+kis	Kisi	6	Interrogative intonation only	8.833	-10.167	Southern Atlantic	Niger-Congo	Simple Clauses
+ble	Baule	6	Interrogative intonation only	7.000	-5.000	Kwa	Niger-Congo	Simple Clauses
+yor	Yoruba	6	Interrogative intonation only	8.000	4.333	Defoid	Niger-Congo	Simple Clauses
+igb	Igbo	6	Interrogative intonation only	6.000	7.333	Igboid	Niger-Congo	Simple Clauses
+baf	Bafut	6	Interrogative intonation only	6.250	9.917	Bantoid	Niger-Congo	Simple Clauses
+lin	Lingala	6	Interrogative intonation only	2.000	18.500	Bantoid	Niger-Congo	Simple Clauses
+bsh	Bushoong	6	Interrogative intonation only	-4.500	21.500	Bantoid	Niger-Congo	Simple Clauses
+kik	Kikuyu	6	Interrogative intonation only	-0.750	36.750	Bantoid	Niger-Congo	Simple Clauses
+kba	Kamba	6	Interrogative intonation only	-1.500	38.000	Bantoid	Niger-Congo	Simple Clauses
+rny	Runyankore	6	Interrogative intonation only	-0.500	30.500	Bantoid	Niger-Congo	Simple Clauses
+hya	Haya	6	Interrogative intonation only	-2.000	31.500	Bantoid	Niger-Congo	Simple Clauses
+tbw	Tabwa	6	Interrogative intonation only	-8.000	29.500	Bantoid	Niger-Congo	Simple Clauses
+ses	Sesotho	6	Interrogative intonation only	-28.000	27.000	Bantoid	Niger-Congo	Simple Clauses
+kch	Koyra Chiini	6	Interrogative intonation only	17.000	-3.000	Songhay	Nilo-Saharan	Simple Clauses
+mrl	Murle	6	Interrogative intonation only	6.500	33.500	Surmic	Nilo-Saharan	Simple Clauses
+ten	Tennet	6	Interrogative intonation only	4.417	32.500	Surmic	Nilo-Saharan	Simple Clauses
+cai	Chai	6	Interrogative intonation only	5.333	35.333	Surmic	Nilo-Saharan	Simple Clauses
+shl	Shilluk	6	Interrogative intonation only	9.667	31.750	Nilotic	Nilo-Saharan	Simple Clauses
+par	Päri	6	Interrogative intonation only	5.000	32.500	Nilotic	Nilo-Saharan	Simple Clauses
+luo	Luo	6	Interrogative intonation only	-0.500	34.750	Nilotic	Nilo-Saharan	Simple Clauses
+lan	Lango	6	Interrogative intonation only	2.167	33.000	Nilotic	Nilo-Saharan	Simple Clauses
+jmo	Jur Mödö	6	Interrogative intonation only	6.000	30.000	Bongo-Bagirmi	Nilo-Saharan	Simple Clauses
+kbl	Kabyle	6	Interrogative intonation only	36.500	5.000	Berber	Afro-Asiatic	Simple Clauses
+tai	Tuareg (Air)	6	Interrogative intonation only	19.000	9.000	Berber	Afro-Asiatic	Simple Clauses
+mlg	Malgwa	6	Interrogative intonation only	11.500	13.750	Biu-Mandara	Afro-Asiatic	Simple Clauses
+ngz	Ngizim	6	Interrogative intonation only	12.083	10.917	West Chadic	Afro-Asiatic	Simple Clauses
+paa	Pa'a	6	Interrogative intonation only	11.000	9.250	West Chadic	Afro-Asiatic	Simple Clauses
+dha	Dhaasanac	6	Interrogative intonation only	4.667	36.333	Eastern Cushitic	Afro-Asiatic	Simple Clauses
+orh	Oromo (Harar)	6	Interrogative intonation only	9.000	42.000	Eastern Cushitic	Afro-Asiatic	Simple Clauses
+naj	Neo-Aramaic (Arbel Jewish)	6	Interrogative intonation only	31.750	35.000	Semitic	Afro-Asiatic	Simple Clauses
+arg	Arabic (Gulf)	6	Interrogative intonation only	26.000	49.000	Semitic	Afro-Asiatic	Simple Clauses
+meh	Mehri	6	Interrogative intonation only	17.000	51.500	Semitic	Afro-Asiatic	Simple Clauses
+arw	Armenian (Western)	6	Interrogative intonation only	38.500	43.500	Armenian	Indo-European	Simple Clauses
+skw	Shekhawati	6	Interrogative intonation only	28.000	75.500	Indic	Indo-European	Simple Clauses
+guj	Gujarati	6	Interrogative intonation only	23.000	72.000	Indic	Indo-European	Simple Clauses
+psh	Pashto	6	Interrogative intonation only	33.000	67.000	Iranian	Indo-European	Simple Clauses
+rom	Romanian	6	Interrogative intonation only	46.000	25.000	Romance	Indo-European	Simple Clauses
+ita	Italian	6	Interrogative intonation only	43.000	12.000	Romance	Indo-European	Simple Clauses
+yko	Yukaghir (Kolyma)	6	Interrogative intonation only	65.750	150.833	Yukaghir	Yukaghir	Simple Clauses
+chk	Chukchi	6	Interrogative intonation only	67.000	-173.000	Northern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Simple Clauses
+hay	Hayu	6	Interrogative intonation only	27.250	86.000	Bodic	Sino-Tibetan	Simple Clauses
+cml	Camling	6	Interrogative intonation only	27.000	86.667	Bodic	Sino-Tibetan	Simple Clauses
+sml	Semelai	6	Interrogative intonation only	3.000	103.000	Aslian	Austro-Asiatic	Simple Clauses
+ruk	Rukai	6	Interrogative intonation only	22.833	120.833	Tsouic	Austronesian	Simple Clauses
+mna	Muna	6	Interrogative intonation only	-5.000	122.500	Sulawesi	Austronesian	Simple Clauses
+eno	Enggano	6	Interrogative intonation only	-5.417	102.250	Sumatra	Austronesian	Simple Clauses
+nua	Nuaulu	6	Interrogative intonation only	-3.250	129.167	Central Malayo-Polynesian	Austronesian	Simple Clauses
+ngd	Ngad'a	6	Interrogative intonation only	-8.833	121.000	Central Malayo-Polynesian	Austronesian	Simple Clauses
+irr	Irarutu	6	Interrogative intonation only	-3.000	133.500	South Halmahera - West New Guinea	Austronesian	Simple Clauses
+tab	Taba	6	Interrogative intonation only	0.000	127.500	South Halmahera - West New Guinea	Austronesian	Simple Clauses
+tbt	Tobati	6	Interrogative intonation only	-2.583	140.667	Oceanic	Austronesian	Simple Clauses
+alk	Arop-Lokep	6	Interrogative intonation only	-5.383	147.050	Oceanic	Austronesian	Simple Clauses
+sud	Sudest	6	Interrogative intonation only	-11.500	153.450	Oceanic	Austronesian	Simple Clauses
+gmw	Gumawana	6	Interrogative intonation only	-9.250	150.833	Oceanic	Austronesian	Simple Clauses
+klv	Kilivila	6	Interrogative intonation only	-8.500	151.083	Oceanic	Austronesian	Simple Clauses
+lon	Loniu	6	Interrogative intonation only	-2.067	147.333	Oceanic	Austronesian	Simple Clauses
+taf	Taiof	6	Interrogative intonation only	-5.533	154.633	Oceanic	Austronesian	Simple Clauses
+teo	Teop	6	Interrogative intonation only	-5.667	155.000	Oceanic	Austronesian	Simple Clauses
+rov	Roviana	6	Interrogative intonation only	-8.250	157.333	Oceanic	Austronesian	Simple Clauses
+bum	Buma	6	Interrogative intonation only	-11.633	166.833	Oceanic	Austronesian	Simple Clauses
+yap	Yapese	6	Interrogative intonation only	9.583	138.167	Yapese	Austronesian	Simple Clauses
+poh	Pohnpeian	6	Interrogative intonation only	6.883	158.250	Oceanic	Austronesian	Simple Clauses
+wol	Woleaian	6	Interrogative intonation only	7.333	143.833	Oceanic	Austronesian	Simple Clauses
+mwo	Mwotlap	6	Interrogative intonation only	-13.583	167.583	Oceanic	Austronesian	Simple Clauses
+pms	Paamese	6	Interrogative intonation only	-16.500	168.250	Oceanic	Austronesian	Simple Clauses
+fij	Fijian	6	Interrogative intonation only	-17.833	178.000	Oceanic	Austronesian	Simple Clauses
+mao	Maori	6	Interrogative intonation only	-40.000	176.000	Oceanic	Austronesian	Simple Clauses
+nab	Nabak	6	Interrogative intonation only	-6.417	147.000	Finisterre-Huon	Trans-New Guinea	Simple Clauses
+nnk	Nankina	6	Interrogative intonation only	-5.783	146.450	Finisterre-Huon	Trans-New Guinea	Simple Clauses
+usa	Usan	6	Interrogative intonation only	-4.833	145.167	Madang	Trans-New Guinea	Simple Clauses
+mer	Meryam Mir	6	Interrogative intonation only	-9.917	144.083	Western Fly	Western Fly	Simple Clauses
+tid	Tidore	6	Interrogative intonation only	0.750	127.500	North Halmaheran	West Papuan	Simple Clauses
+sah	Sahu	6	Interrogative intonation only	1.167	127.500	North Halmaheran	West Papuan	Simple Clauses
+wma	West Makian	6	Interrogative intonation only	0.500	127.583	North Halmaheran	West Papuan	Simple Clauses
+sar	Sare	6	Interrogative intonation only	-4.500	143.167	Sepik Hill	Sepik	Simple Clauses
+ala	Alamblak	6	Interrogative intonation only	-4.667	143.333	Sepik Hill	Sepik	Simple Clauses
+bil	Bilua	6	Interrogative intonation only	-7.750	156.667	Bilua	Solomons East Papuan	Simple Clauses
+sul	Sulka	6	Interrogative intonation only	-5.083	151.917	Sulka	Sulka	Simple Clauses
+kuo	Kuot	6	Interrogative intonation only	-3.050	151.500	Kuot	Kuot	Simple Clauses
+gnb	Gunbalang	6	Interrogative intonation only	-12.000	134.000	Gunwinygic	Australian	Simple Clauses
+ndj	Ndjébbana	6	Interrogative intonation only	-12.167	134.117	Ndjébbana	Australian	Simple Clauses
+mra	Mara	6	Interrogative intonation only	-15.000	135.167	Maran	Australian	Simple Clauses
+ngk	Ngankikurungkurr	6	Interrogative intonation only	-14.000	130.500	Southern Daly	Australian	Simple Clauses
+mku	Maranungku	6	Interrogative intonation only	-13.667	130.000	Western Daly	Australian	Simple Clauses
+kay	Kayardild	6	Interrogative intonation only	-17.050	139.500	Tangkic	Australian	Simple Clauses
+djm	Djambarrpuyngu	6	Interrogative intonation only	-12.167	135.500	Pama-Nyungan	Australian	Simple Clauses
+knc	Kugu Nganhcara	6	Interrogative intonation only	-14.417	142.000	Pama-Nyungan	Australian	Simple Clauses
+thy	Kuuk Thaayorre	6	Interrogative intonation only	-14.583	141.833	Pama-Nyungan	Australian	Simple Clauses
+kuu	Kuuku Ya'u	6	Interrogative intonation only	-12.583	143.083	Pama-Nyungan	Australian	Simple Clauses
+yid	Yidiny	6	Interrogative intonation only	-17.000	145.750	Pama-Nyungan	Australian	Simple Clauses
+wrg	Warrgamay	6	Interrogative intonation only	-18.583	146.083	Pama-Nyungan	Australian	Simple Clauses
+gum	Gumbaynggir	6	Interrogative intonation only	-30.167	152.500	Pama-Nyungan	Australian	Simple Clauses
+wem	Wembawemba	6	Interrogative intonation only	-35.333	144.000	Pama-Nyungan	Australian	Simple Clauses
+ppi	Pitta Pitta	6	Interrogative intonation only	-22.833	140.000	Pama-Nyungan	Australian	Simple Clauses
+diy	Diyari	6	Interrogative intonation only	-28.000	139.000	Pama-Nyungan	Australian	Simple Clauses
+mrt	Martuthunira	6	Interrogative intonation only	-20.833	116.500	Pama-Nyungan	Australian	Simple Clauses
+bdm	Badimaya	6	Interrogative intonation only	-27.667	118.000	Pama-Nyungan	Australian	Simple Clauses
+tsi	Tsimshian (Coast)	6	Interrogative intonation only	52.500	-129.000	Tsimshianic	Penutian	Simple Clauses
+htc	Huastec	6	Interrogative intonation only	22.083	-99.333	Mayan	Mayan	Simple Clauses
+cmy	Chontal Maya	6	Interrogative intonation only	18.167	-92.583	Mayan	Mayan	Simple Clauses
+jak	Jakaltek	6	Interrogative intonation only	15.667	-91.667	Mayan	Mayan	Simple Clauses
+cpl	Chinantec (Palantla)	6	Interrogative intonation only	18.833	-96.750	Chinantecan	Oto-Manguean	Simple Clauses
+cah	Cahuilla	6	Interrogative intonation only	33.500	-116.250	Takic	Uto-Aztecan	Simple Clauses
+tps	Tepehuan (Southeastern)	6	Interrogative intonation only	23.000	-104.500	Tepiman	Uto-Aztecan	Simple Clauses
+grj	Guarijío	6	Interrogative intonation only	27.750	-108.667	Tarahumaran	Uto-Aztecan	Simple Clauses
+pip	Pipil	6	Interrogative intonation only	13.833	-89.583	Aztecan	Uto-Aztecan	Simple Clauses
+snm	Sanuma	6	Interrogative intonation only	4.500	-64.667	Yanomam	Yanomam	Simple Clauses
+nad	Nadëb	6	Interrogative intonation only	-1.000	-66.500	Nadahup	Nadahup	Simple Clauses
+skn	Sikuani	6	Interrogative intonation only	6.250	-71.500	Guahiban	Guahiban	Simple Clauses
+apu	Apurinã	6	Interrogative intonation only	-9.000	-67.000	Arawakan	Arawakan	Simple Clauses
+ara	Arawak	6	Interrogative intonation only	5.500	-55.167	Arawakan	Arawakan	Simple Clauses
+tar	Tariana	6	Interrogative intonation only	1.000	-69.167	Arawakan	Arawakan	Simple Clauses
+war	Wari'	6	Interrogative intonation only	-11.333	-65.000	Chapacura-Wanham	Chapacura-Wanham	Simple Clauses
+hmi	Huitoto (Minica)	6	Interrogative intonation only	-0.333	-74.000	Huitoto	Huitotoan	Simple Clauses
+apl	Apalaí	6	Interrogative intonation only	0.000	-54.000	Cariban	Cariban	Simple Clauses
+mac	Macushi	6	Interrogative intonation only	4.000	-60.000	Cariban	Cariban	Simple Clauses
+hix	Hixkaryana	6	Interrogative intonation only	-1.000	-59.000	Cariban	Cariban	Simple Clauses
+ndy	Ndyuka	6	Interrogative intonation only	4.500	-54.500	Creoles and Pidgins	other	Simple Clauses
+tke	Tokelauan	6	Interrogative intonation only	-9.000	-172.000	Oceanic	Austronesian	Simple Clauses
+ngo	Ngoni	6	Interrogative intonation only	-11.000	36.000	Bantoid	Niger-Congo	Simple Clauses
+osa	Osage	6	Interrogative intonation only	37.000	-94.000	Siouan	Siouan	Simple Clauses
+azi	Azari (Iranian)	6	Interrogative intonation only	37.500	47.000	Turkic	Altaic	Simple Clauses
+kni	Konni	6	Interrogative intonation only	10.250	-1.583	Gur	Niger-Congo	Simple Clauses
+tir	Tiriyo	6	Interrogative intonation only	3.250	-55.750	Cariban	Cariban	Simple Clauses
+lbu	Lunda	6	Interrogative intonation only	-10.667	24.000	Bantoid	Niger-Congo	Simple Clauses
+yng	Yingkarta	6	Interrogative intonation only	-25.167	114.833	Pama-Nyungan	Australian	Simple Clauses
+tob	Toba	6	Interrogative intonation only	-26.500	-59.000	Guaicuruan	Guaicuruan	Simple Clauses
+bae	Baré	6	Interrogative intonation only	1.000	-67.000	Arawakan	Arawakan	Simple Clauses
+wrn	Warndarang	6	Interrogative intonation only	-14.417	135.583	Maran	Australian	Simple Clauses
+nha	Nhanda	6	Interrogative intonation only	-27.000	114.167	Pama-Nyungan	Australian	Simple Clauses
+bii	Biri	6	Interrogative intonation only	-20.500	146.500	Pama-Nyungan	Australian	Simple Clauses
+zch	Zoque (Chimalapa)	6	Interrogative intonation only	16.750	-94.750	Mixe-Zoque	Mixe-Zoque	Simple Clauses
+kmz	Kamasau	6	Interrogative intonation only	-3.917	143.667	Marienberg	Torricelli	Simple Clauses
+sid	Sidaama	6	Interrogative intonation only	6.667	38.500	Eastern Cushitic	Afro-Asiatic	Simple Clauses
+pai	Paiwan	6	Interrogative intonation only	22.500	120.833	Paiwanic	Austronesian	Simple Clauses
+svs	Savosavo	6	Interrogative intonation only	-9.133	159.800	Savosavo	Solomons East Papuan	Simple Clauses
+arm	Armenian (Eastern)	6	Interrogative intonation only	40.000	45.000	Armenian	Indo-European	Simple Clauses
+cup	Cupeño	6	Interrogative intonation only	33.167	-116.500	Takic	Uto-Aztecan	Simple Clauses
+bik	Biak	6	Interrogative intonation only	-1.000	136.000	South Halmahera - West New Guinea	Austronesian	Simple Clauses
+vnm	Vinmavis	6	Interrogative intonation only	-16.167	167.417	Oceanic	Austronesian	Simple Clauses
+lab	Labu	6	Interrogative intonation only	-6.750	146.917	Oceanic	Austronesian	Simple Clauses
+udh	Udihe	6	Interrogative intonation only	47.667	136.250	Tungusic	Altaic	Simple Clauses
+lmh	Lamaholot	6	Interrogative intonation only	-8.250	122.917	Central Malayo-Polynesian	Austronesian	Simple Clauses
+psw	Port Sandwich	6	Interrogative intonation only	-16.500	167.750	Oceanic	Austronesian	Simple Clauses
+geo	Georgian	6	Interrogative intonation only	42.000	44.000	Kartvelian	Kartvelian	Simple Clauses
+nif	Niuafo'ou	6	Interrogative intonation only	-15.567	-175.617	Oceanic	Austronesian	Simple Clauses
+kma	Kamaiurá	6	Interrogative intonation only	-12.083	-52.583	Tupi-Guaraní	Tupian	Simple Clauses
+kws	Kawaiisu	6	Interrogative intonation only	36.000	-117.500	Numic	Uto-Aztecan	Simple Clauses
+ctl	Catalan	6	Interrogative intonation only	41.750	2.000	Romance	Indo-European	Simple Clauses
+nht	Nahuatl (Tetelcingo)	6	Interrogative intonation only	19.667	-99.000	Aztecan	Uto-Aztecan	Simple Clauses
+zzo	Zapotec (Zoogocho)	6	Interrogative intonation only	17.250	-96.250	Zapotecan	Oto-Manguean	Simple Clauses
+erk	Efate (South)	6	Interrogative intonation only	-17.750	168.417	Oceanic	Austronesian	Simple Clauses
+adz	Adzera	6	Interrogative intonation only	-6.250	146.250	Oceanic	Austronesian	Simple Clauses
+sea	Southeast Ambrym	6	Interrogative intonation only	-16.300	168.217	Oceanic	Austronesian	Simple Clauses
+ora	Emai	6	Interrogative intonation only	7.083	5.917	Edoid	Niger-Congo	Simple Clauses
+bgz	Banggi	6	Interrogative intonation only	7.250	117.167	Meso-Philippine	Austronesian	Simple Clauses
+aml	Ambae (Lolovoli Northeast)	6	Interrogative intonation only	-15.417	167.883	Oceanic	Austronesian	Simple Clauses
+tvl	Tuvaluan	6	Interrogative intonation only	-8.500	179.167	Oceanic	Austronesian	Simple Clauses
+ndr	Nadroga	6	Interrogative intonation only	-18.083	177.417	Oceanic	Austronesian	Simple Clauses
+mnm	Manam	6	Interrogative intonation only	-4.000	145.000	Oceanic	Austronesian	Simple Clauses
+ano	Anong	6	Interrogative intonation only	27.333	98.750	Nungish	Sino-Tibetan	Simple Clauses
+zaz	Zazaki	6	Interrogative intonation only	39.000	41.000	Iranian	Indo-European	Simple Clauses
+xbi	Kombio	6	Interrogative intonation only	-3.500	142.750	Kombio-Arapesh	Torricelli	Simple Clauses
+kqq	Krenak	6	Interrogative intonation only	-15.500	-41.000	Botocudo	Macro-Ge	Simple Clauses
+kun	Kuna	6	Interrogative intonation only	8.000	-77.333	Kuna	Chibchan	Simple Clauses
+uli	Ulithian	6	Interrogative intonation only	9.917	139.583	Oceanic	Austronesian	Simple Clauses
+ndi	Ngbandi	6	Interrogative intonation only	3.750	22.000	Ubangi	Niger-Congo	Simple Clauses
+dlm	Dla (Menggwa)	6	Interrogative intonation only	-3.550	141.033	Senagi	Senagi	Simple Clauses
+hoa	Hoava	6	Interrogative intonation only	-8.083	157.500	Oceanic	Austronesian	Simple Clauses
+mov	Movima	6	Interrogative intonation only	-13.833	-65.667	Movima	Movima	Simple Clauses
+mxc	Mixtec (Chalcatongo)	7	No interrogative-declarative distinction	17.050	-97.583	Mixtecan	Oto-Manguean	Simple Clauses

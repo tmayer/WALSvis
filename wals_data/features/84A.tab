@@ -1,0 +1,508 @@
+Dryer, Matthew S. (with Gensler, Orin D.). 2011. Order of Object, Oblique, and Verb.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 84A.
+Available online at http://wals.info/feature/84A
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+xam	/Xam	1	VOX	-31.000	21.000	Southern Khoisan	Khoisan	Word Order
+mro	Moro	1	VOX	11.000	30.167	Heiban	Niger-Congo	Word Order
+fua	Fula (Cameroonian)	1	VOX	9.167	13.500	Northern Atlantic	Niger-Congo	Word Order
+wlf	Wolof	1	VOX	15.250	-16.000	Northern Atlantic	Niger-Congo	Word Order
+grb	Grebo	1	VOX	5.000	-8.000	Kru	Niger-Congo	Word Order
+kfe	Koromfe	1	VOX	14.250	-0.917	Gur	Niger-Congo	Word Order
+moo	Mooré	1	VOX	12.833	-1.250	Gur	Niger-Congo	Word Order
+bmb	Bimoba	1	VOX	10.500	0.000	Gur	Niger-Congo	Word Order
+mdg	Mundang	1	VOX	9.667	14.500	Adamawa	Niger-Congo	Word Order
+gbb	Gbeya Bossangoa	1	VOX	6.667	17.500	Ubangi	Niger-Congo	Word Order
+san	Sango	1	VOX	5.000	18.000	Ubangi	Niger-Congo	Word Order
+bak	Baka (in Cameroon)	1	VOX	2.583	13.583	Ubangi	Niger-Congo	Word Order
+mga	Mondunga	1	VOX	2.250	21.500	Ubangi	Niger-Congo	Word Order
+ayi	Anyi	1	VOX	7.000	-3.500	Kwa	Niger-Congo	Word Order
+ega	Ega	1	VOX	5.500	-5.500	Kwa	Niger-Congo	Word Order
+adi	Adioukrou	1	VOX	5.417	-4.583	Kwa	Niger-Congo	Word Order
+nup	Nupe	1	VOX	9.167	5.417	Nupoid	Niger-Congo	Word Order
+ige	Igede	1	VOX	7.000	8.167	Idomoid	Niger-Congo	Word Order
+bni	Bini	1	VOX	6.417	5.833	Edoid	Niger-Congo	Word Order
+egn	Engenni	1	VOX	5.167	6.383	Edoid	Niger-Congo	Word Order
+igb	Igbo	1	VOX	6.000	7.333	Igboid	Niger-Congo	Word Order
+izi	Izi	1	VOX	6.333	8.000	Igboid	Niger-Congo	Word Order
+juk	Jukun	1	VOX	6.917	10.417	Platoid	Niger-Congo	Word Order
+bir	Birom	1	VOX	9.667	8.833	Platoid	Niger-Congo	Word Order
+obo	Obolo	1	VOX	4.583	7.833	Cross River	Niger-Congo	Word Order
+duk	Duka	1	VOX	11.167	5.083	Kainji	Niger-Congo	Word Order
+jar	Jarawa (in Nigeria)	1	VOX	9.500	10.500	Bantoid	Niger-Congo	Word Order
+mbi	Mbili	1	VOX	6.117	10.200	Bantoid	Niger-Congo	Word Order
+non	Noni	1	VOX	6.417	10.583	Bantoid	Niger-Congo	Word Order
+lin	Lingala	1	VOX	2.000	18.500	Bantoid	Niger-Congo	Word Order
+nko	Nkore-Kiga	1	VOX	-0.917	29.833	Bantoid	Niger-Congo	Word Order
+kin	Kinyarwanda	1	VOX	-2.000	30.000	Bantoid	Niger-Congo	Word Order
+luv	Luvale	1	VOX	-12.000	22.000	Bantoid	Niger-Congo	Word Order
+mwe	Mwera	1	VOX	-9.000	39.000	Bantoid	Niger-Congo	Word Order
+ses	Sesotho	1	VOX	-28.000	27.000	Bantoid	Niger-Congo	Word Order
+kro	Krongo	1	VOX	10.500	30.000	Kadugli	Kadugli	Word Order
+kch	Koyra Chiini	1	VOX	17.000	-3.000	Songhay	Nilo-Saharan	Word Order
+mrl	Murle	1	VOX	6.500	33.500	Surmic	Nilo-Saharan	Word Order
+ten	Tennet	1	VOX	4.417	32.500	Surmic	Nilo-Saharan	Word Order
+maj	Majang	1	VOX	6.750	35.000	Surmic	Nilo-Saharan	Word Order
+luo	Luo	1	VOX	-0.500	34.750	Nilotic	Nilo-Saharan	Word Order
+lan	Lango	1	VOX	2.167	33.000	Nilotic	Nilo-Saharan	Word Order
+kmj	Karimojong	1	VOX	3.000	34.167	Nilotic	Nilo-Saharan	Word Order
+tna	Turkana	1	VOX	3.000	35.500	Nilotic	Nilo-Saharan	Word Order
+nan	Nandi	1	VOX	0.250	35.000	Nilotic	Nilo-Saharan	Word Order
+pkt	Pokot	1	VOX	1.500	35.500	Nilotic	Nilo-Saharan	Word Order
+jmo	Jur Mödö	1	VOX	6.000	30.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+ngm	Ngambay	1	VOX	8.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+mby	Mbay	1	VOX	8.250	17.500	Bongo-Bagirmi	Nilo-Saharan	Word Order
+bag	Bagirmi	1	VOX	11.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+bgr	Bagiro	1	VOX	4.333	20.583	Bongo-Bagirmi	Nilo-Saharan	Word Order
+yul	Yulu	1	VOX	8.500	25.250	Bongo-Bagirmi	Nilo-Saharan	Word Order
+cop	Coptic	1	VOX	26.000	32.000	Egyptian-Coptic	Afro-Asiatic	Word Order
+kbl	Kabyle	1	VOX	36.500	5.000	Berber	Afro-Asiatic	Word Order
+brf	Berber (Rif)	1	VOX	34.500	-4.000	Berber	Afro-Asiatic	Word Order
+bfg	Berber (Figuig)	1	VOX	32.500	-1.500	Berber	Afro-Asiatic	Word Order
+ter	Tera	1	VOX	11.000	11.833	Biu-Mandara	Afro-Asiatic	Word Order
+lmg	Lamang	1	VOX	11.250	13.583	Biu-Mandara	Afro-Asiatic	Word Order
+mof	Mofu-Gudur	1	VOX	10.500	14.000	Biu-Mandara	Afro-Asiatic	Word Order
+uld	Uldeme	1	VOX	10.950	14.117	Biu-Mandara	Afro-Asiatic	Word Order
+gud	Gude	1	VOX	10.417	13.417	Biu-Mandara	Afro-Asiatic	Word Order
+bud	Buduma	1	VOX	13.500	14.500	Biu-Mandara	Afro-Asiatic	Word Order
+hau	Hausa	1	VOX	12.000	7.000	West Chadic	Afro-Asiatic	Word Order
+knk	Kanakuru	1	VOX	10.000	12.000	West Chadic	Afro-Asiatic	Word Order
+anc	Angas	1	VOX	9.500	9.500	West Chadic	Afro-Asiatic	Word Order
+mup	Mupun	1	VOX	9.500	8.833	West Chadic	Afro-Asiatic	Word Order
+ngz	Ngizim	1	VOX	12.083	10.917	West Chadic	Afro-Asiatic	Word Order
+paa	Pa'a	1	VOX	11.000	9.250	West Chadic	Afro-Asiatic	Word Order
+miy	Miya	1	VOX	10.917	9.667	West Chadic	Afro-Asiatic	Word Order
+aeg	Arabic (Egyptian)	1	VOX	30.000	31.000	Semitic	Afro-Asiatic	Word Order
+arg	Arabic (Gulf)	1	VOX	26.000	49.000	Semitic	Afro-Asiatic	Word Order
+ams	Arabic (Modern Standard)	1	VOX	25.000	42.000	Semitic	Afro-Asiatic	Word Order
+kas	Kashmiri	1	VOX	34.000	76.000	Indic	Indo-European	Word Order
+fre	French	1	VOX	48.000	2.000	Romance	Indo-European	Word Order
+spa	Spanish	1	VOX	40.000	-4.000	Romance	Indo-European	Word Order
+iri	Irish	1	VOX	53.000	-8.000	Celtic	Indo-European	Word Order
+gae	Gaelic (Scots)	1	VOX	57.000	-4.000	Celtic	Indo-European	Word Order
+wel	Welsh	1	VOX	52.000	-3.000	Celtic	Indo-European	Word Order
+dsh	Danish	1	VOX	56.000	10.000	Germanic	Indo-European	Word Order
+swe	Swedish	1	VOX	60.000	15.000	Germanic	Indo-European	Word Order
+eng	English	1	VOX	52.000	0.000	Germanic	Indo-European	Word Order
+bul	Bulgarian	1	VOX	42.500	25.000	Slavic	Indo-European	Word Order
+kzy	Komi-Zyrian	1	VOX	65.000	55.000	Permic	Uralic	Word Order
+fin	Finnish	1	VOX	62.000	25.000	Finnic	Uralic	Word Order
+est	Estonian	1	VOX	59.000	26.000	Finnic	Uralic	Word Order
+kpw	Karen (Pwo)	1	VOX	13.000	99.167	Karen	Sino-Tibetan	Word Order
+kyl	Kayah Li (Eastern)	1	VOX	19.000	97.500	Karen	Sino-Tibetan	Word Order
+ksg	Karen (Sgaw)	1	VOX	18.000	97.000	Karen	Sino-Tibetan	Word Order
+khs	Khasi	1	VOX	25.500	92.000	Khasian	Austro-Asiatic	Word Order
+vie	Vietnamese	1	VOX	10.500	106.500	Viet-Muong	Austro-Asiatic	Word Order
+sti	Stieng	1	VOX	11.833	106.750	Bahnaric	Austro-Asiatic	Word Order
+cua	Cua	1	VOX	15.250	108.500	Bahnaric	Austro-Asiatic	Word Order
+sed	Sedang	1	VOX	14.833	108.000	Bahnaric	Austro-Asiatic	Word Order
+sml	Semelai	1	VOX	3.000	103.000	Aslian	Austro-Asiatic	Word Order
+nca	Nicobarese (Car)	1	VOX	9.000	93.000	Nicobarese	Austro-Asiatic	Word Order
+nun	Nung (in Vietnam)	1	VOX	21.917	106.417	Kam-Tai	Tai-Kadai	Word Order
+tha	Thai	1	VOX	16.000	101.000	Kam-Tai	Tai-Kadai	Word Order
+pal	Palauan	1	VOX	7.500	134.583	Palauan	Austronesian	Word Order
+kpm	Kapampangan	1	VOX	15.333	120.500	Northern Philippines	Austronesian	Word Order
+mmn	Mamanwa	1	VOX	9.417	125.500	Meso-Philippine	Austronesian	Word Order
+mal	Malagasy	1	VOX	-20.000	47.000	Barito	Austronesian	Word Order
+lmp	Lampung	1	VOX	-5.000	105.000	Lampungic	Austronesian	Word Order
+bkr	Batak (Karo)	1	VOX	3.250	98.250	Sumatra	Austronesian	Word Order
+bto	Batak (Toba)	1	VOX	2.500	99.000	Sumatra	Austronesian	Word Order
+iba	Iban	1	VOX	2.000	112.000	Malayic	Austronesian	Word Order
+ind	Indonesian	1	VOX	0.000	106.000	Malayic	Austronesian	Word Order
+buu	Buru	1	VOX	-3.500	126.500	Central Malayo-Polynesian	Austronesian	Word Order
+nua	Nuaulu	1	VOX	-3.250	129.167	Central Malayo-Polynesian	Austronesian	Word Order
+ttn	Tetun	1	VOX	-9.000	126.000	Central Malayo-Polynesian	Austronesian	Word Order
+mng	Manggarai	1	VOX	-8.500	120.333	Central Malayo-Polynesian	Austronesian	Word Order
+tab	Taba	1	VOX	0.000	127.500	South Halmahera - West New Guinea	Austronesian	Word Order
+amq	Ambai	1	VOX	-1.833	136.500	South Halmahera - West New Guinea	Austronesian	Word Order
+sob	Sobei	1	VOX	-1.917	138.750	Oceanic	Austronesian	Word Order
+sio	Sio	1	VOX	-5.950	147.333	Oceanic	Austronesian	Word Order
+mmb	Mangap-Mbula	1	VOX	-5.667	148.083	Oceanic	Austronesian	Word Order
+mlu	Maleu	1	VOX	-5.717	148.417	Oceanic	Austronesian	Word Order
+ama	Amara	1	VOX	-5.667	148.500	Oceanic	Austronesian	Word Order
+tla	Tolai	1	VOX	-4.250	152.083	Oceanic	Austronesian	Word Order
+tgk	Tigak	1	VOX	-2.717	150.800	Oceanic	Austronesian	Word Order
+lon	Loniu	1	VOX	-2.067	147.333	Oceanic	Austronesian	Word Order
+neh	Nehan	1	VOX	-4.500	154.200	Oceanic	Austronesian	Word Order
+rov	Roviana	1	VOX	-8.250	157.333	Oceanic	Austronesian	Word Order
+anj	Anejom	1	VOX	-20.200	169.800	Oceanic	Austronesian	Word Order
+len	Lenakel	1	VOX	-19.450	169.250	Oceanic	Austronesian	Word Order
+cem	Cèmuhî	1	VOX	-20.833	165.167	Oceanic	Austronesian	Word Order
+iaa	Iaai	1	VOX	-20.417	166.583	Oceanic	Austronesian	Word Order
+krb	Kiribati	1	VOX	1.333	173.000	Oceanic	Austronesian	Word Order
+kos	Kosraean	1	VOX	5.300	163.000	Oceanic	Austronesian	Word Order
+poh	Pohnpeian	1	VOX	6.883	158.250	Oceanic	Austronesian	Word Order
+wol	Woleaian	1	VOX	7.333	143.833	Oceanic	Austronesian	Word Order
+kwa	Kwaio	1	VOX	-8.950	161.000	Oceanic	Austronesian	Word Order
+aro	Arosi	1	VOX	-10.250	161.333	Oceanic	Austronesian	Word Order
+lew	Lewo	1	VOX	-16.750	168.333	Oceanic	Austronesian	Word Order
+rot	Rotuman	1	VOX	-12.500	177.067	Oceanic	Austronesian	Word Order
+niu	Niuean	1	VOX	-19.050	-170.117	Oceanic	Austronesian	Word Order
+fut	Futuna-Aniwa	1	VOX	-19.533	170.217	Oceanic	Austronesian	Word Order
+mao	Maori	1	VOX	-40.000	176.000	Oceanic	Austronesian	Word Order
+abu	Abun	1	VOX	-0.500	132.500	North-Central Bird's Head	West Papuan	Word Order
+may	Maybrat	1	VOX	-1.333	132.500	North-Central Bird's Head	West Papuan	Word Order
+hat	Hatam	1	VOX	-1.000	134.000	Hatam	West Papuan	Word Order
+tid	Tidore	1	VOX	0.750	127.500	North Halmaheran	West Papuan	Word Order
+wma	West Makian	1	VOX	0.500	127.583	North Halmaheran	West Papuan	Word Order
+one	One	1	VOX	-3.250	141.917	West Wapei	Torricelli	Word Order
+au	Au	1	VOX	-3.583	142.083	Wapei-Palei	Torricelli	Word Order
+wal	Walman	1	VOX	-3.217	142.500	Wapei-Palei	Torricelli	Word Order
+sul	Sulka	1	VOX	-5.083	151.917	Sulka	Sulka	Word Order
+kuo	Kuot	1	VOX	-3.050	151.500	Kuot	Kuot	Word Order
+tiw	Tiwi	1	VOX	-11.500	131.000	Tiwian	Australian	Word Order
+mau	Maung	1	VOX	-11.917	133.500	Iwaidjan	Australian	Word Order
+gnb	Gunbalang	1	VOX	-12.000	134.000	Gunwinygic	Australian	Word Order
+wem	Wembawemba	1	VOX	-35.333	144.000	Pama-Nyungan	Australian	Word Order
+mrt	Martuthunira	1	VOX	-20.833	116.500	Pama-Nyungan	Australian	Word Order
+hei	Heiltsuk	1	VOX	52.000	-127.500	Northern Wakashan	Wakashan	Word Order
+nuu	Nuuchahnulth	1	VOX	49.667	-126.667	Southern Wakashan	Wakashan	Word Order
+kyq	Kyuquot	1	VOX	50.167	-127.167	Southern Wakashan	Wakashan	Word Order
+mak	Makah	1	VOX	48.333	-124.667	Southern Wakashan	Wakashan	Word Order
+nsg	Nisgha	1	VOX	55.000	-130.000	Tsimshianic	Penutian	Word Order
+tsi	Tsimshian (Coast)	1	VOX	52.500	-129.000	Tsimshianic	Penutian	Word Order
+htc	Huastec	1	VOX	22.083	-99.333	Mayan	Mayan	Word Order
+tzo	Tzotzil	1	VOX	16.500	-92.667	Mayan	Mayan	Word Order
+mam	Mam	1	VOX	15.000	-91.833	Mayan	Mayan	Word Order
+ixi	Ixil	1	VOX	15.500	-91.000	Mayan	Mayan	Word Order
+tzu	Tzutujil	1	VOX	14.667	-91.333	Mayan	Mayan	Word Order
+otm	Otomí (Mezquital)	1	VOX	20.167	-99.167	Otomian	Oto-Manguean	Word Order
+ocu	Ocuilteco	1	VOX	18.917	-99.667	Otomian	Oto-Manguean	Word Order
+mxc	Mixtec (Chalcatongo)	1	VOX	17.050	-97.583	Mixtecan	Oto-Manguean	Word Order
+mxj	Mixtec (Jicaltepec)	1	VOX	16.333	-98.000	Mixtecan	Oto-Manguean	Word Order
+mxo	Mixtec (Ocotepec)	1	VOX	17.167	-97.750	Mixtecan	Oto-Manguean	Word Order
+mxp	Mixtec (Peñoles)	1	VOX	17.083	-96.917	Mixtecan	Oto-Manguean	Word Order
+ccm	Chinantec (Comaltepec)	1	VOX	17.583	-96.417	Chinantecan	Oto-Manguean	Word Order
+cle	Chinantec (Lealao)	1	VOX	17.333	-95.917	Chinantecan	Oto-Manguean	Word Order
+cpl	Chinantec (Palantla)	1	VOX	18.833	-96.750	Chinantecan	Oto-Manguean	Word Order
+cso	Chatino (Sierra Occidental)	1	VOX	16.250	-97.333	Zapotecan	Oto-Manguean	Word Order
+zap	Zapotec (Mitla)	1	VOX	16.800	-96.250	Zapotecan	Oto-Manguean	Word Order
+tlp	Tlapanec	1	VOX	17.083	-99.000	Subtiaba-Tlapanec	Oto-Manguean	Word Order
+nht	Nahuatl (Tetelcingo)	1	VOX	19.667	-99.000	Aztecan	Uto-Aztecan	Word Order
+gjj	Guajajara	1	VOX	-5.000	-46.000	Tupi-Guaraní	Tupian	Word Order
+gua	Guaraní	1	VOX	-26.000	-56.000	Tupi-Guaraní	Tupian	Word Order
+goa	Goajiro	1	VOX	12.000	-72.000	Arawakan	Arawakan	Word Order
+ara	Arawak	1	VOX	5.500	-55.167	Arawakan	Arawakan	Word Order
+war	Wari'	1	VOX	-11.333	-65.000	Chapacura-Wanham	Chapacura-Wanham	Word Order
+abi	Abipón	1	VOX	-29.000	-61.000	Guaicuruan	Guaicuruan	Word Order
+wch	Wichí	1	VOX	-22.500	-62.583	Matacoan	Matacoan	Word Order
+ndy	Ndyuka	1	VOX	4.500	-54.500	Creoles and Pidgins	other	Word Order
+bas	Basaá	1	VOX	3.917	10.500	Bantoid	Niger-Congo	Word Order
+lbu	Lunda	1	VOX	-10.667	24.000	Bantoid	Niger-Congo	Word Order
+ndt	Ndut	1	VOX	14.917	-16.917	Northern Atlantic	Niger-Congo	Word Order
+bma	Berber (Middle Atlas)	1	VOX	33.000	-5.000	Berber	Afro-Asiatic	Word Order
+tri	Trique (Copala)	1	VOX	17.167	-97.917	Mixtecan	Oto-Manguean	Word Order
+mxy	Mixtec (Yosondúa)	1	VOX	16.917	-97.583	Mixtecan	Oto-Manguean	Word Order
+bik	Biak	1	VOX	-1.000	136.000	South Halmahera - West New Guinea	Austronesian	Word Order
+tsk	Tamashek	1	VOX	20.000	-2.000	Berber	Afro-Asiatic	Word Order
+aoj	Mufian	1	VOX	-3.500	143.000	Kombio-Arapesh	Torricelli	Word Order
+kwy	Iwoyo	1	VOX	-5.500	12.250	Bantoid	Niger-Congo	Word Order
+uli	Ulithian	1	VOX	9.917	139.583	Oceanic	Austronesian	Word Order
+ifm	Ifumu	1	VOX	-3.667	15.333	Bantoid	Niger-Congo	Word Order
+adz	Adzera	1	VOX	-6.250	146.250	Oceanic	Austronesian	Word Order
+hdi	Hdi	1	VOX	11.867	13.717	Biu-Mandara	Afro-Asiatic	Word Order
+tet	Tetela	1	VOX	-4.000	24.000	Bantoid	Niger-Congo	Word Order
+cic	Chichewa	1	VOX	-14.000	34.000	Bantoid	Niger-Congo	Word Order
+hna	Mina	1	VOX	10.333	13.833	Biu-Mandara	Afro-Asiatic	Word Order
+avk	Avikam	1	VOX	5.167	-5.500	Kwa	Niger-Congo	Word Order
+xar	Xârâcùù	1	VOX	-21.667	166.000	Oceanic	Austronesian	Word Order
+qum	Sipakapense	1	VOX	15.250	-91.750	Mayan	Mayan	Word Order
+mea	Meyah	1	VOX	-1.167	133.500	East Bird's Head	East Bird's Head	Word Order
+ngb	Ngbaka	1	VOX	3.500	20.000	Ubangi	Niger-Congo	Word Order
+tho	Thompson	1	VOX	49.750	-121.750	Interior Salish	Salishan	Word Order
+aml	Ambae (Lolovoli Northeast)	1	VOX	-15.417	167.883	Oceanic	Austronesian	Word Order
+mus	Mussau	1	VOX	-1.450	149.617	Oceanic	Austronesian	Word Order
+xsm	Kàsim	1	VOX	11.000	-1.333	Gur	Niger-Congo	Word Order
+mnd	Mandarin	2	XVO	34.000	110.000	Chinese	Sino-Tibetan	Word Order
+hak	Hakka	2	XVO	25.000	116.000	Chinese	Sino-Tibetan	Word Order
+cnt	Cantonese	2	XVO	23.000	113.000	Chinese	Sino-Tibetan	Word Order
+kho	Khoekhoe	3	XOV	-25.500	18.000	Central Khoisan	Khoisan	Word Order
+orh	Oromo (Harar)	3	XOV	9.000	42.000	Eastern Cushitic	Afro-Asiatic	Word Order
+chh	Chaha	3	XOV	8.113	37.933	Semitic	Afro-Asiatic	Word Order
+bsq	Basque	3	XOV	43.000	-3.000	Basque	Basque	Word Order
+lmn	Lamani	3	XOV	17.000	77.000	Indic	Indo-European	Word Order
+bho	Bhojpuri	3	XOV	26.000	84.000	Indic	Indo-European	Word Order
+pra	Prasuni	3	XOV	35.500	71.000	Indic	Indo-European	Word Order
+nen	Nenets	3	XOV	69.000	72.000	Samoyedic	Uralic	Word Order
+ene	Enets	3	XOV	67.500	86.500	Samoyedic	Uralic	Word Order
+tur	Turkish	3	XOV	39.000	35.000	Turkic	Altaic	Word Order
+jpn	Japanese	3	XOV	37.000	140.000	Japanese	Japanese	Word Order
+abk	Abkhaz	3	XOV	43.083	41.000	Northwest Caucasian	Northwest Caucasian	Word Order
+arc	Archi	3	XOV	42.000	46.833	Lezgic	Nakh-Daghestanian	Word Order
+tml	Tamil	3	XOV	11.000	78.500	Southern Dravidian	Dravidian	Word Order
+rem	Remo	3	XOV	18.000	82.000	Munda	Austro-Asiatic	Word Order
+mik	Mikir	3	XOV	26.333	93.500	Kuki-Chin	Sino-Tibetan	Word Order
+sem	Sema	3	XOV	26.000	94.500	Kuki-Chin	Sino-Tibetan	Word Order
+miz	Mizo	3	XOV	23.167	92.833	Kuki-Chin	Sino-Tibetan	Word Order
+jng	Jingpho	3	XOV	25.417	97.000	Jinghpo	Sino-Tibetan	Word Order
+dig	Digaro	3	XOV	28.417	96.000	Digaroan	Sino-Tibetan	Word Order
+ygr	Yagaria	3	XOV	-6.333	145.417	Eastern Highlands	Trans-New Guinea	Word Order
+tba	Tabare	3	XOV	-6.083	145.000	Chimbu	Trans-New Guinea	Word Order
+wah	Wahgi	3	XOV	-5.833	144.717	Chimbu	Trans-New Guinea	Word Order
+tlf	Telefol	3	XOV	-5.000	141.750	Ok	Trans-New Guinea	Word Order
+kmo	Koiali (Mountain)	3	XOV	-9.000	147.500	Koiarian	Trans-New Guinea	Word Order
+ame	Amele	3	XOV	-5.250	145.583	Madang	Trans-New Guinea	Word Order
+ang	Anggor	3	XOV	-3.750	141.167	Senagi	Senagi	Word Order
+amn	Amanab	3	XOV	-3.583	141.250	Border	Border	Word Order
+lav	Lavukaleve	3	XOV	-9.083	159.200	Lavukaleve	Solomons East Papuan	Word Order
+sla	Slave	3	XOV	67.000	-125.000	Athapaskan	Na-Dene	Word Order
+cct	Choctaw	3	XOV	32.250	-88.500	Muskogean	Muskogean	Word Order
+ser	Seri	3	XOV	29.000	-112.000	Seri	Hokan	Word Order
+sho	Shoshone	3	XOV	41.000	-114.000	Numic	Uto-Aztecan	Word Order
+snm	Sanuma	3	XOV	4.500	-64.667	Yanomam	Yanomam	Word Order
+prh	Pirahã	3	XOV	-7.000	-62.000	Mura	Mura	Word Order
+awp	Awa Pit	3	XOV	1.500	-78.250	Barbacoan	Barbacoan	Word Order
+qim	Quechua (Imbabura)	3	XOV	0.333	-78.000	Quechuan	Quechuan	Word Order
+hmi	Huitoto (Minica)	3	XOV	-0.333	-74.000	Huitoto	Huitotoan	Word Order
+api	Apinayé	3	XOV	-5.500	-48.000	Ge-Kaingang	Macro-Ge	Word Order
+kyp	Kayapó	3	XOV	-9.000	-52.000	Ge-Kaingang	Macro-Ge	Word Order
+ckr	Canela-Krahô	3	XOV	-6.000	-46.000	Ge-Kaingang	Macro-Ge	Word Order
+bzi	Bauzi	3	XOV	-2.500	137.500	East Geelvink Bay	East Geelvink Bay	Word Order
+mgg	Mangghuer	3	XOV	36.000	102.000	Mongolic	Altaic	Word Order
+ben	Bengali	3	XOV	24.000	90.000	Indic	Indo-European	Word Order
+tce	Tarahumara (Central)	3	XOV	27.500	-107.500	Tarahumaran	Uto-Aztecan	Word Order
+guh	Guhu-Samane	3	XOV	-8.000	147.333	Binanderean	Trans-New Guinea	Word Order
+drm	Darma	3	XOV	30.000	79.750	Bodic	Sino-Tibetan	Word Order
+hai	Haida	3	XOV	53.000	-132.000	Haida	Haida	Word Order
+knr	Kanuri	4	OXV	12.000	13.000	Western Saharan	Nilo-Saharan	Word Order
+dha	Dhaasanac	4	OXV	4.667	36.333	Eastern Cushitic	Afro-Asiatic	Word Order
+orw	Oromo (Waata)	4	OXV	-3.333	39.833	Eastern Cushitic	Afro-Asiatic	Word Order
+wak	Wakhi	4	OXV	36.500	72.000	Iranian	Indo-European	Word Order
+chv	Chuvash	4	OXV	55.500	47.500	Turkic	Altaic	Word Order
+koy	Koya	4	OXV	17.500	81.333	South-Central Dravidian	Dravidian	Word Order
+kmh	Kham	4	OXV	28.500	82.750	Bodic	Sino-Tibetan	Word Order
+baw	Bawm	4	OXV	22.500	92.250	Kuki-Chin	Sino-Tibetan	Word Order
+nis	Nishi	4	OXV	27.500	93.500	Tani	Sino-Tibetan	Word Order
+tak	Takia	4	OXV	-4.667	146.000	Oceanic	Austronesian	Word Order
+foe	Foe	4	OXV	-6.500	143.500	Kutubuan	Trans-New Guinea	Word Order
+kwo	Kwoma	4	OXV	-4.167	142.750	Middle Sepik	Sepik	Word Order
+kyr	Karkar-Yuri	4	OXV	-3.750	141.083	Karkar-Yuri	Karkar-Yuri	Word Order
+nag	Nagatman	4	OXV	-3.750	141.500	Yale	Yale	Word Order
+agt	Anguthimri	4	OXV	-12.333	141.833	Pama-Nyungan	Australian	Word Order
+grw	Greenlandic (West)	4	OXV	64.000	-51.000	Eskimo	Eskimo-Aleut	Word Order
+apw	Apache (Western)	4	OXV	33.750	-110.000	Athapaskan	Na-Dene	Word Order
+nav	Navajo	4	OXV	36.167	-108.000	Athapaskan	Na-Dene	Word Order
+pso	Pomo (Southeastern)	4	OXV	39.000	-122.500	Pomoan	Hokan	Word Order
+tja	Tiipay (Jamul)	4	OXV	32.167	-116.500	Yuman	Hokan	Word Order
+brs	Barasano	4	OXV	-0.167	-70.667	Tucanoan	Tucanoan	Word Order
+iha	Iha	4	OXV	-2.917	132.250	West Bomberai	West Bomberai	Word Order
+mts	Matis	4	OXV	-4.417	-70.250	Panoan	Panoan	Word Order
+lis	Lisu	4	OXV	26.000	98.000	Burmese-Lolo	Sino-Tibetan	Word Order
+kmz	Kamasau	4	OXV	-3.917	143.667	Marienberg	Torricelli	Word Order
+mpt	Mian	4	OXV	-4.750	141.500	Ok	Trans-New Guinea	Word Order
+kwt	Kwomtari	4	OXV	-3.500	141.500	Kwomtari	Kwomtari-Baibai	Word Order
+bus	Busa	5	OVX	9.667	4.000	Eastern Mande	Niger-Congo	Word Order
+man	Mano	5	OVX	7.000	-9.000	Eastern Mande	Niger-Congo	Word Order
+maw	Maninka (Western)	5	OVX	13.000	-11.000	Western Mande	Niger-Congo	Word Order
+mkg	Mandinka (Gambian)	5	OVX	13.417	-16.000	Western Mande	Niger-Congo	Word Order
+bam	Bambara	5	OVX	12.500	-7.500	Western Mande	Niger-Congo	Word Order
+mka	Mauka	5	OVX	8.333	-7.500	Western Mande	Niger-Congo	Word Order
+vai	Vai	5	OVX	6.917	-11.250	Western Mande	Niger-Congo	Word Order
+sus	Susu	5	OVX	10.000	-13.000	Western Mande	Niger-Congo	Word Order
+mde	Mende	5	OVX	7.833	-11.500	Western Mande	Niger-Congo	Word Order
+sme	Seme	5	OVX	11.000	-4.917	Kru	Niger-Congo	Word Order
+sup	Supyire	5	OVX	11.500	-5.583	Gur	Niger-Congo	Word Order
+tnn	Tunen	5	OVX	4.750	10.667	Bantoid	Niger-Congo	Word Order
+kse	Koyraboro Senni	5	OVX	16.000	0.000	Songhay	Nilo-Saharan	Word Order
+par	Päri	5	OVX	5.000	32.500	Nilotic	Nilo-Saharan	Word Order
+naj	Neo-Aramaic (Arbel Jewish)	5	OVX	31.750	35.000	Semitic	Afro-Asiatic	Word Order
+krr	Kairiru	5	OVX	-3.333	143.583	Oceanic	Austronesian	Word Order
+gmw	Gumawana	5	OVX	-9.250	150.833	Oceanic	Austronesian	Word Order
+dum	Dumo	5	OVX	-2.683	141.300	Western Skou	Skou	Word Order
+isa	I'saka	5	OVX	-2.833	141.283	Krisa	Skou	Word Order
+wom	Womo	5	OVX	-2.917	141.833	Serra Hills	Skou	Word Order
+mpa	Murrinh-Patha	5	OVX	-14.667	129.667	Murrinh-Patha	Australian	Word Order
+bbw	Bininj Gun-Wok	5	OVX	-12.500	133.750	Gunwinygic	Australian	Word Order
+ung	Ungarinjin	5	OVX	-16.333	126.000	Wororan	Australian	Word Order
+djp	Djapu	5	OVX	-12.667	136.000	Pama-Nyungan	Australian	Word Order
+yid	Yidiny	5	OVX	-17.000	145.750	Pama-Nyungan	Australian	Word Order
+diy	Diyari	5	OVX	-28.000	139.000	Pama-Nyungan	Australian	Word Order
+yus	Yupik (Siberian)	5	OVX	65.000	-173.000	Eskimo	Eskimo-Aleut	Word Order
+koa	Koasati	5	OVX	34.833	-85.167	Muskogean	Muskogean	Word Order
+bri	Bribri	5	OVX	9.417	-83.000	Talamanca	Chibchan	Word Order
+nbr	Ngäbere	5	OVX	8.667	-82.000	Guaymi	Chibchan	Word Order
+epe	Epena Pedee	5	OVX	3.000	-77.000	Choco	Choco	Word Order
+kaa	Karó (Arára)	5	OVX	-10.333	-62.000	Ramarama	Tupian	Word Order
+srn	Sirionó	5	OVX	-15.583	-64.000	Tupi-Guaraní	Tupian	Word Order
+cde	Carib (De'kwana)	5	OVX	5.500	-65.000	Cariban	Cariban	Word Order
+apl	Apalaí	5	OVX	0.000	-54.000	Cariban	Cariban	Word Order
+hix	Hixkaryana	5	OVX	-1.000	-59.000	Cariban	Cariban	Word Order
+kma	Kamaiurá	5	OVX	-12.083	-52.583	Tupi-Guaraní	Tupian	Word Order
+wna	Wan	5	OVX	7.833	-5.867	Eastern Mande	Niger-Congo	Word Order
+xas	Xasonga	5	OVX	14.250	-10.500	Western Mande	Niger-Congo	Word Order
+tpt	Tapieté	5	OVX	-19.750	-61.667	Tupi-Guaraní	Tupian	Word Order
+brp	Barupu	5	OVX	-3.083	142.083	Warapu	Skou	Word Order
+kya	Kuku-Yalanji	5	OVX	-16.000	145.000	Pama-Nyungan	Australian	Word Order
+mek	Mekens	5	OVX	-12.500	-61.500	Tupari	Tupian	Word Order
+svs	Savosavo	5	OVX	-9.133	159.800	Savosavo	Solomons East Papuan	Word Order
+slb	Saliba (in Papua New Guinea)	5	OVX	-10.583	150.717	Oceanic	Austronesian	Word Order
+ani	//Ani	6	No dominant order	-18.917	21.917	Central Khoisan	Khoisan	Word Order
+kis	Kisi	6	No dominant order	8.833	-10.167	Southern Atlantic	Niger-Congo	Word Order
+dgo	Dongo	6	No dominant order	3.000	30.000	Ubangi	Niger-Congo	Word Order
+gwa	Gwari	6	No dominant order	9.500	7.000	Nupoid	Niger-Congo	Word Order
+ido	Idoma	6	No dominant order	6.917	7.500	Idomoid	Niger-Congo	Word Order
+zar	Zarma	6	No dominant order	13.833	2.167	Songhay	Nilo-Saharan	Word Order
+cai	Chai	6	No dominant order	5.333	35.333	Surmic	Nilo-Saharan	Word Order
+any	Anywa	6	No dominant order	8.000	33.500	Nilotic	Nilo-Saharan	Word Order
+nue	Nuer	6	No dominant order	8.333	32.000	Nilotic	Nilo-Saharan	Word Order
+din	Dinka	6	No dominant order	8.500	28.000	Nilotic	Nilo-Saharan	Word Order
+mou	Moru	6	No dominant order	4.750	29.750	Moru-Ma'di	Nilo-Saharan	Word Order
+avo	Avokaya	6	No dominant order	4.667	30.000	Moru-Ma'di	Nilo-Saharan	Word Order
+lug	Lugbara	6	No dominant order	3.083	30.917	Moru-Ma'di	Nilo-Saharan	Word Order
+mad	Ma'di	6	No dominant order	3.250	31.500	Moru-Ma'di	Nilo-Saharan	Word Order
+ldu	Lendu	6	No dominant order	2.000	30.500	Lendu	Nilo-Saharan	Word Order
+nti	Ngiti	6	No dominant order	1.333	30.250	Lendu	Nilo-Saharan	Word Order
+irq	Iraqw	6	No dominant order	-4.000	35.500	Southern Cushitic	Afro-Asiatic	Word Order
+brn	Burunge	6	No dominant order	-5.333	36.000	Southern Cushitic	Afro-Asiatic	Word Order
+arw	Armenian (Western)	6	No dominant order	38.500	43.500	Armenian	Indo-European	Word Order
+dut	Dutch	6	No dominant order	52.500	6.000	Germanic	Indo-European	Word Order
+ger	German	6	No dominant order	52.000	10.000	Germanic	Indo-European	Word Order
+fri	Frisian	6	No dominant order	53.000	5.000	Germanic	Indo-European	Word Order
+blr	Belorussian	6	No dominant order	54.000	28.000	Slavic	Indo-European	Word Order
+ite	Itelmen	6	No dominant order	57.000	157.500	Southern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Word Order
+ttu	Tsova-Tush	6	No dominant order	42.500	45.500	Nakh	Nakh-Daghestanian	Word Order
+udi	Udi	6	No dominant order	41.000	48.000	Lezgic	Nakh-Daghestanian	Word Order
+brm	Burmese	6	No dominant order	21.000	96.000	Burmese-Lolo	Sino-Tibetan	Word Order
+bai	Bai	6	No dominant order	26.000	100.000	Bai	Sino-Tibetan	Word Order
+chr	Chrau	6	No dominant order	10.750	107.500	Bahnaric	Austro-Asiatic	Word Order
+min	Minangkabau	6	No dominant order	-1.000	101.000	Malayic	Austronesian	Word Order
+ace	Acehnese	6	No dominant order	5.500	95.500	Malayic	Austronesian	Word Order
+gap	Gapapaiwa	6	No dominant order	-9.750	149.833	Oceanic	Austronesian	Word Order
+moa	Mono-Alu	6	No dominant order	-7.050	155.750	Oceanic	Austronesian	Word Order
+tin	Tinrin	6	No dominant order	-21.667	165.750	Oceanic	Austronesian	Word Order
+fij	Fijian	6	No dominant order	-17.833	178.000	Oceanic	Austronesian	Word Order
+pok	Poko-Rawo	6	No dominant order	-2.833	141.583	Serra Hills	Skou	Word Order
+awt	Awtuw	6	No dominant order	-3.583	142.000	Ram	Sepik	Word Order
+sar	Sare	6	No dominant order	-4.500	143.167	Sepik Hill	Sepik	Word Order
+ala	Alamblak	6	No dominant order	-4.667	143.333	Sepik Hill	Sepik	Word Order
+nas	Nasioi	6	No dominant order	-6.333	155.583	East Bougainville	East Bougainville	Word Order
+lml	Limilngan	6	No dominant order	-12.500	131.917	Limilngan	Australian	Word Order
+nug	Nunggubuyu	6	No dominant order	-13.750	135.667	Nunggubuyu	Australian	Word Order
+ngn	Ngandi	6	No dominant order	-13.833	135.000	Ngandi	Australian	Word Order
+ngl	Ngalakan	6	No dominant order	-14.250	134.000	Ngalakan	Australian	Word Order
+wrd	Wardaman	6	No dominant order	-15.500	131.000	Yangmanic	Australian	Word Order
+grg	Gurr-goni	6	No dominant order	-12.250	134.417	Burarran	Australian	Word Order
+ndj	Ndjébbana	6	No dominant order	-12.167	134.117	Ndjébbana	Australian	Word Order
+alw	Alawa	6	No dominant order	-15.167	134.250	Maran	Australian	Word Order
+mra	Mara	6	No dominant order	-15.000	135.167	Maran	Australian	Word Order
+lar	Laragia	6	No dominant order	-12.667	130.833	Laragiyan	Australian	Word Order
+ngk	Ngankikurungkurr	6	No dominant order	-14.000	130.500	Southern Daly	Australian	Word Order
+mrh	Marrithiyel	6	No dominant order	-13.833	130.000	Western Daly	Australian	Word Order
+mrr	Maringarr	6	No dominant order	-14.250	130.000	Western Daly	Australian	Word Order
+bac	Bachamal	6	No dominant order	-13.167	130.167	Anson Bay	Australian	Word Order
+pun	Pungupungu	6	No dominant order	-13.500	130.417	Anson Bay	Australian	Word Order
+emm	Emmi	6	No dominant order	-13.500	130.000	Western Daly	Australian	Word Order
+mku	Maranungku	6	No dominant order	-13.667	130.000	Western Daly	Australian	Word Order
+mdl	Madngele	6	No dominant order	-13.833	130.417	Eastern Daly	Australian	Word Order
+kmw	Kamu	6	No dominant order	-13.583	130.833	Eastern Daly	Australian	Word Order
+jam	Jaminjung	6	No dominant order	-15.083	130.500	Jaminjungan	Australian	Word Order
+bnb	Bunuba	6	No dominant order	-17.750	125.750	Bunuban	Australian	Word Order
+goo	Gooniyandi	6	No dominant order	-18.333	126.333	Bunuban	Australian	Word Order
+ywr	Yawuru	6	No dominant order	-18.000	122.500	Nyulnyulan	Australian	Word Order
+gnn	Gunin	6	No dominant order	-14.250	126.667	Wororan	Australian	Word Order
+kay	Kayardild	6	No dominant order	-17.050	139.500	Tangkic	Australian	Word Order
+mrw	Muruwari	6	No dominant order	-28.750	147.000	Pama-Nyungan	Australian	Word Order
+gid	Gidabal	6	No dominant order	-28.417	152.417	Pama-Nyungan	Australian	Word Order
+djn	Djinang	6	No dominant order	-12.333	134.833	Pama-Nyungan	Australian	Word Order
+rit	Ritharngu	6	No dominant order	-12.833	135.500	Pama-Nyungan	Australian	Word Order
+djm	Djambarrpuyngu	6	No dominant order	-12.167	135.500	Pama-Nyungan	Australian	Word Order
+knc	Kugu Nganhcara	6	No dominant order	-14.417	142.000	Pama-Nyungan	Australian	Word Order
+kuu	Kuuku Ya'u	6	No dominant order	-12.583	143.083	Pama-Nyungan	Australian	Word Order
+dyi	Dyirbal	6	No dominant order	-17.833	145.583	Pama-Nyungan	Australian	Word Order
+wrg	Warrgamay	6	No dominant order	-18.583	146.083	Pama-Nyungan	Australian	Word Order
+ggu	Gureng Gureng	6	No dominant order	-25.250	151.000	Pama-Nyungan	Australian	Word Order
+gum	Gumbaynggir	6	No dominant order	-30.167	152.500	Pama-Nyungan	Australian	Word Order
+ngi	Ngiyambaa	6	No dominant order	-31.750	145.500	Pama-Nyungan	Australian	Word Order
+pkn	Paakantyi	6	No dominant order	-32.500	142.500	Pama-Nyungan	Australian	Word Order
+ppi	Pitta Pitta	6	No dominant order	-22.833	140.000	Pama-Nyungan	Australian	Word Order
+wan	Wangkumara	6	No dominant order	-27.333	143.000	Pama-Nyungan	Australian	Word Order
+bnu	Bularnu	6	No dominant order	-21.000	138.000	Pama-Nyungan	Australian	Word Order
+djr	Djaru	6	No dominant order	-18.750	128.000	Pama-Nyungan	Australian	Word Order
+yin	Yindjibarndi	6	No dominant order	-21.750	117.917	Pama-Nyungan	Australian	Word Order
+pny	Panyjima	6	No dominant order	-22.833	118.417	Pama-Nyungan	Australian	Word Order
+dhr	Dhargari	6	No dominant order	-23.750	114.917	Pama-Nyungan	Australian	Word Order
+bdm	Badimaya	6	No dominant order	-27.667	118.000	Pama-Nyungan	Australian	Word Order
+wrl	Warlpiri	6	No dominant order	-20.000	132.333	Pama-Nyungan	Australian	Word Order
+adn	Adynyamathanha	6	No dominant order	-30.500	139.500	Pama-Nyungan	Australian	Word Order
+ypk	Yup'ik (Central)	6	No dominant order	59.500	-160.000	Eskimo	Eskimo-Aleut	Word Order
+hup	Hupa	6	No dominant order	41.083	-123.667	Athapaskan	Na-Dene	Word Order
+wiy	Wiyot	6	No dominant order	40.833	-124.167	Wiyot	Algic	Word Order
+yur	Yurok	6	No dominant order	41.333	-124.000	Yurok	Algic	Word Order
+cre	Cree (Plains)	6	No dominant order	54.000	-110.000	Algonquian	Algic	Word Order
+cea	Cree (Eastern)	6	No dominant order	51.000	-74.000	Algonquian	Algic	Word Order
+oji	Ojibwa (Eastern)	6	No dominant order	46.000	-80.000	Algonquian	Algic	Word Order
+men	Menomini	6	No dominant order	45.500	-88.333	Algonquian	Algic	Word Order
+psm	Passamaquoddy-Maliseet	6	No dominant order	45.000	-67.000	Algonquian	Algic	Word Order
+aco	Acoma	6	No dominant order	34.917	-107.583	Keresan	Keresan	Word Order
+wic	Wichita	6	No dominant order	33.333	-97.333	Caddoan	Caddoan	Word Order
+moh	Mohawk	6	No dominant order	43.500	-74.250	Northern Iroquoian	Iroquoian	Word Order
+ond	Oneida	6	No dominant order	43.000	-75.667	Northern Iroquoian	Iroquoian	Word Order
+snc	Seneca	6	No dominant order	42.500	-77.500	Northern Iroquoian	Iroquoian	Word Order
+tus	Tuscarora	6	No dominant order	36.000	-77.500	Northern Iroquoian	Iroquoian	Word Order
+che	Cherokee	6	No dominant order	35.500	-83.500	Southern Iroquoian	Iroquoian	Word Order
+git	Gitksan	6	No dominant order	55.333	-127.750	Tsimshianic	Penutian	Word Order
+coo	Coos (Hanis)	6	No dominant order	43.500	-124.167	Coosan	Oregon Coast	Word Order
+siu	Siuslaw	6	No dominant order	44.000	-124.000	Siuslawan	Oregon Coast	Word Order
+klm	Klamath	6	No dominant order	42.500	-121.500	Klamath-Modoc	Penutian	Word Order
+nez	Nez Perce	6	No dominant order	46.000	-116.000	Sahaptian	Penutian	Word Order
+ptw	Patwin	6	No dominant order	39.000	-122.333	Wintuan	Penutian	Word Order
+win	Wintu	6	No dominant order	41.000	-122.500	Wintuan	Penutian	Word Order
+wik	Wikchamni	6	No dominant order	36.417	-119.083	Yokuts	Penutian	Word Order
+ywl	Yawelmani	6	No dominant order	35.417	-119.000	Yokuts	Penutian	Word Order
+mss	Miwok (Southern Sierra)	6	No dominant order	37.500	-120.000	Miwok	Penutian	Word Order
+tun	Tunica	6	No dominant order	32.667	-91.000	Tunica	Tunica	Word Order
+krk	Karok	6	No dominant order	41.667	-123.000	Karok	Karok	Word Order
+shs	Shasta	6	No dominant order	41.833	-122.667	Shasta	Hokan	Word Order
+acm	Achumawi	6	No dominant order	41.500	-121.000	Palaihnihan	Hokan	Word Order
+sal	Salinan	6	No dominant order	36.000	-121.000	Salinan	Salinan	Word Order
+ton	Tonkawa	6	No dominant order	30.250	-96.750	Tonkawa	Tonkawa	Word Order
+kkw	Karankawa	6	No dominant order	28.000	-97.000	Karankawa	Karankawa	Word Order
+mzh	Mazatec (Huautla)	6	No dominant order	18.250	-96.833	Popolocan	Oto-Manguean	Word Order
+twn	Tiwa (Northern)	6	No dominant order	36.500	-105.500	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+tsh	Tümpisa Shoshone	6	No dominant order	37.000	-117.000	Numic	Uto-Aztecan	Word Order
+kws	Kawaiisu	6	No dominant order	36.000	-117.500	Numic	Uto-Aztecan	Word Order
+ute	Ute	6	No dominant order	39.000	-109.000	Numic	Uto-Aztecan	Word Order
+cmh	Chemehuevi	6	No dominant order	34.333	-115.167	Numic	Uto-Aztecan	Word Order
+lui	Luiseño	6	No dominant order	33.333	-117.167	Takic	Uto-Aztecan	Word Order
+tpn	Tepehuan (Northern)	6	No dominant order	26.333	-107.000	Tepiman	Uto-Aztecan	Word Order
+twe	Tarahumara (Western)	6	No dominant order	27.500	-108.000	Tarahumaran	Uto-Aztecan	Word Order
+grj	Guarijío	6	No dominant order	27.750	-108.667	Tarahumaran	Uto-Aztecan	Word Order
+ram	Rama	6	No dominant order	11.750	-83.750	Rama	Chibchan	Word Order
+jeb	Jebero	6	No dominant order	-5.417	-76.500	Cahuapanan	Cahuapanan	Word Order
+tic	Ticuna	6	No dominant order	-4.000	-70.500	Ticuna	Ticuna	Word Order
+tuc	Tucano	6	No dominant order	0.500	-69.167	Tucanoan	Tucanoan	Word Order
+tru	Trumai	6	No dominant order	-11.917	-53.583	Trumai	Trumai	Word Order
+urk	Urubú-Kaapor	6	No dominant order	-2.333	-46.500	Tupi-Guaraní	Tupian	Word Order
+coc	Cocama	6	No dominant order	-5.000	-74.500	Tupi-Guaraní	Tupian	Word Order
+pau	Paumarí	6	No dominant order	-6.000	-64.000	Arauan	Arauan	Word Order
+apu	Apurinã	6	No dominant order	-9.000	-67.000	Arawakan	Arawakan	Word Order
+res	Resígaro	6	No dominant order	-2.417	-71.500	Arawakan	Arawakan	Word Order
+tac	Tacana	6	No dominant order	-13.500	-68.000	Tacanan	Tacanan	Word Order
+brr	Bororo	6	No dominant order	-16.000	-57.000	Bororo	Macro-Ge	Word Order
+map	Mapudungun	6	No dominant order	-38.000	-72.000	Araucanian	Araucanian	Word Order
+mtt	Massachusett	6	No dominant order	42.500	-71.000	Algonquian	Algic	Word Order
+wya	Wyandot	6	No dominant order	44.333	-77.500	Northern Iroquoian	Iroquoian	Word Order
+wry	Waray (in Australia)	6	No dominant order	-13.167	131.250	Waray	Australian	Word Order
+dam	Damana	6	No dominant order	11.000	-73.500	Aruak	Chibchan	Word Order
+nha	Nhanda	6	No dominant order	-27.000	114.167	Pama-Nyungan	Australian	Word Order
+wrw	Warrwa	6	No dominant order	-17.500	123.500	Nyulnyulan	Australian	Word Order
+tik	Tikar	6	No dominant order	5.833	11.667	Bantoid	Niger-Congo	Word Order
+sdw	Sandawe	6	No dominant order	-5.000	35.000	Sandawe	Khoisan	Word Order
+yim	Yimas	6	No dominant order	-4.667	143.550	Lower Sepik	Lower Sepik-Ramu	Word Order
+cam	Camsá	6	No dominant order	1.167	-77.000	Camsá	Camsá	Word Order
+inn	Innamincka	6	No dominant order	-27.750	140.750	Pama-Nyungan	Australian	Word Order
+arm	Armenian (Eastern)	6	No dominant order	40.000	45.000	Armenian	Indo-European	Word Order
+lgt	Logoti	6	No dominant order	3.500	30.000	Moru-Ma'di	Nilo-Saharan	Word Order
+ddj	Dadjriwalé	6	No dominant order	5.250	-5.667	Kru	Niger-Congo	Word Order
+pnx	Panará	6	No dominant order	-10.000	-55.000	Ge-Kaingang	Macro-Ge	Word Order
+ina	Inanwatan	6	No dominant order	-2.083	132.083	South Bird's Head	Marind	Word Order
+lec	Leko	6	No dominant order	-15.000	-67.917	Leko	Leko	Word Order
+ney	Neyo	6	No dominant order	5.000	-6.000	Kru	Niger-Congo	Word Order
+mxx	Mixe (Ayutla)	6	No dominant order	17.083	-96.083	Mixe-Zoque	Mixe-Zoque	Word Order
+cav	Cavineña	6	No dominant order	-13.333	-66.500	Tacanan	Tacanan	Word Order
+ajg	Ajagbe	6	No dominant order	7.000	1.750	Kwa	Niger-Congo	Word Order
+les	Lese	6	No dominant order	2.000	29.000	Mangbutu-Efe	Nilo-Saharan	Word Order
+eme	Émérillon	6	No dominant order	3.167	-52.417	Tupi-Guaraní	Tupian	Word Order

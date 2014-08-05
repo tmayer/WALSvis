@@ -1,0 +1,153 @@
+Bickel, Balthasar & Nichols, Johanna. 2011. Inflectional Synthesis of the Verb.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 22A.
+Available online at http://wals.info/feature/22A
+Accessed on 2013-11-04.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+nah	Nahali	1	0-1 category per word	19.750	77.833	Nahali	Nahali	Morphology
+san	Sango	1	0-1 category per word	5.000	18.000	Ubangi	Niger-Congo	Morphology
+vie	Vietnamese	1	0-1 category per word	10.500	106.500	Viet-Muong	Austro-Asiatic	Morphology
+mnd	Mandarin	1	0-1 category per word	34.000	110.000	Chinese	Sino-Tibetan	Morphology
+may	Maybrat	1	0-1 category per word	-1.333	132.500	North-Central Bird's Head	West Papuan	Morphology
+kis	Kisi	2	2-3 categories per word	8.833	-10.167	Southern Atlantic	Niger-Congo	Morphology
+hat	Hatam	2	2-3 categories per word	-1.000	134.000	Hatam	West Papuan	Morphology
+ksg	Karen (Sgaw)	2	2-3 categories per word	18.000	97.000	Karen	Sino-Tibetan	Morphology
+mrt	Martuthunira	2	2-3 categories per word	-20.833	116.500	Pama-Nyungan	Australian	Morphology
+tag	Tagalog	2	2-3 categories per word	15.000	121.000	Meso-Philippine	Austronesian	Morphology
+ram	Rama	2	2-3 categories per word	11.750	-83.750	Rama	Chibchan	Morphology
+knd	Kannada	2	2-3 categories per word	14.000	76.000	Southern Dravidian	Dravidian	Morphology
+sup	Supyire	2	2-3 categories per word	11.500	-5.583	Gur	Niger-Congo	Morphology
+hmo	Hmong Njua	2	2-3 categories per word	28.000	105.000	Hmong-Mien	Hmong-Mien	Morphology
+eng	English	2	2-3 categories per word	52.000	0.000	Germanic	Indo-European	Morphology
+ger	German	2	2-3 categories per word	52.000	10.000	Germanic	Indo-European	Morphology
+hin	Hindi	2	2-3 categories per word	25.000	77.000	Indic	Indo-European	Morphology
+wch	Wichí	2	2-3 categories per word	-22.500	-62.583	Matacoan	Matacoan	Morphology
+kha	Khalkha	2	2-3 categories per word	47.000	105.000	Mongolic	Altaic	Morphology
+lez	Lezgian	2	2-3 categories per word	41.667	47.833	Lezgic	Nakh-Daghestanian	Morphology
+brm	Burmese	2	2-3 categories per word	21.000	96.000	Burmese-Lolo	Sino-Tibetan	Morphology
+kch	Koyra Chiini	2	2-3 categories per word	17.000	-3.000	Songhay	Nilo-Saharan	Morphology
+tha	Thai	2	2-3 categories per word	16.000	101.000	Kam-Tai	Tai-Kadai	Morphology
+fin	Finnish	2	2-3 categories per word	62.000	25.000	Finnic	Uralic	Morphology
+brh	Brahui	2	2-3 categories per word	28.500	67.000	Northern Dravidian	Dravidian	Morphology
+arm	Armenian (Eastern)	2	2-3 categories per word	40.000	45.000	Armenian	Indo-European	Morphology
+gar	Garo	2	2-3 categories per word	25.667	90.500	Bodo-Garo	Sino-Tibetan	Morphology
+nen	Nenets	2	2-3 categories per word	69.000	72.000	Samoyedic	Uralic	Morphology
+ket	Ket	2	2-3 categories per word	64.000	87.000	Yeniseian	Yeniseian	Morphology
+amp	Arrernte (Mparntwe)	3	4-5 categories per word	-24.000	136.000	Pama-Nyungan	Australian	Morphology
+hve	Huave (San Mateo del Mar)	3	4-5 categories per word	16.217	-95.000	Huavean	Huavean	Morphology
+brr	Bororo	3	4-5 categories per word	-16.000	-57.000	Bororo	Macro-Ge	Morphology
+nan	Nandi	3	4-5 categories per word	0.250	35.000	Nilotic	Nilo-Saharan	Morphology
+heb	Hebrew (Modern)	3	4-5 categories per word	31.500	34.833	Semitic	Afro-Asiatic	Morphology
+tib	Tibetan (Standard Spoken)	3	4-5 categories per word	30.000	91.000	Bodic	Sino-Tibetan	Morphology
+dig	Digaro	3	4-5 categories per word	28.417	96.000	Digaroan	Sino-Tibetan	Morphology
+nsg	Nisgha	3	4-5 categories per word	55.000	-130.000	Tsimshianic	Penutian	Morphology
+pip	Pipil	3	4-5 categories per word	13.833	-89.583	Aztecan	Uto-Aztecan	Morphology
+ngi	Ngiyambaa	3	4-5 categories per word	-31.750	145.500	Pama-Nyungan	Australian	Morphology
+asm	Asmat	3	4-5 categories per word	-5.500	138.500	Asmat-Kamoro	Trans-New Guinea	Morphology
+ind	Indonesian	3	4-5 categories per word	0.000	106.000	Malayic	Austronesian	Morphology
+pai	Paiwan	3	4-5 categories per word	22.500	120.833	Paiwanic	Austronesian	Morphology
+mal	Malagasy	3	4-5 categories per word	-20.000	47.000	Barito	Austronesian	Morphology
+swa	Swahili	3	4-5 categories per word	-6.500	39.000	Bantoid	Niger-Congo	Morphology
+zul	Zulu	3	4-5 categories per word	-30.000	30.000	Bantoid	Niger-Congo	Morphology
+hix	Hixkaryana	3	4-5 categories per word	-1.000	-59.000	Cariban	Cariban	Morphology
+war	Wari'	3	4-5 categories per word	-11.333	-65.000	Chapacura-Wanham	Chapacura-Wanham	Morphology
+chk	Chukchi	3	4-5 categories per word	67.000	-173.000	Northern Chukotko-Kamchatkan	Chukotko-Kamchatkan	Morphology
+grw	Greenlandic (West)	3	4-5 categories per word	64.000	-51.000	Eskimo	Eskimo-Aleut	Morphology
+prs	Persian	3	4-5 categories per word	32.000	54.000	Iranian	Indo-European	Morphology
+rus	Russian	3	4-5 categories per word	56.000	38.000	Slavic	Indo-European	Morphology
+grk	Greek (Modern)	3	4-5 categories per word	39.000	22.000	Greek	Indo-European	Morphology
+spa	Spanish	3	4-5 categories per word	40.000	-4.000	Romance	Indo-European	Morphology
+fre	French	3	4-5 categories per word	48.000	2.000	Romance	Indo-European	Morphology
+bsq	Basque	3	4-5 categories per word	43.000	-3.000	Basque	Basque	Morphology
+jpn	Japanese	3	4-5 categories per word	37.000	140.000	Japanese	Japanese	Morphology
+wra	Warao	3	4-5 categories per word	9.333	-61.667	Warao	Warao	Morphology
+tiw	Tiwi	3	4-5 categories per word	-11.500	131.000	Tiwian	Australian	Morphology
+kut	Kutenai	3	4-5 categories per word	49.500	-116.000	Kutenai	Kutenai	Morphology
+mau	Maung	3	4-5 categories per word	-11.917	133.500	Iwaidjan	Australian	Morphology
+kro	Krongo	3	4-5 categories per word	10.500	30.000	Kadugli	Kadugli	Morphology
+aco	Acoma	3	4-5 categories per word	34.917	-107.583	Keresan	Keresan	Morphology
+arp	Arapesh (Mountain)	3	4-5 categories per word	-3.467	143.167	Kombio-Arapesh	Torricelli	Morphology
+ckr	Canela-Krahô	3	4-5 categories per word	-6.000	-46.000	Ge-Kaingang	Macro-Ge	Morphology
+jak	Jakaltek	3	4-5 categories per word	15.667	-91.667	Mayan	Mayan	Morphology
+mxc	Mixtec (Chalcatongo)	3	4-5 categories per word	17.050	-97.583	Mixtecan	Oto-Manguean	Morphology
+mei	Meithei	3	4-5 categories per word	24.750	94.000	Kuki-Chin	Sino-Tibetan	Morphology
+kay	Kayardild	3	4-5 categories per word	-17.050	139.500	Tangkic	Australian	Morphology
+brs	Barasano	3	4-5 categories per word	-0.167	-70.667	Tucanoan	Tucanoan	Morphology
+gua	Guaraní	3	4-5 categories per word	-26.000	-56.000	Tupi-Guaraní	Tupian	Morphology
+lav	Lavukaleve	3	4-5 categories per word	-9.083	159.200	Lavukaleve	Solomons East Papuan	Morphology
+yaq	Yaqui	3	4-5 categories per word	27.500	-110.250	Cahita	Uto-Aztecan	Morphology
+snm	Sanuma	3	4-5 categories per word	4.500	-64.667	Yanomam	Yanomam	Morphology
+khs	Khasi	3	4-5 categories per word	25.500	92.000	Khasian	Austro-Asiatic	Morphology
+mss	Miwok (Southern Sierra)	3	4-5 categories per word	37.500	-120.000	Miwok	Penutian	Morphology
+epe	Epena Pedee	3	4-5 categories per word	3.000	-77.000	Choco	Choco	Morphology
+ain	Ainu	3	4-5 categories per word	43.000	143.000	Ainu	Ainu	Morphology
+bej	Beja	3	4-5 categories per word	18.000	36.000	Beja	Afro-Asiatic	Morphology
+pso	Pomo (Southeastern)	3	4-5 categories per word	39.000	-122.500	Pomoan	Hokan	Morphology
+hun	Hungarian	3	4-5 categories per word	47.000	20.000	Ugric	Uralic	Morphology
+eka	Ekari	3	4-5 categories per word	-3.833	135.500	Wissel Lakes-Kemandoga	Trans-New Guinea	Morphology
+nca	Nicobarese (Car)	4	6-7 categories per word	9.000	93.000	Nicobarese	Austro-Asiatic	Morphology
+maa	Maasai	4	6-7 categories per word	-3.000	36.000	Nilotic	Nilo-Saharan	Morphology
+bel	Belhare	4	6-7 categories per word	26.967	87.300	Bodic	Sino-Tibetan	Morphology
+cre	Cree (Plains)	4	6-7 categories per word	54.000	-110.000	Algonquian	Algic	Morphology
+apu	Apurinã	4	6-7 categories per word	-9.000	-67.000	Arawakan	Arawakan	Morphology
+fij	Fijian	4	6-7 categories per word	-17.833	178.000	Oceanic	Austronesian	Morphology
+cha	Chamorro	4	6-7 categories per word	13.450	144.750	Chamorro	Austronesian	Morphology
+tuk	Tukang Besi	4	6-7 categories per word	-5.500	123.500	Sulawesi	Austronesian	Morphology
+yor	Yoruba	4	6-7 categories per word	8.000	4.333	Defoid	Niger-Congo	Morphology
+bma	Berber (Middle Atlas)	4	6-7 categories per word	33.000	-5.000	Berber	Afro-Asiatic	Morphology
+bag	Bagirmi	4	6-7 categories per word	11.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Morphology
+goo	Gooniyandi	4	6-7 categories per word	-18.333	126.333	Bunuban	Australian	Morphology
+hau	Hausa	4	6-7 categories per word	12.000	7.000	West Chadic	Afro-Asiatic	Morphology
+orh	Oromo (Harar)	4	6-7 categories per word	9.000	42.000	Eastern Cushitic	Afro-Asiatic	Morphology
+dni	Dani (Lower Grand Valley)	4	6-7 categories per word	-4.333	138.833	Dani	Trans-New Guinea	Morphology
+kew	Kewa	4	6-7 categories per word	-6.500	143.833	Engan	Trans-New Guinea	Morphology
+kor	Korean	4	6-7 categories per word	37.500	128.000	Korean	Korean	Morphology
+grb	Grebo	4	6-7 categories per word	5.000	-8.000	Kru	Niger-Congo	Morphology
+kho	Khoekhoe	4	6-7 categories per word	-25.500	18.000	Central Khoisan	Khoisan	Morphology
+ame	Amele	4	6-7 categories per word	-5.250	145.583	Madang	Trans-New Guinea	Morphology
+myi	Mangarrayi	4	6-7 categories per word	-14.667	133.500	Mangarrayi	Australian	Morphology
+zqc	Zoque (Copainalá)	4	6-7 categories per word	17.000	-93.250	Mixe-Zoque	Mixe-Zoque	Morphology
+lan	Lango	4	6-7 categories per word	2.167	33.000	Nilotic	Nilo-Saharan	Morphology
+aeg	Arabic (Egyptian)	4	6-7 categories per word	30.000	31.000	Semitic	Afro-Asiatic	Morphology
+tur	Turkish	4	6-7 categories per word	39.000	35.000	Turkic	Altaic	Morphology
+yur	Yurok	4	6-7 categories per word	41.333	-124.000	Yurok	Algic	Morphology
+mun	Mundari	4	6-7 categories per word	23.000	84.667	Munda	Austro-Asiatic	Morphology
+cyv	Cayuvava	4	6-7 categories per word	-13.500	-65.500	Cayuvava	Cayuvava	Morphology
+hzb	Hunzib	4	6-7 categories per word	42.167	46.250	Avar-Andic-Tsezic	Nakh-Daghestanian	Morphology
+shk	Shipibo-Konibo	4	6-7 categories per word	-7.500	-75.000	Panoan	Panoan	Morphology
+eve	Evenki	4	6-7 categories per word	56.000	125.000	Tungusic	Altaic	Morphology
+atk	Atakapa	5	8-9 categories per word	30.000	-93.500	Atakapa	Atakapa	Morphology
+nmb	Nambikuára	5	8-9 categories per word	-13.000	-59.000	Nambikuaran	Nambikuaran	Morphology
+ash	Adyghe (Shapsugh)	5	8-9 categories per word	45.000	38.750	Northwest Caucasian	Northwest Caucasian	Morphology
+lai	Lai	5	8-9 categories per word	22.667	93.667	Kuki-Chin	Sino-Tibetan	Morphology
+rap	Rapanui	5	8-9 categories per word	-27.117	-109.367	Oceanic	Austronesian	Morphology
+luv	Luvale	5	8-9 categories per word	-12.000	22.000	Bantoid	Niger-Congo	Morphology
+dag	Daga	5	8-9 categories per word	-10.000	149.333	Dagan	Dagan	Morphology
+ond	Oneida	5	8-9 categories per word	43.000	-75.667	Northern Iroquoian	Iroquoian	Morphology
+map	Mapudungun	5	8-9 categories per word	-38.000	-72.000	Araucanian	Araucanian	Morphology
+bur	Burushaski	5	8-9 categories per word	36.500	74.500	Burushaski	Burushaski	Morphology
+krk	Karok	5	8-9 categories per word	41.667	-123.000	Karok	Karok	Morphology
+geo	Georgian	5	8-9 categories per word	42.000	44.000	Kartvelian	Kartvelian	Morphology
+kio	Kiowa	5	8-9 categories per word	37.000	-99.000	Kiowa-Tanoan	Kiowa-Tanoan	Morphology
+prh	Pirahã	5	8-9 categories per word	-7.000	-62.000	Mura	Mura	Morphology
+sla	Slave	5	8-9 categories per word	67.000	-125.000	Athapaskan	Na-Dene	Morphology
+otm	Otomí (Mezquital)	5	8-9 categories per word	20.167	-99.167	Otomian	Oto-Manguean	Morphology
+qim	Quechua (Imbabura)	5	8-9 categories per word	0.333	-78.000	Quechuan	Quechuan	Morphology
+mar	Maricopa	5	8-9 categories per word	33.167	-113.167	Yuman	Hokan	Morphology
+awp	Awa Pit	5	8-9 categories per word	1.500	-78.250	Barbacoan	Barbacoan	Morphology
+niv	Nivkh	5	8-9 categories per word	53.333	142.000	Nivkh	Nivkh	Morphology
+tru	Trumai	5	8-9 categories per word	-11.917	-53.583	Trumai	Trumai	Morphology
+hai	Haida	5	8-9 categories per word	53.000	-132.000	Haida	Haida	Morphology
+aym	Aymara	5	8-9 categories per word	-17.000	-69.000	Aymaran	Aymaran	Morphology
+squ	Squamish	5	8-9 categories per word	49.667	-123.167	Central Salish	Salishan	Morphology
+cku	Chinook (Upper)	6	10-11 categories per word	45.500	-122.500	Chinookan	Penutian	Morphology
+imo	Imonda	6	10-11 categories per word	-3.333	141.167	Border	Border	Morphology
+abk	Abkhaz	6	10-11 categories per word	43.083	41.000	Northwest Caucasian	Northwest Caucasian	Morphology
+ala	Alamblak	6	10-11 categories per word	-4.667	143.333	Sepik Hill	Sepik	Morphology
+lkt	Lakhota	6	10-11 categories per word	43.833	-101.833	Siouan	Siouan	Morphology
+yag	Yagua	6	10-11 categories per word	-3.500	-72.000	Peba-Yaguan	Peba-Yaguan	Morphology
+ing	Ingush	6	10-11 categories per word	43.167	45.083	Nakh	Nakh-Daghestanian	Morphology
+wic	Wichita	7	12-13 categories per word	33.333	-97.333	Caddoan	Caddoan	Morphology
+koa	Koasati	7	12-13 categories per word	34.833	-85.167	Muskogean	Muskogean	Morphology

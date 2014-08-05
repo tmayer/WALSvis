@@ -1,0 +1,429 @@
+Dryer, Matthew S.. 2011. NegSVO Order.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 144H.
+Available online at http://wals.info/feature/144H
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+luo	Luo	1	NoDoubleNeg	-0.500	34.750	Nilotic	Nilo-Saharan	Word Order
+mrq	Marquesan	1	NoDoubleNeg	-8.917	-140.083	Oceanic	Austronesian	Word Order
+pkn	Paakantyi	1	NoDoubleNeg	-32.500	142.500	Pama-Nyungan	Australian	Word Order
+ngw	Ngawun	1	NoDoubleNeg	-19.000	141.500	Pama-Nyungan	Australian	Word Order
+maj	Majang	1	NoDoubleNeg	6.750	35.000	Surmic	Nilo-Saharan	Word Order
+ten	Tennet	1	NoDoubleNeg	4.417	32.500	Surmic	Nilo-Saharan	Word Order
+bii	Biri	1	NoDoubleNeg	-20.500	146.500	Pama-Nyungan	Australian	Word Order
+coc	Cocama	1	NoDoubleNeg	-5.000	-74.500	Tupi-Guaraní	Tupian	Word Order
+mbt	Mangbetu	1	NoDoubleNeg	2.500	26.500	Mangbetu	Nilo-Saharan	Word Order
+tes	Teso	1	NoDoubleNeg	1.833	33.833	Nilotic	Nilo-Saharan	Word Order
+dre	Drehu	1	NoDoubleNeg	-21.000	167.250	Oceanic	Austronesian	Word Order
+pau	Paumarí	1	NoDoubleNeg	-6.000	-64.000	Arauan	Arauan	Word Order
+gud	Gude	1	NoDoubleNeg	10.417	13.417	Biu-Mandara	Afro-Asiatic	Word Order
+apu	Apurinã	1	NoDoubleNeg	-9.000	-67.000	Arawakan	Arawakan	Word Order
+nad	Nadëb	1	NoDoubleNeg	-1.000	-66.500	Nadahup	Nadahup	Word Order
+iqu	Iquito	1	NoDoubleNeg	-3.250	-74.000	Zaparoan	Zaparoan	Word Order
+mos	Mosetén	1	NoDoubleNeg	-14.750	-67.833	Mosetenan	Mosetenan	Word Order
+nti	Ngiti	1	NoDoubleNeg	1.333	30.250	Lendu	Nilo-Saharan	Word Order
+mao	Maori	1	NoDoubleNeg	-40.000	176.000	Oceanic	Austronesian	Word Order
+tmn	Temein	2	OptDoubleNeg	11.917	29.417	Temein	Nilo-Saharan	Word Order
+cop	Coptic	3	OnlyWithAnotherNeg	26.000	32.000	Egyptian-Coptic	Afro-Asiatic	Word Order
+non	Noni	3	OnlyWithAnotherNeg	6.417	10.583	Bantoid	Niger-Congo	Word Order
+yuk	Yukulta	3	OnlyWithAnotherNeg	-17.333	138.833	Tangkic	Australian	Word Order
+msk	Masakin	3	OnlyWithAnotherNeg	10.667	30.000	Talodi Proper	Niger-Congo	Word Order
+zpr	Zaparo	3	OnlyWithAnotherNeg	-2.000	-76.333	Zaparoan	Zaparoan	Word Order
+fye	Fyem	3	OnlyWithAnotherNeg	9.583	9.333	Platoid	Niger-Congo	Word Order
+kre	Kresh	3	OnlyWithAnotherNeg	8.500	24.500	Kresh	Nilo-Saharan	Word Order
+mup	Mupun	3	OnlyWithAnotherNeg	9.500	8.833	West Chadic	Afro-Asiatic	Word Order
+msm	Musom	4	No NegSVO	-6.583	147.000	Oceanic	Austronesian	Word Order
+nko	Nkore-Kiga	4	No NegSVO	-0.917	29.833	Bantoid	Niger-Congo	Word Order
+sti	Stieng	4	No NegSVO	11.833	106.750	Bahnaric	Austro-Asiatic	Word Order
+nor	Norwegian	4	No NegSVO	61.000	8.000	Germanic	Indo-European	Word Order
+yin	Yindjibarndi	4	No NegSVO	-21.750	117.917	Pama-Nyungan	Australian	Word Order
+ron	Ron	4	No NegSVO	9.000	8.750	West Chadic	Afro-Asiatic	Word Order
+err	Erromangan	4	No NegSVO	-18.833	169.167	Oceanic	Austronesian	Word Order
+brf	Berber (Rif)	4	No NegSVO	34.500	-4.000	Berber	Afro-Asiatic	Word Order
+ane	Anêm	4	No NegSVO	-5.583	149.083	Anêm	Anêm	Word Order
+ldu	Lendu	4	No NegSVO	2.000	30.500	Lendu	Nilo-Saharan	Word Order
+mad	Ma'di	4	No NegSVO	3.250	31.500	Moru-Ma'di	Nilo-Saharan	Word Order
+mba	Mba	4	No NegSVO	1.000	25.000	Ubangi	Niger-Congo	Word Order
+nkn	Nkonya	4	No NegSVO	7.167	0.250	Kwa	Niger-Congo	Word Order
+olo	Olo	4	No NegSVO	-3.417	142.000	Wapei-Palei	Torricelli	Word Order
+sap	Sapuan	4	No NegSVO	15.167	106.833	Bahnaric	Austro-Asiatic	Word Order
+tmm	Tamabo	4	No NegSVO	-15.667	167.167	Oceanic	Austronesian	Word Order
+kkv	Kaliai-Kove	4	No NegSVO	-5.583	149.667	Oceanic	Austronesian	Word Order
+heb	Hebrew (Modern)	4	No NegSVO	31.500	34.833	Semitic	Afro-Asiatic	Word Order
+kni	Konni	4	No NegSVO	10.250	-1.583	Gur	Niger-Congo	Word Order
+rny	Runyankore	4	No NegSVO	-0.500	30.500	Bantoid	Niger-Congo	Word Order
+gok	Gokana	4	No NegSVO	4.583	7.333	Cross River	Niger-Congo	Word Order
+yor	Yoruba	4	No NegSVO	8.000	4.333	Defoid	Niger-Congo	Word Order
+mdg	Mundang	4	No NegSVO	9.667	14.500	Adamawa	Niger-Congo	Word Order
+leg	Lega	4	No NegSVO	-2.833	27.167	Bantoid	Niger-Congo	Word Order
+anc	Angas	4	No NegSVO	9.500	9.500	West Chadic	Afro-Asiatic	Word Order
+uli	Ulithian	4	No NegSVO	9.917	139.583	Oceanic	Austronesian	Word Order
+srd	Sardinian	4	No NegSVO	40.000	9.000	Romance	Indo-European	Word Order
+myg	Mayogo	4	No NegSVO	3.000	29.000	Ubangi	Niger-Congo	Word Order
+agh	Aghem	4	No NegSVO	6.667	10.000	Bantoid	Niger-Congo	Word Order
+chr	Chrau	4	No NegSVO	10.750	107.500	Bahnaric	Austro-Asiatic	Word Order
+heh	Hehe	4	No NegSVO	-8.000	36.000	Bantoid	Niger-Congo	Word Order
+lan	Lango	4	No NegSVO	2.167	33.000	Nilotic	Nilo-Saharan	Word Order
+tab	Taba	4	No NegSVO	0.000	127.500	South Halmahera - West New Guinea	Austronesian	Word Order
+mus	Mussau	4	No NegSVO	-1.450	149.617	Oceanic	Austronesian	Word Order
+tid	Tidore	4	No NegSVO	0.750	127.500	North Halmaheran	West Papuan	Word Order
+ncm	Ncàm	4	No NegSVO	9.333	0.667	Gur	Niger-Congo	Word Order
+bra	Brao	4	No NegSVO	14.167	107.500	Bahnaric	Austro-Asiatic	Word Order
+ita	Italian	4	No NegSVO	43.000	12.000	Romance	Indo-European	Word Order
+mor	Mor	4	No NegSVO	-2.950	135.750	South Halmahera - West New Guinea	Austronesian	Word Order
+kwy	Iwoyo	4	No NegSVO	-5.500	12.250	Bantoid	Niger-Congo	Word Order
+tne	Temne	4	No NegSVO	8.667	-13.083	Southern Atlantic	Niger-Congo	Word Order
+luc	Lucazi	4	No NegSVO	-14.000	20.000	Bantoid	Niger-Congo	Word Order
+kau	Kaulong	4	No NegSVO	-6.167	149.667	Oceanic	Austronesian	Word Order
+kpw	Karen (Pwo)	4	No NegSVO	13.000	99.167	Karen	Sino-Tibetan	Word Order
+mrg	Margi	4	No NegSVO	11.000	13.000	Biu-Mandara	Afro-Asiatic	Word Order
+paa	Pa'a	4	No NegSVO	11.000	9.250	West Chadic	Afro-Asiatic	Word Order
+aeg	Arabic (Egyptian)	4	No NegSVO	30.000	31.000	Semitic	Afro-Asiatic	Word Order
+dga	Dagaare	4	No NegSVO	10.500	-2.667	Gur	Niger-Congo	Word Order
+bol	Bolia	4	No NegSVO	-1.250	18.333	Bantoid	Niger-Congo	Word Order
+mnd	Mandarin	4	No NegSVO	34.000	110.000	Chinese	Sino-Tibetan	Word Order
+eko	Ekoti	4	No NegSVO	-16.500	39.500	Bantoid	Niger-Congo	Word Order
+sgb	Sougb	4	No NegSVO	-1.500	134.000	East Bird's Head	East Bird's Head	Word Order
+dut	Dutch	4	No NegSVO	52.500	6.000	Germanic	Indo-European	Word Order
+tan	Tangale	4	No NegSVO	9.750	11.333	West Chadic	Afro-Asiatic	Word Order
+amq	Ambai	4	No NegSVO	-1.833	136.500	South Halmahera - West New Guinea	Austronesian	Word Order
+kbw	Karen (Bwe)	4	No NegSVO	19.500	97.000	Karen	Sino-Tibetan	Word Order
+swe	Swedish	4	No NegSVO	60.000	15.000	Germanic	Indo-European	Word Order
+anu	Anufo	4	No NegSVO	10.083	0.250	Kwa	Niger-Congo	Word Order
+bob	Bobangi	4	No NegSVO	-1.333	17.333	Bantoid	Niger-Congo	Word Order
+chw	Cham (Western)	4	No NegSVO	12.000	105.500	Malayic	Austronesian	Word Order
+bni	Bini	4	No NegSVO	6.417	5.833	Edoid	Niger-Congo	Word Order
+gbb	Gbeya Bossangoa	4	No NegSVO	6.667	17.500	Ubangi	Niger-Congo	Word Order
+hol	Holoholo	4	No NegSVO	-5.167	29.917	Bantoid	Niger-Congo	Word Order
+nup	Nupe	4	No NegSVO	9.167	5.417	Nupoid	Niger-Congo	Word Order
+bia	Bira	4	No NegSVO	1.000	28.750	Bantoid	Niger-Congo	Word Order
+ble	Baule	4	No NegSVO	7.000	-5.000	Kwa	Niger-Congo	Word Order
+cze	Czech	4	No NegSVO	50.000	15.000	Slavic	Indo-European	Word Order
+tki	Tuki	4	No NegSVO	4.583	11.500	Bantoid	Niger-Congo	Word Order
+leb	Lebeo	4	No NegSVO	1.750	25.000	Bantoid	Niger-Congo	Word Order
+bre	Breton	4	No NegSVO	48.000	-3.000	Celtic	Indo-European	Word Order
+uld	Uldeme	4	No NegSVO	10.950	14.117	Biu-Mandara	Afro-Asiatic	Word Order
+lmu	Lamen	4	No NegSVO	-16.583	168.167	Oceanic	Austronesian	Word Order
+tin	Tinrin	4	No NegSVO	-21.667	165.750	Oceanic	Austronesian	Word Order
+kch	Koyra Chiini	4	No NegSVO	17.000	-3.000	Songhay	Nilo-Saharan	Word Order
+plh	Paulohi	4	No NegSVO	-3.250	128.750	Central Malayo-Polynesian	Austronesian	Word Order
+cai	Chai	4	No NegSVO	5.333	35.333	Surmic	Nilo-Saharan	Word Order
+cnt	Cantonese	4	No NegSVO	23.000	113.000	Chinese	Sino-Tibetan	Word Order
+laa	Laal	4	No NegSVO	10.000	17.667	Laal	Laal	Word Order
+stn	Sotho (Northern)	4	No NegSVO	-24.000	29.000	Bantoid	Niger-Congo	Word Order
+bgo	Bongo	4	No NegSVO	7.500	28.500	Bongo-Bagirmi	Nilo-Saharan	Word Order
+hmo	Hmong Njua	4	No NegSVO	28.000	105.000	Hmong-Mien	Hmong-Mien	Word Order
+hun	Hungarian	4	No NegSVO	47.000	20.000	Ugric	Uralic	Word Order
+bkr	Batak (Karo)	4	No NegSVO	3.250	98.250	Sumatra	Austronesian	Word Order
+kik	Kikuyu	4	No NegSVO	-0.750	36.750	Bantoid	Niger-Congo	Word Order
+tob	Toba	4	No NegSVO	-26.500	-59.000	Guaicuruan	Guaicuruan	Word Order
+moo	Mooré	4	No NegSVO	12.833	-1.250	Gur	Niger-Congo	Word Order
+wrk	Warekena	4	No NegSVO	1.500	-67.500	Arawakan	Arawakan	Word Order
+kas	Kashmiri	4	No NegSVO	34.000	76.000	Indic	Indo-European	Word Order
+sul	Sulka	4	No NegSVO	-5.083	151.917	Sulka	Sulka	Word Order
+kzy	Komi-Zyrian	4	No NegSVO	65.000	55.000	Permic	Uralic	Word Order
+bik	Biak	4	No NegSVO	-1.000	136.000	South Halmahera - West New Guinea	Austronesian	Word Order
+tpr	Tupuri	4	No NegSVO	10.167	14.750	Adamawa	Niger-Congo	Word Order
+pal	Palauan	4	No NegSVO	7.500	134.583	Palauan	Austronesian	Word Order
+ven	Venda	4	No NegSVO	-22.000	30.000	Bantoid	Niger-Congo	Word Order
+kyl	Kayah Li (Eastern)	4	No NegSVO	19.000	97.500	Karen	Sino-Tibetan	Word Order
+sre	Sre	4	No NegSVO	11.500	108.000	Bahnaric	Austro-Asiatic	Word Order
+wol	Woleaian	4	No NegSVO	7.333	143.833	Oceanic	Austronesian	Word Order
+lmp	Lampung	4	No NegSVO	-5.000	105.000	Lampungic	Austronesian	Word Order
+nke	Nkem	4	No NegSVO	6.583	8.583	Bantoid	Niger-Congo	Word Order
+fin	Finnish	4	No NegSVO	62.000	25.000	Finnic	Uralic	Word Order
+tbw	Tabwa	4	No NegSVO	-8.000	29.500	Bantoid	Niger-Congo	Word Order
+est	Estonian	4	No NegSVO	59.000	26.000	Finnic	Uralic	Word Order
+mwe	Mwera	4	No NegSVO	-9.000	39.000	Bantoid	Niger-Congo	Word Order
+luv	Luvale	4	No NegSVO	-12.000	22.000	Bantoid	Niger-Congo	Word Order
+yao	Yao (in Malawi)	4	No NegSVO	-14.500	35.500	Bantoid	Niger-Congo	Word Order
+kil	Kiluba	4	No NegSVO	-8.000	26.000	Bantoid	Niger-Congo	Word Order
+aml	Ambae (Lolovoli Northeast)	4	No NegSVO	-15.417	167.883	Oceanic	Austronesian	Word Order
+arp	Arapesh (Mountain)	4	No NegSVO	-3.467	143.167	Kombio-Arapesh	Torricelli	Word Order
+mea	Meyah	4	No NegSVO	-1.167	133.500	East Bird's Head	East Bird's Head	Word Order
+bvi	Bali-Vitu	4	No NegSVO	-4.900	149.117	Oceanic	Austronesian	Word Order
+cic	Chichewa	4	No NegSVO	-14.000	34.000	Bantoid	Niger-Congo	Word Order
+tru	Trumai	4	No NegSVO	-11.917	-53.583	Trumai	Trumai	Word Order
+bku	Bakueri	4	No NegSVO	4.250	9.250	Bantoid	Niger-Congo	Word Order
+urt	Urat	4	No NegSVO	-3.667	142.833	Wapei-Palei	Torricelli	Word Order
+ker	Kera	4	No NegSVO	9.833	15.083	East Chadic	Afro-Asiatic	Word Order
+mas	Masa	4	No NegSVO	10.500	15.500	Masa	Afro-Asiatic	Word Order
+aln	Alune	4	No NegSVO	-3.000	128.333	Central Malayo-Polynesian	Austronesian	Word Order
+tgk	Tigak	4	No NegSVO	-2.717	150.800	Oceanic	Austronesian	Word Order
+iaa	Iaai	4	No NegSVO	-20.417	166.583	Oceanic	Austronesian	Word Order
+ige	Igede	4	No NegSVO	7.000	8.167	Idomoid	Niger-Congo	Word Order
+bar	Bari	4	No NegSVO	5.000	31.667	Nilotic	Nilo-Saharan	Word Order
+ttn	Tetun	4	No NegSVO	-9.000	126.000	Central Malayo-Polynesian	Austronesian	Word Order
+brn	Burunge	4	No NegSVO	-5.333	36.000	Southern Cushitic	Afro-Asiatic	Word Order
+zan	Zande	4	No NegSVO	4.000	26.000	Ubangi	Niger-Congo	Word Order
+fut	Futuna-Aniwa	4	No NegSVO	-19.533	170.217	Oceanic	Austronesian	Word Order
+yul	Yulu	4	No NegSVO	8.500	25.250	Bongo-Bagirmi	Nilo-Saharan	Word Order
+gla	Gelao	4	No NegSVO	22.917	105.500	Kadai	Tai-Kadai	Word Order
+kan	Kana	4	No NegSVO	4.750	7.417	Cross River	Niger-Congo	Word Order
+map	Mapudungun	4	No NegSVO	-38.000	-72.000	Araucanian	Araucanian	Word Order
+mlg	Malgwa	4	No NegSVO	11.500	13.750	Biu-Mandara	Afro-Asiatic	Word Order
+hna	Mina	4	No NegSVO	10.333	13.833	Biu-Mandara	Afro-Asiatic	Word Order
+lbu	Lunda	4	No NegSVO	-10.667	24.000	Bantoid	Niger-Congo	Word Order
+kby	Kabiyé	4	No NegSVO	9.667	1.167	Gur	Niger-Congo	Word Order
+eng	English	4	No NegSVO	52.000	0.000	Germanic	Indo-European	Word Order
+shl	Shilluk	4	No NegSVO	9.667	31.750	Nilotic	Nilo-Saharan	Word Order
+kwa	Kwaio	4	No NegSVO	-8.950	161.000	Oceanic	Austronesian	Word Order
+wma	West Makian	4	No NegSVO	0.500	127.583	North Halmaheran	West Papuan	Word Order
+plg	Palaung	4	No NegSVO	22.667	96.667	Palaung-Khmuic	Austro-Asiatic	Word Order
+mgu	Musgu	4	No NegSVO	10.833	14.917	Biu-Mandara	Afro-Asiatic	Word Order
+mau	Maung	4	No NegSVO	-11.917	133.500	Iwaidjan	Australian	Word Order
+arj	Arabic (Kuwaiti)	4	No NegSVO	29.500	47.500	Semitic	Afro-Asiatic	Word Order
+ice	Icelandic	4	No NegSVO	65.000	-17.000	Germanic	Indo-European	Word Order
+dgb	Dagbani	4	No NegSVO	9.583	-0.500	Gur	Niger-Congo	Word Order
+nne	Nengone	4	No NegSVO	-21.500	168.000	Oceanic	Austronesian	Word Order
+lnd	Linda	4	No NegSVO	6.500	20.750	Ubangi	Niger-Congo	Word Order
+gmz	Gumuz	4	No NegSVO	12.500	35.833	Gumuz	Nilo-Saharan	Word Order
+rot	Rotuman	4	No NegSVO	-12.500	177.067	Oceanic	Austronesian	Word Order
+mon	Mon	4	No NegSVO	14.833	100.500	Monic	Austro-Asiatic	Word Order
+buy	Buli (in Ghana)	4	No NegSVO	10.500	-1.250	Gur	Niger-Congo	Word Order
+kar	Kara (in Central African Republic)	4	No NegSVO	10.000	23.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+alk	Arop-Lokep	4	No NegSVO	-5.383	147.050	Oceanic	Austronesian	Word Order
+dio	Diola-Fogny	4	No NegSVO	13.000	-16.250	Northern Atlantic	Niger-Congo	Word Order
+fre	French	4	No NegSVO	48.000	2.000	Romance	Indo-European	Word Order
+egn	Engenni	4	No NegSVO	5.167	6.383	Edoid	Niger-Congo	Word Order
+ngu	Nguna	4	No NegSVO	-16.917	168.500	Oceanic	Austronesian	Word Order
+dma	Duma	4	No NegSVO	-0.950	13.000	Bantoid	Niger-Congo	Word Order
+au	Au	4	No NegSVO	-3.583	142.083	Wapei-Palei	Torricelli	Word Order
+mcv	Mocoví	4	No NegSVO	-28.000	-60.500	Guaicuruan	Guaicuruan	Word Order
+vie	Vietnamese	4	No NegSVO	10.500	106.500	Viet-Muong	Austro-Asiatic	Word Order
+fua	Fula (Cameroonian)	4	No NegSVO	9.167	13.500	Northern Atlantic	Niger-Congo	Word Order
+mbe	Mbere	4	No NegSVO	-0.500	14.000	Bantoid	Niger-Congo	Word Order
+hnd	Hunde	4	No NegSVO	-1.167	28.833	Bantoid	Niger-Congo	Word Order
+lgi	Langi	4	No NegSVO	-4.500	36.000	Bantoid	Niger-Congo	Word Order
+wrn	Warndarang	4	No NegSVO	-14.417	135.583	Maran	Australian	Word Order
+rsu	Romansch (Sursilvan)	4	No NegSVO	46.667	8.833	Romance	Indo-European	Word Order
+mxe	Ifira-Mele	4	No NegSVO	-17.750	168.250	Oceanic	Austronesian	Word Order
+sis	Sisiqa	4	No NegSVO	-7.000	156.833	Oceanic	Austronesian	Word Order
+nal	Nalik	4	No NegSVO	-2.950	151.333	Oceanic	Austronesian	Word Order
+arq	Arabic (Iraqi)	4	No NegSVO	33.000	44.000	Semitic	Afro-Asiatic	Word Order
+kga	Kinga	4	No NegSVO	-9.000	34.000	Bantoid	Niger-Congo	Word Order
+aro	Arosi	4	No NegSVO	-10.250	161.333	Oceanic	Austronesian	Word Order
+ctl	Catalan	4	No NegSVO	41.750	2.000	Romance	Indo-European	Word Order
+rru	Runyoro-Rutooro	4	No NegSVO	1.500	31.333	Bantoid	Niger-Congo	Word Order
+aja	Aja	4	No NegSVO	7.333	25.667	Kresh	Nilo-Saharan	Word Order
+bab	Babungo	4	No NegSVO	6.117	10.417	Bantoid	Niger-Congo	Word Order
+ega	Ega	4	No NegSVO	5.500	-5.500	Kwa	Niger-Congo	Word Order
+mok	Mokilese	4	No NegSVO	6.667	159.750	Oceanic	Austronesian	Word Order
+spa	Spanish	4	No NegSVO	40.000	-4.000	Romance	Indo-European	Word Order
+bbl	Babole	4	No NegSVO	1.083	17.250	Bantoid	Niger-Congo	Word Order
+cmy	Chontal Maya	4	No NegSVO	18.167	-92.583	Mayan	Mayan	Word Order
+arg	Arabic (Gulf)	4	No NegSVO	26.000	49.000	Semitic	Afro-Asiatic	Word Order
+lab	Labu	4	No NegSVO	-6.750	146.917	Oceanic	Austronesian	Word Order
+nua	Nuaulu	4	No NegSVO	-3.250	129.167	Central Malayo-Polynesian	Austronesian	Word Order
+aab	Arapesh (Abu)	4	No NegSVO	-3.450	142.950	Kombio-Arapesh	Torricelli	Word Order
+bas	Basaá	4	No NegSVO	3.917	10.500	Bantoid	Niger-Congo	Word Order
+pog	Pogoro	4	No NegSVO	-8.750	36.500	Bantoid	Niger-Congo	Word Order
+ind	Indonesian	4	No NegSVO	0.000	106.000	Malayic	Austronesian	Word Order
+wch	Wichí	4	No NegSVO	-22.500	-62.583	Matacoan	Matacoan	Word Order
+ldo	Londo	4	No NegSVO	5.000	9.167	Bantoid	Niger-Congo	Word Order
+gnb	Gunbalang	4	No NegSVO	-12.000	134.000	Gunwinygic	Australian	Word Order
+mmv	Mamvu	4	No NegSVO	3.250	29.000	Mangbutu-Efe	Nilo-Saharan	Word Order
+ter	Tera	4	No NegSVO	11.000	11.833	Biu-Mandara	Afro-Asiatic	Word Order
+shm	Shambala	4	No NegSVO	-4.250	38.250	Bantoid	Niger-Congo	Word Order
+kel	Kele	4	No NegSVO	-2.083	147.083	Oceanic	Austronesian	Word Order
+fni	Fula (Nigerian)	4	No NegSVO	8.167	10.500	Northern Atlantic	Niger-Congo	Word Order
+duk	Duka	4	No NegSVO	11.167	5.083	Kainji	Niger-Congo	Word Order
+llm	Lelemi	4	No NegSVO	7.333	0.500	Kwa	Niger-Congo	Word Order
+doy	Doyayo	4	No NegSVO	8.667	13.083	Adamawa	Niger-Congo	Word Order
+lit	Lithuanian	4	No NegSVO	55.000	24.000	Baltic	Indo-European	Word Order
+taf	Taiof	4	No NegSVO	-5.533	154.633	Oceanic	Austronesian	Word Order
+ndb	Ndebele (in South Africa)	4	No NegSVO	-25.333	29.000	Bantoid	Niger-Congo	Word Order
+mhu	Mbalanhu	4	No NegSVO	-17.500	15.000	Bantoid	Niger-Congo	Word Order
+gwa	Gwari	4	No NegSVO	9.500	7.000	Nupoid	Niger-Congo	Word Order
+zul	Zulu	4	No NegSVO	-30.000	30.000	Bantoid	Niger-Congo	Word Order
+ewe	Ewe	4	No NegSVO	6.333	0.417	Kwa	Niger-Congo	Word Order
+obg	Ogbronuagum	4	No NegSVO	4.750	6.867	Cross River	Niger-Congo	Word Order
+skm	Sukuma	4	No NegSVO	-2.833	32.000	Bantoid	Niger-Congo	Word Order
+lao	Lao	4	No NegSVO	18.000	103.000	Kam-Tai	Tai-Kadai	Word Order
+mmb	Mangap-Mbula	4	No NegSVO	-5.667	148.083	Oceanic	Austronesian	Word Order
+bir	Birom	4	No NegSVO	9.667	8.833	Platoid	Niger-Congo	Word Order
+lon	Loniu	4	No NegSVO	-2.067	147.333	Oceanic	Austronesian	Word Order
+one	One	4	No NegSVO	-3.250	141.917	West Wapei	Torricelli	Word Order
+len	Lenakel	4	No NegSVO	-19.450	169.250	Oceanic	Austronesian	Word Order
+bai	Bai	4	No NegSVO	26.000	100.000	Bai	Sino-Tibetan	Word Order
+adi	Adioukrou	4	No NegSVO	5.417	-4.583	Kwa	Niger-Congo	Word Order
+meh	Mehri	4	No NegSVO	17.000	51.500	Semitic	Afro-Asiatic	Word Order
+lug	Lugbara	4	No NegSVO	3.083	30.917	Moru-Ma'di	Nilo-Saharan	Word Order
+ngm	Ngambay	4	No NegSVO	8.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+pat	Patep	4	No NegSVO	-6.917	146.583	Oceanic	Austronesian	Word Order
+xbi	Kombio	4	No NegSVO	-3.500	142.750	Kombio-Arapesh	Torricelli	Word Order
+ara	Arawak	4	No NegSVO	5.500	-55.167	Arawakan	Arawakan	Word Order
+ssa	Sisaala	4	No NegSVO	10.833	-2.667	Gur	Niger-Congo	Word Order
+gul	Gula (in Central African Republic)	4	No NegSVO	9.500	22.500	Bongo-Bagirmi	Nilo-Saharan	Word Order
+alb	Albanian	4	No NegSVO	41.000	20.000	Albanian	Indo-European	Word Order
+wal	Walman	4	No NegSVO	-3.217	142.500	Wapei-Palei	Torricelli	Word Order
+zqs	Zoque (Soteapan)	4	No NegSVO	18.333	-95.167	Mixe-Zoque	Mixe-Zoque	Word Order
+sah	Sahu	4	No NegSVO	1.167	127.500	North Halmaheran	West Papuan	Word Order
+ewo	Ewondo	4	No NegSVO	4.000	12.000	Bantoid	Niger-Congo	Word Order
+poh	Pohnpeian	4	No NegSVO	6.883	158.250	Oceanic	Austronesian	Word Order
+ndy	Ndyuka	4	No NegSVO	4.500	-54.500	Creoles and Pidgins	other	Word Order
+jab	Jabêm	4	No NegSVO	-6.583	147.783	Oceanic	Austronesian	Word Order
+acg	Achagua	4	No NegSVO	4.417	-72.250	Arawakan	Arawakan	Word Order
+asy	Arabic (Syrian)	4	No NegSVO	34.000	38.000	Semitic	Afro-Asiatic	Word Order
+nza	Nzakara	4	No NegSVO	5.000	23.000	Ubangi	Niger-Congo	Word Order
+mro	Moro	4	No NegSVO	11.000	30.167	Heiban	Niger-Congo	Word Order
+lic	Hlai (Baoding)	4	No NegSVO	19.000	109.500	Hlai	Tai-Kadai	Word Order
+ma	Ma	4	No NegSVO	3.500	28.000	Ubangi	Niger-Congo	Word Order
+kwz	Kwazá	4	No NegSVO	-12.583	-60.667	Kwaza	Kwaza	Word Order
+sir	Siar	4	No NegSVO	-4.667	152.917	Oceanic	Austronesian	Word Order
+mcd	Macedonian	4	No NegSVO	41.667	21.750	Slavic	Indo-European	Word Order
+jar	Jarawa (in Nigeria)	4	No NegSVO	9.500	10.500	Bantoid	Niger-Congo	Word Order
+dgo	Dongo	4	No NegSVO	3.000	30.000	Ubangi	Niger-Congo	Word Order
+url	Urak Lawoi'	4	No NegSVO	8.000	98.333	Malayic	Austronesian	Word Order
+teo	Teop	4	No NegSVO	-5.667	155.000	Oceanic	Austronesian	Word Order
+gwo	Gworok	4	No NegSVO	9.917	8.167	Platoid	Niger-Congo	Word Order
+blz	Balanta	4	No NegSVO	12.250	-15.333	Northern Atlantic	Niger-Congo	Word Order
+toz	Tonga (in Zambia)	4	No NegSVO	-17.000	27.000	Bantoid	Niger-Congo	Word Order
+ngz	Ngizim	4	No NegSVO	12.083	10.917	West Chadic	Afro-Asiatic	Word Order
+hat	Hatam	4	No NegSVO	-1.000	134.000	Hatam	West Papuan	Word Order
+bud	Buduma	4	No NegSVO	13.500	14.500	Biu-Mandara	Afro-Asiatic	Word Order
+nun	Nung (in Vietnam)	4	No NegSVO	21.917	106.417	Kam-Tai	Tai-Kadai	Word Order
+por	Portuguese	4	No NegSVO	39.000	-8.000	Romance	Indo-European	Word Order
+mbr	Mbara	4	No NegSVO	11.000	15.417	Biu-Mandara	Afro-Asiatic	Word Order
+wlf	Wolof	4	No NegSVO	15.250	-16.000	Northern Atlantic	Niger-Congo	Word Order
+pul	Puluwat	4	No NegSVO	7.333	149.333	Oceanic	Austronesian	Word Order
+cga	Chaga	4	No NegSVO	-3.000	37.000	Bantoid	Niger-Congo	Word Order
+kom	Komo	4	No NegSVO	8.750	33.750	Koman	Nilo-Saharan	Word Order
+ger	German	4	No NegSVO	52.000	10.000	Germanic	Indo-European	Word Order
+nhm	Nahuatl (Michoacán)	4	No NegSVO	18.500	-103.000	Aztecan	Uto-Aztecan	Word Order
+bsh	Bushoong	4	No NegSVO	-4.500	21.500	Bantoid	Niger-Congo	Word Order
+tzu	Tzutujil	4	No NegSVO	14.667	-91.333	Mayan	Mayan	Word Order
+khm	Khmer	4	No NegSVO	12.500	105.000	Khmer	Austro-Asiatic	Word Order
+hya	Haya	4	No NegSVO	-2.000	31.500	Bantoid	Niger-Congo	Word Order
+mkd	Makonde	4	No NegSVO	-11.000	40.000	Bantoid	Niger-Congo	Word Order
+ndu	Ndumu	4	No NegSVO	-1.667	13.583	Bantoid	Niger-Congo	Word Order
+lou	Lou	4	No NegSVO	-2.383	147.317	Oceanic	Austronesian	Word Order
+lgt	Logoti	4	No NegSVO	3.500	30.000	Moru-Ma'di	Nilo-Saharan	Word Order
+mrt	Martuthunira	4	No NegSVO	-20.833	116.500	Pama-Nyungan	Australian	Word Order
+ngb	Ngbaka	4	No NegSVO	3.500	20.000	Ubangi	Niger-Congo	Word Order
+tiw	Tiwi	4	No NegSVO	-11.500	131.000	Tiwian	Australian	Word Order
+deg	Degema	4	No NegSVO	4.750	6.750	Edoid	Niger-Congo	Word Order
+ton	Tonkawa	4	No NegSVO	30.250	-96.750	Tonkawa	Tonkawa	Word Order
+ksg	Karen (Sgaw)	4	No NegSVO	18.000	97.000	Karen	Sino-Tibetan	Word Order
+mby	Mbay	4	No NegSVO	8.250	17.500	Bongo-Bagirmi	Nilo-Saharan	Word Order
+erk	Efate (South)	4	No NegSVO	-17.750	168.417	Oceanic	Austronesian	Word Order
+htc	Huastec	4	No NegSVO	22.083	-99.333	Mayan	Mayan	Word Order
+dua	Duala	4	No NegSVO	4.000	9.417	Bantoid	Niger-Congo	Word Order
+nak	Nakanai	4	No NegSVO	-5.583	150.583	Oceanic	Austronesian	Word Order
+tiv	Tiv	4	No NegSVO	7.500	9.000	Bantoid	Niger-Congo	Word Order
+san	Sango	4	No NegSVO	5.000	18.000	Ubangi	Niger-Congo	Word Order
+kba	Kamba	4	No NegSVO	-1.500	38.000	Bantoid	Niger-Congo	Word Order
+swa	Swahili	4	No NegSVO	-6.500	39.000	Bantoid	Niger-Congo	Word Order
+kis	Kisi	4	No NegSVO	8.833	-10.167	Southern Atlantic	Niger-Congo	Word Order
+rim	Rimi	4	No NegSVO	-5.000	34.667	Bantoid	Niger-Congo	Word Order
+ebi	Ebira	4	No NegSVO	8.167	7.000	Nupoid	Niger-Congo	Word Order
+png	Pangwa	4	No NegSVO	-10.000	34.750	Bantoid	Niger-Congo	Word Order
+mdo	Mbodomo	4	No NegSVO	4.500	15.500	Ubangi	Niger-Congo	Word Order
+lat	Latvian	4	No NegSVO	57.000	24.000	Baltic	Indo-European	Word Order
+obo	Obolo	4	No NegSVO	4.583	7.833	Cross River	Niger-Congo	Word Order
+irr	Irarutu	4	No NegSVO	-3.000	133.500	South Halmahera - West New Guinea	Austronesian	Word Order
+grk	Greek (Modern)	4	No NegSVO	39.000	22.000	Greek	Indo-European	Word Order
+izi	Izi	4	No NegSVO	6.333	8.000	Igboid	Niger-Congo	Word Order
+mpu	Mpur	4	No NegSVO	-0.750	133.250	Kebar	West Papuan	Word Order
+juk	Jukun	4	No NegSVO	6.917	10.417	Platoid	Niger-Congo	Word Order
+bch	Berber (Chaouia)	4	No NegSVO	35.000	7.000	Berber	Afro-Asiatic	Word Order
+mda	Mada (in Cameroon)	4	No NegSVO	10.833	14.167	Biu-Mandara	Afro-Asiatic	Word Order
+mlu	Maleu	4	No NegSVO	-5.717	148.417	Oceanic	Austronesian	Word Order
+tha	Thai	4	No NegSVO	16.000	101.000	Kam-Tai	Tai-Kadai	Word Order
+sgl	Sengele	4	No NegSVO	-1.833	17.333	Bantoid	Niger-Congo	Word Order
+let	Leti	4	No NegSVO	-8.200	127.667	Central Malayo-Polynesian	Austronesian	Word Order
+noo	Noon	4	No NegSVO	14.833	-16.833	Northern Atlantic	Niger-Congo	Word Order
+igs	Ingessana	4	No NegSVO	11.500	34.000	Eastern Jebel	Nilo-Saharan	Word Order
+mut	Mutsun	4	No NegSVO	36.833	-121.500	Costanoan	Penutian	Word Order
+mbm	Mbum	4	No NegSVO	7.750	13.167	Adamawa	Niger-Congo	Word Order
+hau	Hausa	4	No NegSVO	12.000	7.000	West Chadic	Afro-Asiatic	Word Order
+xar	Xârâcùù	4	No NegSVO	-21.667	166.000	Oceanic	Austronesian	Word Order
+pms	Paamese	4	No NegSVO	-16.500	168.250	Oceanic	Austronesian	Word Order
+vnm	Vinmavis	4	No NegSVO	-16.167	167.417	Oceanic	Austronesian	Word Order
+mkz	Makaa	4	No NegSVO	3.417	12.250	Bantoid	Niger-Congo	Word Order
+ksn	Kasong	4	No NegSVO	12.750	102.117	Pearic	Austro-Asiatic	Word Order
+abu	Abun	4	No NegSVO	-0.500	132.500	North-Central Bird's Head	West Papuan	Word Order
+jmo	Jur Mödö	4	No NegSVO	6.000	30.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+huc	=|Hoan	4	No NegSVO	-25.500	25.000	=|Hoan	Khoisan	Word Order
+may	Maybrat	4	No NegSVO	-1.333	132.500	North-Central Bird's Head	West Papuan	Word Order
+goe	Goemai	4	No NegSVO	8.667	9.750	West Chadic	Afro-Asiatic	Word Order
+tet	Tetela	4	No NegSVO	-4.000	24.000	Bantoid	Niger-Congo	Word Order
+kdw	Kadiwéu	4	No NegSVO	-20.000	-57.000	Guaicuruan	Guaicuruan	Word Order
+sak	Sakao	4	No NegSVO	-15.167	167.083	Oceanic	Austronesian	Word Order
+pol	Polish	4	No NegSVO	52.000	20.000	Slavic	Indo-European	Word Order
+tmr	Temiar	4	No NegSVO	5.000	101.500	Aslian	Austro-Asiatic	Word Order
+adz	Adzera	4	No NegSVO	-6.250	146.250	Oceanic	Austronesian	Word Order
+mum	Mumuye	4	No NegSVO	9.000	11.667	Adamawa	Niger-Congo	Word Order
+ndt	Ndut	4	No NegSVO	14.917	-16.917	Northern Atlantic	Niger-Congo	Word Order
+bgr	Bagiro	4	No NegSVO	4.333	20.583	Bongo-Bagirmi	Nilo-Saharan	Word Order
+ber	Berta	4	No NegSVO	10.333	34.667	Berta	Nilo-Saharan	Word Order
+bae	Baré	4	No NegSVO	1.000	-67.000	Arawakan	Arawakan	Word Order
+yng	Yingkarta	4	No NegSVO	-25.167	114.833	Pama-Nyungan	Australian	Word Order
+dsh	Danish	4	No NegSVO	56.000	10.000	Germanic	Indo-European	Word Order
+gbk	Gbaya Kara	4	No NegSVO	6.000	15.000	Ubangi	Niger-Congo	Word Order
+tee	Tepehua (Huehuetla)	4	No NegSVO	20.500	-98.000	Totonacan	Totonacan	Word Order
+sio	Sio	4	No NegSVO	-5.950	147.333	Oceanic	Austronesian	Word Order
+tal	Talinga	4	No NegSVO	0.417	29.667	Bantoid	Niger-Congo	Word Order
+bul	Bulgarian	4	No NegSVO	42.500	25.000	Slavic	Indo-European	Word Order
+ocu	Ocuilteco	4	No NegSVO	18.917	-99.667	Otomian	Oto-Manguean	Word Order
+lin	Lingala	4	No NegSVO	2.000	18.500	Bantoid	Niger-Congo	Word Order
+mna	Muna	4	No NegSVO	-5.000	122.500	Sulawesi	Austronesian	Word Order
+gua	Guaraní	4	No NegSVO	-26.000	-56.000	Tupi-Guaraní	Tupian	Word Order
+sht	Shatt	4	No NegSVO	10.833	30.000	Daju	Nilo-Saharan	Word Order
+kos	Kosraean	4	No NegSVO	5.300	163.000	Oceanic	Austronesian	Word Order
+rom	Romanian	4	No NegSVO	46.000	25.000	Romance	Indo-European	Word Order
+pga	Pilagá	4	No NegSVO	-25.000	-60.000	Guaicuruan	Guaicuruan	Word Order
+lew	Lewo	4	No NegSVO	-16.750	168.333	Oceanic	Austronesian	Word Order
+bag	Bagirmi	4	No NegSVO	11.667	16.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+pre	Pare	4	No NegSVO	-4.000	36.500	Bantoid	Niger-Congo	Word Order
+kir	Kirma	4	No NegSVO	10.250	-4.833	Gur	Niger-Congo	Word Order
+ngo	Ngoni	4	No NegSVO	-11.000	36.000	Bantoid	Niger-Congo	Word Order
+nto	Ntomba	4	No NegSVO	-2.000	18.333	Bantoid	Niger-Congo	Word Order
+mae	Mae	4	No NegSVO	-16.000	167.250	Oceanic	Austronesian	Word Order
+sob	Sobei	4	No NegSVO	-1.917	138.750	Oceanic	Austronesian	Word Order
+lag	Lagwan	4	No NegSVO	11.500	14.833	Biu-Mandara	Afro-Asiatic	Word Order
+bka	Baka (in Sudan)	4	No NegSVO	4.833	29.250	Bongo-Bagirmi	Nilo-Saharan	Word Order
+ken	Kenga	4	No NegSVO	12.000	18.000	Bongo-Bagirmi	Nilo-Saharan	Word Order
+wrm	Warembori	4	No NegSVO	-1.667	137.583	South Halmahera - West New Guinea	Austronesian	Word Order
+xho	Xhosa	4	No NegSVO	-32.000	27.000	Bantoid	Niger-Congo	Word Order
+twn	Tiwa (Northern)	4	No NegSVO	36.500	-105.500	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+ukr	Ukrainian	4	No NegSVO	49.000	33.000	Slavic	Indo-European	Word Order
+akn	Akan	4	No NegSVO	6.500	-1.250	Kwa	Niger-Congo	Word Order
+miy	Miya	4	No NegSVO	10.917	9.667	West Chadic	Afro-Asiatic	Word Order
+sun	Sundanese	4	No NegSVO	-7.000	107.000	Sundanese	Austronesian	Word Order
+fon	Fongbe	4	No NegSVO	6.417	2.167	Kwa	Niger-Congo	Word Order
+gku	Gününa Küne	4	No NegSVO	-41.000	-67.000	Puelche	Chon	Word Order
+ga	Gã	4	No NegSVO	5.667	-0.167	Kwa	Niger-Congo	Word Order
+juh	Ju|'hoan	4	No NegSVO	-19.000	21.000	Northern Khoisan	Khoisan	Word Order
+per	Pero	4	No NegSVO	9.583	11.000	West Chadic	Afro-Asiatic	Word Order
+mua	Makua	4	No NegSVO	-15.000	38.667	Bantoid	Niger-Congo	Word Order
+kon	Kongo	4	No NegSVO	-5.000	15.000	Bantoid	Niger-Congo	Word Order
+rus	Russian	4	No NegSVO	56.000	38.000	Slavic	Indo-European	Word Order
+bmb	Bimoba	4	No NegSVO	10.500	0.000	Gur	Niger-Congo	Word Order
+bnn	Banoni	4	No NegSVO	-6.417	155.250	Oceanic	Austronesian	Word Order
+knk	Kanakuru	4	No NegSVO	10.000	12.000	West Chadic	Afro-Asiatic	Word Order
+lmh	Lamaholot	4	No NegSVO	-8.250	122.917	Central Malayo-Polynesian	Austronesian	Word Order
+arm	Armenian (Eastern)	4	No NegSVO	40.000	45.000	Armenian	Indo-European	Word Order
+psw	Port Sandwich	4	No NegSVO	-16.500	167.750	Oceanic	Austronesian	Word Order
+khs	Khasi	4	No NegSVO	25.500	92.000	Khasian	Austro-Asiatic	Word Order
+shn	Shona	4	No NegSVO	-18.000	31.000	Bantoid	Niger-Congo	Word Order
+lel	Lele	4	No NegSVO	9.083	15.583	East Chadic	Afro-Asiatic	Word Order
+ila	Ila	4	No NegSVO	-15.583	26.500	Bantoid	Niger-Congo	Word Order
+bak	Baka (in Cameroon)	4	No NegSVO	2.583	13.583	Ubangi	Niger-Congo	Word Order
+nse	Nsenga	4	No NegSVO	-14.500	30.833	Bantoid	Niger-Congo	Word Order
+hal	Halia	4	No NegSVO	-5.250	154.667	Oceanic	Austronesian	Word Order
+sed	Sedang	4	No NegSVO	14.833	108.000	Bahnaric	Austro-Asiatic	Word Order
+ktl	Katla	4	No NegSVO	11.833	29.333	Katla-Tima	Niger-Congo	Word Order
+kin	Kinyarwanda	4	No NegSVO	-2.000	30.000	Bantoid	Niger-Congo	Word Order
+mtb	Matuumbi	4	No NegSVO	-8.500	39.000	Bantoid	Niger-Congo	Word Order
+mgk	Mungaka	4	No NegSVO	5.917	10.000	Bantoid	Niger-Congo	Word Order
+sgu	Sangu	4	No NegSVO	-1.500	11.833	Bantoid	Niger-Congo	Word Order
+hak	Hakka	4	No NegSVO	25.000	116.000	Chinese	Sino-Tibetan	Word Order
+mwo	Mwotlap	4	No NegSVO	-13.583	167.583	Oceanic	Austronesian	Word Order
+bum	Buma	4	No NegSVO	-11.633	166.833	Oceanic	Austronesian	Word Order
+neh	Nehan	4	No NegSVO	-4.500	154.200	Oceanic	Austronesian	Word Order
+slo	Slovene	4	No NegSVO	46.000	15.000	Slavic	Indo-European	Word Order
+kfe	Koromfe	4	No NegSVO	14.250	-0.917	Gur	Niger-Congo	Word Order
+mou	Moru	4	No NegSVO	4.750	29.750	Moru-Ma'di	Nilo-Saharan	Word Order

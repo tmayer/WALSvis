@@ -1,0 +1,56 @@
+Dryer, Matthew S.. 2011. Multiple Negative Constructions in SVO Languages.
+In: Dryer, Matthew S. & Haspelmath, Martin (eds.)
+The World Atlas of Language Structures Online.
+Munich: Max Planck Digital Library, feature 144E.
+Available online at http://wals.info/feature/144E
+Accessed on 2013-11-05.
+
+wals code	name	value	description	latitude	longitude	genus	family	area
+swe	Swedish	1	SNegVO/SVNegO	60.000	15.000	Germanic	Indo-European	Word Order
+agh	Aghem	1	SNegVO/SVNegO	6.667	10.000	Bantoid	Niger-Congo	Word Order
+dsh	Danish	1	SNegVO/SVNegO	56.000	10.000	Germanic	Indo-European	Word Order
+nor	Norwegian	1	SNegVO/SVNegO	61.000	8.000	Germanic	Indo-European	Word Order
+ice	Icelandic	1	SNegVO/SVNegO	65.000	-17.000	Germanic	Indo-European	Word Order
+apu	Apurinã	2	NegSVO/SNegVO	-9.000	-67.000	Arawakan	Arawakan	Word Order
+luo	Luo	2	NegSVO/SNegVO	-0.500	34.750	Nilotic	Nilo-Saharan	Word Order
+mos	Mosetén	2	NegSVO/SNegVO	-14.750	-67.833	Mosetenan	Mosetenan	Word Order
+mbt	Mangbetu	3	NegSVO/SVNegO	2.500	26.500	Mangbetu	Nilo-Saharan	Word Order
+au	Au	4	SNegVO/SVONeg	-3.583	142.083	Wapei-Palei	Torricelli	Word Order
+mtb	Matuumbi	5	SVNegO/SVONeg	-8.500	39.000	Bantoid	Niger-Congo	Word Order
+sah	Sahu	5	SVNegO/SVONeg	1.167	127.500	North Halmaheran	West Papuan	Word Order
+bii	Biri	6	SVO & Flexible Neg	-20.500	146.500	Pama-Nyungan	Australian	Word Order
+wlf	Wolof	7	SNegVO/S[V-Neg]O	15.250	-16.000	Northern Atlantic	Niger-Congo	Word Order
+wch	Wichí	7	SNegVO/S[V-Neg]O	-22.500	-62.583	Matacoan	Matacoan	Word Order
+ngo	Ngoni	8	S[Neg-V]O/SVNegO	-11.000	36.000	Bantoid	Niger-Congo	Word Order
+nse	Nsenga	8	S[Neg-V]O/SVNegO	-14.500	30.833	Bantoid	Niger-Congo	Word Order
+pau	Paumarí	9	NegSVO/SNegVO/S[V-Neg]O	-6.000	-64.000	Arauan	Arauan	Word Order
+grk	Greek (Modern)	10	SNegVO/NegVSO	39.000	22.000	Greek	Indo-European	Word Order
+tee	Tepehua (Huehuetla)	10	SNegVO/NegVSO	20.500	-98.000	Totonacan	Totonacan	Word Order
+asy	Arabic (Syrian)	10	SNegVO/NegVSO	34.000	38.000	Semitic	Afro-Asiatic	Word Order
+bch	Berber (Chaouia)	10	SNegVO/NegVSO	35.000	7.000	Berber	Afro-Asiatic	Word Order
+bkr	Batak (Karo)	10	SNegVO/NegVSO	3.250	98.250	Sumatra	Austronesian	Word Order
+meh	Mehri	11	SVONeg/VSONeg	17.000	51.500	Semitic	Afro-Asiatic	Word Order
+dre	Drehu	12	NegSVO/NegVOS	-21.000	167.250	Oceanic	Austronesian	Word Order
+tin	Tinrin	13	SNegVO/NegVOS	-21.667	165.750	Oceanic	Austronesian	Word Order
+tzu	Tzutujil	13	SNegVO/NegVOS	14.667	-91.333	Mayan	Mayan	Word Order
+tob	Toba	14	S[Neg-V]O/[Neg-V]OS	-26.500	-59.000	Guaicuruan	Guaicuruan	Word Order
+gku	Gününa Küne	14	S[Neg-V]O/[Neg-V]OS	-41.000	-67.000	Puelche	Chon	Word Order
+ger	German	15	SVONeg/SONegV	52.000	10.000	Germanic	Indo-European	Word Order
+dut	Dutch	15	SVONeg/SONegV	52.500	6.000	Germanic	Indo-European	Word Order
+tru	Trumai	16	SVNegO/SOVNeg	-11.917	-53.583	Trumai	Trumai	Word Order
+ldu	Lendu	17	SVONeg/SNegOV/SOVNeg	2.000	30.500	Lendu	Nilo-Saharan	Word Order
+nti	Ngiti	18	NegSVO/SVNegO/NegSOV/SNegOV	1.333	30.250	Lendu	Nilo-Saharan	Word Order
+cai	Chai	19	SNegVO/SONegV/SVONeg/SOVNeg	5.333	35.333	Surmic	Nilo-Saharan	Word Order
+twn	Tiwa (Northern)	20	S[Neg-V]O/SO[Neg-V]	36.500	-105.500	Kiowa-Tanoan	Kiowa-Tanoan	Word Order
+ton	Tonkawa	21	S[V-Neg]O/SO[V-Neg]	30.250	-96.750	Tonkawa	Tonkawa	Word Order
+kwz	Kwazá	21	S[V-Neg]O/SO[V-Neg]	-12.583	-60.667	Kwaza	Kwaza	Word Order
+arm	Armenian (Eastern)	22	SNegVO/SONegV/S[Neg-V]O/SO[Neg-V]	40.000	45.000	Armenian	Indo-European	Word Order
+nad	Nadëb	23	NegSVO/O[Neg-V]S	-1.000	-66.500	Nadahup	Nadahup	Word Order
+acl	Acholi	24	SVO & NegV/VNeg	3.000	32.667	Nilotic	Nilo-Saharan	Word Order
+mga	Mondunga	25	SVO & NegV/[V-Neg]	2.250	21.500	Ubangi	Niger-Congo	Word Order
+koe	Koegu	25	SVO & NegV/[V-Neg]	7.000	36.083	Surmic	Nilo-Saharan	Word Order
+btk	Bontok	26	SVO/VSO & NegV	17.083	120.917	Northern Philippines	Austronesian	Word Order
+bwc	Bajau (West Coast)	26	SVO/VSO & NegV	6.333	116.333	Sama-Bajaw	Austronesian	Word Order
+klv	Kilivila	27	SVO/VOS & NegV	-8.500	151.083	Oceanic	Austronesian	Word Order
+lac	Lacandón	27	SVO/VOS & NegV	17.000	-91.500	Mayan	Mayan	Word Order
+ajg	Ajagbe	28	SVO/SOV & NegV/VNeg	7.000	1.750	Kwa	Niger-Congo	Word Order
