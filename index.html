@@ -35,9 +35,9 @@
                     </h1>
 
                     <ol class="breadcrumb">
-                        <li><i class="fa fa-male"></i> by <a href="http://th-mayer.de">Thomas Mayer</a>
+                        <li><i class="fa fa-male"></i> by <a href="http://th-mayer.de" class="text-blue">Thomas Mayer</a>
                             <br>
-                            <i class="fa fa-github"></i> Code on <a href="https://github.com/tmayer/WALSvis">Github</a>
+                            <i class="fa fa-github"></i> Code on <a href="https://github.com/tmayer/WALSvis" class="text-blue">Github</a>
                         </li>
 
                     </ol>
@@ -79,7 +79,8 @@
 
                                     <i class="fa fa-tags"></i>
                                     <h3 class="box-title">
-                                        Legend
+                                        Legend for feature <span id="legendname"></span> <small>(<a id="legendlink" class="text-blue" href="">
+                                        <i class="fa fa-external-link"></i> see on WALS website</a>)</small>
                                     </h3>
                                 </div>
                                 <div class="box-body" style="height: 170px; overflow-y: scroll;">
@@ -112,6 +113,7 @@
                                     <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
                                     <button id="bigger" class="btn btn-primary btn-xs"><i class="fa fa-plus"></i></button>
                                     <button id="smaller" class="btn btn-primary btn-xs"><i class="fa fa-minus"></i></button>
+                                    <br>
                                     <button id="west" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-left"></i></button>
                                     <button id="north" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-up"></i></button>
                                     <button id="south" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-down"></i></button>

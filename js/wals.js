@@ -34,6 +34,7 @@ var svg = d3.select("#map").append("svg")
 var g = svg.append("g");
 var mapPoly = g.append('g').attr('class','mapPoly')
 var edgeArcs = g.append('g').attr('class','edgeArcs'); 
+var overall = g.append('g').attr('class','overAll');
 
 // define scales and projections 
 var path = d3.geo.path()
@@ -82,6 +83,33 @@ var brush = d3.svg.brush()
 	.on("brush", brushed)
 	;
 	
+function brushed2(){
+		if(brush.empty()){
+			selLanguages = allLanguages;
+		}
+		else{
+			
+			var e = brush.extent();
+			
+			  selLanguages = [];
+			  d3.selectAll(".location").classed('brushhidden',function(d){
+					//console.log(d);
+					//return false;
+					if( e[0][0] > projection([d.longitude,d.latitude])[0] 
+								|| projection([d.longitude,d.latitude])[0] > e[1][0]
+						|| e[0][1] > projection([d.longitude,d.latitude])[1] 
+								|| projection([d.longitude,d.latitude])[1] > e[1][1]){
+						
+						return true;
+					}
+					else{
+						selLanguages.push(d);
+						return false;
+					}
+			  });			  
+		}
+}
+
 function brushed(p) {
   //console.log(brush.extent());
   
@@ -165,12 +193,14 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 function loaddata(feature){
 // load data 
 	//console.log(url);
+
+	d3.select("#legendname").text(feature);
+	d3.select("#legendlink").attr('href',"http://wals.info/feature/" + feature);
 	
 	var nodeCircles = g.append('g').attr('class','nodeCircles');
 	langByValue = {};
 	codeByLang = {};
 	walsByInfo = {};
-	brush.clear();
 	
 	d3.selection.prototype.moveToFront = function() {
 	  return this.each(function(){
@@ -183,7 +213,8 @@ function loaddata(feature){
 		var dirtyCSV = response.responseText;
 		var cleanCSV = dirtyCSV.split('\n').slice(7).join('\n');
 		var parsedCSV = d3.tsv.parse(cleanCSV);
-		selLanguages = parsedCSV;
+		
+
 		allLanguages = parsedCSV;
 		
 		var allValues = parsedCSV.map(function(d) { return d.value; });
@@ -278,8 +309,37 @@ function loaddata(feature){
 			})
 			*/
 			;
+
+		// get selection from brush
+		/*
+		if(brush.empty()){
+			selLanguages = parsedCSV;
+		}
+		else{
 			
-		mapPoly.append("g").attr("class","brush").call(brush);
+			var e = brush.extent();
+			
+			  selLanguages = [];
+			  d3.selectAll(".location").classed('brushhidden',function(d){
+					//console.log(d);
+					//return false;
+					if( e[0][0] > projection([d.longitude,d.latitude])[0] 
+								|| projection([d.longitude,d.latitude])[0] > e[1][0]
+						|| e[0][1] > projection([d.longitude,d.latitude])[1] 
+								|| projection([d.longitude,d.latitude])[1] > e[1][1]){
+						
+						return true;
+					}
+					else{
+						selLanguages.push(d);
+						return false;
+					}
+			  });			  
+		}
+			
+		*/
+		brushed2();
+		
 			
 		//############### legend ###############
 		legend = d3.select("#legend").append("svg") 
@@ -328,9 +388,11 @@ function loaddata(feature){
 				d3.selectAll('.location')
 					.classed('hidden',false);
 
-					selLanguages = allLanguages;
+					//selLanguages = allLanguages;
 					d3.select('#sunburst svg').remove();
+					brushed2();
 					sunburst(selLanguages);
+
 			})
 			;
 			
@@ -366,20 +428,22 @@ function loaddata(feature){
 				d3.selectAll('.location')
 					.classed('hidden',false);
 
-				selLanguages = allLanguages;
 				d3.select('#sunburst svg').remove();
+				brushed2();
 				sunburst(selLanguages);
 			})
 			;
 			
 		
-		sunburst(parsedCSV);
+		sunburst(selLanguages);
 
 	});
 	
 
 
 };
+
+overall.append("g").attr("class","brush").call(brush);
 
 function sunburst(languagedata){
 		
@@ -655,38 +719,38 @@ function moveMap(ew,ns){
 
  d3.select("#bigger").on('click',function(){
  	scaleFactor <= 4.9 ? scaleFactor += 0.8 : scaleFactor = 5;
-	            rescaleMap();
+	            redrawMap();
 	             
  })
  ;
 
   d3.select("#smaller").on('click',function(){
  	scaleFactor >= 1.1 ? scaleFactor -= 0.8 : scaleFactor = 1;
-	            rescaleMap();
+	            redrawMap();
 	             
  })
  ;
 
   d3.select("#west").on('click',function(){
-  		ew += 100/scaleFactor;
+  		ew -= 100/scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#east").on('click',function(){
- 		ew -= 100/scaleFactor;
+ 		ew += 100/scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#north").on('click',function(){
- 		ns += 100/scaleFactor;
+ 		ns -= 100/scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#south").on('click',function(){
- 		ns -= 100/scaleFactor;
+ 		ns += 100/scaleFactor;
  		redrawMap();         
  })
  ;
