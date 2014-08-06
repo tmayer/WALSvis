@@ -1,7 +1,7 @@
 
 //############### global variables ###############
 var width = 580, height = 370; 
-var radSmall = 3;
+var radSmall = 2.5;
 var radFocus = 6;
 var scaleFactor = 1;
 var ew = 0, ns = 0;
@@ -14,6 +14,7 @@ var selLanguages = [];
 var allLanguages = [];
 var zoompan = false;
 var radius;
+var fam;
 
 //############### projection settings ###############
 var projection = d3.geo.mercator() 
@@ -145,30 +146,6 @@ function brushed(p) {
 }
 
 
-      d3.select('#resetmap').on('click',function(a){
-         g.attr('transform','translate(0,0)');
-         scaleFactor = 1;
-         ew = 0, ns = 0;
-         g.selectAll("circle")
-                         .attr("d", path.projection(projection))
-                         .attr("r",function(d){
-                             return radSmall/scaleFactor;
-                         })
-                         .style('stroke-width',function(d){
-                             return 0.2/scaleFactor;
-                         })
-                     ;
-         g.selectAll("path")  
-             .attr("d", path.projection(projection))
-             .style('stroke-width',function(d){
-                 return 1/scaleFactor;
-             }); 
-             
-             zoom.scale(1);
-             zoom.translate([0,0]);
-         
-          
-      });
 
 
 
@@ -233,7 +210,7 @@ function loaddata(feature){
 					+ d['family'] 
 					+ ", " + d['genus'] + "";
 				return 'location loc_' + d['wals code'] + 
-					" loc_gen_" + d['genus'].replace(/\s/g,'_') + " loc_fam_" + d['family'].replace(/\s/g,'_');
+					" loc_gen_" + d['genus'].replace(/[-\s]/g,'_') + " loc_fam_" + d['family'].replace(/[-\s]/g,'_');
 			})
 			.attr('cx',function(d){
 				return projection([d.longitude, d.latitude])[0];	
@@ -265,12 +242,12 @@ function loaddata(feature){
 				// sunburst interaction
 				dname = d['wals code'];
 				if(dname in langByFam){
-					d3.selectAll('.sun_fam_' + langByFam[dname].replace(/\s/g,'_'))
+					d3.selectAll('.sun_fam_' + langByFam[dname].replace(/[-\s]/g,'_'))
 							.style('fill','#444')
 						;
 				}
 				if(dname in langByGen){
-					d3.selectAll('.sun_gen_' + langByGen[dname].replace(/\s/g,'_'))
+					d3.selectAll('.sun_gen_' + langByGen[dname].replace(/[-\s]/g,'_'))
 							.style('fill','#444')
 						;
 				}
@@ -426,8 +403,9 @@ function sunburst(languagedata){
 		families = {};
 		langByFam = {};
 		langByGen = {};
+		genByFam = {};
 		upperByLower = {};
-		var fam = {};
+		fam = {};
 		languagedata.forEach(function(d){
 			//console.log(d);
 			//langByGenFamily[d['wals code']] = [d.family,d.genus];
@@ -436,12 +414,14 @@ function sunburst(languagedata){
 
 			langByGen[d['wals code']] = d.genus;
 			langByFam[d['wals code']] = d.family;
+			genByFam[d.genus] = d.family;
 			if(families[d.family]){
 				if(families[d.family][d.genus]){
 					families[d.family][d.genus].push(d['wals code']);
 				}
 				// add genus to family
 				else{
+					
 					families[d.family][d.genus] = [];
 					families[d.family][d.genus].push(d['wals code']);
 				}
@@ -482,171 +462,172 @@ function sunburst(languagedata){
 		//############# CONSTRUCT SUNBURST #############
 		
 		var width = 550,
-		height = 550,
-		radius = Math.min(width-50, height-50) / 2;
-		
+	    height = 550,
+	    radius = Math.min(width-30, height-30) / 2;
+
+		var xscale = d3.scale.linear()
+		    .range([0, 2 * Math.PI]);
+
+		var yscale = d3.scale.sqrt()
+		    .range([0, radius]);
+
+		var color = d3.scale.category20c();
+
 		var svg = d3.select("#sunburst").append("svg")
-			.attr("width", width)
-			.attr("height", height)
-			.append("g")
-			.attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
-		
+		    .attr("width", width)
+		    .attr("height", height)
+		  	.append("g")
+		    .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
+
 		var partition = d3.layout.partition()
-			.sort(null)
-			.size([2 * Math.PI, radius * radius])
-			.value(function(d) { return 1; });
-		
+		    .value(function(d) { return 1; });
+
+
 		var arc = d3.svg.arc()
-			.startAngle(function(d) { return d.x; })
-			.endAngle(function(d) { return d.x + d.dx; })
-			.innerRadius(function(d) { return Math.sqrt(d.y); })
-			.outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
-		
-			  
-			var g = svg.datum(fam).selectAll("g")
-			  .data(partition.nodes)
-			  .enter().append("svg:g")
-			  .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-			  ;
-			  
-			  var path = g.append('svg:path')
-				  .attr('class',function(d){ 
-					  //console.log(d);
-						return "sun sun_" + d.name.replace(/\s/g,'_');
-					  
-				  })
-				  .attr("d", arc)
-				  .style("stroke", "#fff")
-				  .style("fill", function(d) { 
-					//return color((d.children ? d : d.parent).name); 
-					return d.children ? "#ccc" : groupScale(langByValue[d.name]);
-				  })
-				  .style("fill-rule", "evenodd")
-				  .style('cursor','pointer')
-				  .on('mouseover',function(d){
-					//console.log(d);
-					d3.selectAll('.location').classed('hidden',true);
+		    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, xscale(d.x))); })
+		    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, xscale(d.x + d.dx))); })
+		    .innerRadius(function(d) { return Math.max(0, yscale(d.y)); })
+		    .outerRadius(function(d) { return Math.max(0, yscale(d.y + d.dy)); });
+
+
+		  var path = svg.datum(fam).selectAll("path")
+		      .data(partition.nodes)
+		    .enter().append("path")
+		      .attr("d", arc)
+			  .attr('class',function(d){ 
+				  //console.log(d);
+					return "sun sun_" + d.name.replace(/[-\s]/g,'_');
 				  
-					d3.selectAll(".loc_" + d.name.replace(/\s/g,'_'))
-						.attr('r',function(){
-							return radSmall/scaleFactor;
-						})
-						.style("stroke-width",function(){
-							return 0.2/scaleFactor;
-						})
-						.classed('hidden',false)
-						;
-						
-					var sel = d3.select(".loc_" + d.name);
-					sel.moveToFront();
-					
-					d3.selectAll('.sunlabel').classed('hidden',true);
-					
-					
-					d3.selectAll('.sunlabel_' + d.name.replace(/\s/g,'_'))
-						.style("font-size",13)
-						.classed('hidden',false)
+			  })
+		      .style("cursor","pointer")
+			  .style("stroke", "#fff")
+		      .style("fill", function(d) { 
+		      	//return color((d.children ? d : d.parent).name); 
+		      	return d.name == "root" ? "#999" : d.children ? "#ccc" : groupScale(langByValue[d.name]);
+		      })
+			  .style("fill-rule", "evenodd")
+			  .on('mouseover',function(d){
+				//console.log(d);
+				d3.selectAll('.location').classed('hidden',true);
+			  
+				d3.selectAll(".loc_" + d.name.replace(/[-\s]/g,'_'))
+					.attr('r',function(){
+						return radSmall/scaleFactor;
+					})
+					.style("stroke-width",function(){
+						return 0.2/scaleFactor;
+					})
+					.classed('hidden',false)
 					;
 					
-					d3.selectAll('.sun_' + d.name.replace(/\s/g,'_'))
-						.style('fill',function(d){
-							return d.children ? '#444' : groupScale(langByValue[d.name]);
-						})
-						;
-
-					//console.log(d.name,langByFam[d.name],langByGen[d.name]);
-					if(d.name in langByFam){
-						d3.selectAll('.sun_fam_' + langByFam[d.name].replace(/\s/g,'_'))
-								.style('fill','#444')
-							;
-					}
-					if(d.name in langByGen){
-						d3.selectAll('.sun_gen_' + langByGen[d.name].replace(/\s/g,'_'))
-								.style('fill','#444')
-							;
-					}
-
-
-					// sunburst info box
-					if(d.name.length == 3){
-						outname = walsByInfo[d.name];
-					}
-					else{
-						outname = d.name.substring(4);
-					}
-					d3.select("#sunburstinfo")
-						.text(outname)
-						;
-
-					$("#sunburstinfo")
-						.css("color",function(){
-							return d.children ? "#444" : groupScale(langByValue[d.name]);
-						});
-
-					d3.select("#mapinfo")
-						.text(outname)
-						;
-
-					$("#mapinfo")
-						.css("color",function(){
-							return d.children ? "#444" : groupScale(langByValue[d.name]);
-						});
-
-					
-				  })
-				  .on('mouseout',function(d){
-					d3.selectAll(".location")
-						.attr('r',function(){
-							return radSmall/scaleFactor;
-						})
-						.style("stroke-width",function(){
-							return 0.2/scaleFactor;
-						})
-						;
-						
-					d3.selectAll('.location').classed('hidden',false);
-						
-					d3.selectAll('.sunlabel_' + d.name.replace(/\s/g,'_'))
-						.style("font-size",6)
-						;
-						
-					d3.selectAll('.sunlabel').classed('hidden',false);
-					
-					d3.selectAll('.sun')
-						.style('fill',function(d){
-							return d.children ? '#ccc' : groupScale(langByValue[d.name]);
-						})
-					;
-
-					d3.select("#sunburstinfo")
-						.html("&nbsp;");
-
-					d3.select("#mapinfo")
-						.html("&nbsp;");
-					
-				  })
-				  .on('click',click)
-				  ;
-
-				  function click(d) {
-				    g.transition()
-				      .duration(750)
-				      .attrTween("d", arcTween(d));
-				  }
-
-				  // Interpolate the scales!
-				function arcTween(d) {
-				  var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
-				      yd = d3.interpolate(y.domain(), [d.y, 1]),
-				      yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
-				  return function(d, i) {
-				    return i
-				        ? function(t) { return arc(d); }
-				        : function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
-				  };
+				var sel = d3.select(".loc_" + d.name.replace(/[-\s]/g,'_'));
+				sel.moveToFront();
+				
+				
+				if(d.name.length == 3){
+					outname = walsByInfo[d.name];
+				}
+				else{
+					outname = d.name.substring(4);
 				}
 
-				  
+				d3.selectAll('.sun_' + d.name.replace(/[-\s]/g,'_'))
+					.style('fill',function(d){
+						return d.children ? '#444' : groupScale(langByValue[d.name]);
+					})
+					;
+
+				console.log(d.name,langByFam[d.name],langByGen[d.name],genByFam[d.name]);
+				if(d.name in langByFam){
+					d3.selectAll('.sun_fam_' + langByFam[d.name].replace(/[-\s]/g,'_'))
+							.style('fill','#444')
+						;
+				}
+				if(d.name in langByGen){
+					d3.selectAll('.sun_gen_' + langByGen[d.name].replace(/[-\s]/g,'_'))
+							.style('fill','#444')
+						;
+				}
+				if(outname in genByFam){
+					d3.selectAll('.sun_fam_' + genByFam[outname].replace(/[-\s]/g,'_'))
+							.style('fill','#444')
+						;
+				}
+
+
+				// sunburst info box
+				
+				d3.select("#sunburstinfo")
+					.text(outname)
+					;
+
+				$("#sunburstinfo")
+					.css("color",function(){
+						return d.children ? "#444" : groupScale(langByValue[d.name]);
+					});
+
+				d3.select("#mapinfo")
+					.text(outname)
+					;
+
+				$("#mapinfo")
+					.css("color",function(){
+						return d.children ? "#444" : groupScale(langByValue[d.name]);
+					});
+
+				
+			  })
+			  .on('mouseout',function(d){
+				d3.selectAll(".location")
+					.attr('r',function(){
+						return radSmall/scaleFactor;
+					})
+					.style("stroke-width",function(){
+						return 0.2/scaleFactor;
+					})
+					;
+					
+				d3.selectAll('.location').classed('hidden',false);
+					
+				
+				d3.selectAll('.sun')
+					.style('fill',function(d){
+						return d.name == "root" ? "#999" : d.children ? "#ccc" : groupScale(langByValue[d.name]);
+					})
+				;
+
+				d3.select("#sunburstinfo")
+					.html("&nbsp;");
+
+				d3.select("#mapinfo")
+					.html("&nbsp;");
+				
+			  })
+		      .on("click", click)
+		      ;
+
+		  function click(d) {
+		  	console.log("click");
+		    path.transition()
+		      .duration(750)
+		      .attrTween("d", arcTween(d));
+		  }
+
+
+
+		// Interpolate the scales!
+		function arcTween(d) {
+			console.log("arcTween");
+		  var xd = d3.interpolate(xscale.domain(), [d.x, d.x + d.dx]),
+		      yd = d3.interpolate(yscale.domain(), [d.y, 1]),
+		      yr = d3.interpolate(yscale.range(), [d.y ? 20 : 0, radius]);
+		  return function(d, i) {
+		    return i
+		        ? function(t) { return arc(d); }
+		        : function(t) { xscale.domain(xd(t)); yscale.domain(yd(t)).range(yr(t)); return arc(d); };
+		  };
+		}
+		  
 				  
 };
 
@@ -663,40 +644,29 @@ d3.select('#features').on('change',function(){
 ;
 
 function redrawMap(){
-	g.attr("transform","translate(" + ew + "," + ns + ")scale("+scaleFactor+")");
-            g.selectAll("circle")
-                .attr("d", path.projection(projection))
-                .attr("r",function(d){
-                    return radSmall/scaleFactor;
-                })
-                .style('stroke-width',function(d){
-                    return 0.2/scaleFactor;
-                })
-            ;
-            g.selectAll("path")  
-                .attr("d", path.projection(projection))
-                .style('stroke-width',function(d){
-                    return 1/scaleFactor;
-                }); 
+	g.transition()
+		.duration(750)
+		.attr("transform","translate(" + ew + "," + ns + ")scale("+scaleFactor+")");
+            
+
+    g.selectAll("circle")
+        .attr("d", path.projection(projection))
+        .attr("r",function(d){
+            return radSmall/scaleFactor;
+        })
+        .style('stroke-width',function(d){
+            return 0.2/scaleFactor;
+        })
+    ;
+    
+    g.selectAll("path")  
+        .attr("d", path.projection(projection))
+        .style('stroke-width',function(d){
+            return 1/scaleFactor;
+        }); 
+    
 }
 
-function rescaleMap(){
-	g.attr("transform","translate(0,0)scale("+scaleFactor+")");
-            g.selectAll("circle")
-                .attr("d", path.projection(projection))
-                .attr("r",function(d){
-                    return radSmall/scaleFactor;
-                })
-                .style('stroke-width',function(d){
-                    return 0.2/scaleFactor;
-                })
-            ;
-            g.selectAll("path")  
-                .attr("d", path.projection(projection))
-                .style('stroke-width',function(d){
-                    return 1/scaleFactor;
-                }); 
-}
 
 
 
@@ -720,27 +690,68 @@ function moveMap(ew,ns){
  ;
 
   d3.select("#west").on('click',function(){
-  		ew -= 100/scaleFactor;
+  		ew += 100*scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#east").on('click',function(){
- 		ew += 100/scaleFactor;
+ 		ew -= 100*scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#north").on('click',function(){
- 		ns -= 100/scaleFactor;
+ 		ns += 100*scaleFactor;
  		redrawMap();         
  })
  ;
 
    d3.select("#south").on('click',function(){
- 		ns += 100/scaleFactor;
+ 		ns -= 100*scaleFactor;
  		redrawMap();         
  })
  ;
+
+    d3.select("#biggerDots").on('click',function(){
+ 		radSmall += 0.5;
+ 		redrawMap();         
+ })
+ ;
+
+     d3.select("#smallerDots").on('click',function(){
+ 		radSmall -= 0.5;
+ 		redrawMap();         
+ })
+ ;
+
+d3.select('#resetmap').on('click',function(a){
+	radSmall = 2.5;
+ g.transition()
+ .duration(750)
+ .attr('transform','translate(0,0)');
+ scaleFactor = 1;
+ ew = 0, ns = 0;
+ g.selectAll("circle")
+                 .attr("d", path.projection(projection))
+                 .attr("r",function(d){
+                     return radSmall/scaleFactor;
+                 })
+                 .style('stroke-width',function(d){
+                     return 0.2/scaleFactor;
+                 })
+             ;
+ g.selectAll("path")  
+     .attr("d", path.projection(projection))
+     .style('stroke-width',function(d){
+         return 1/scaleFactor;
+     }); 
+     
+     zoom.scale(1);
+     zoom.translate([0,0]);
+ 
+  
+});
+
 
 
