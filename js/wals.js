@@ -13,6 +13,7 @@ var featureByName = {};
 var selLanguages = [];
 var allLanguages = [];
 var zoompan = false;
+var radius;
 
 //############### projection settings ###############
 var projection = d3.geo.mercator() 
@@ -311,33 +312,7 @@ function loaddata(feature){
 			;
 
 		// get selection from brush
-		/*
-		if(brush.empty()){
-			selLanguages = parsedCSV;
-		}
-		else{
-			
-			var e = brush.extent();
-			
-			  selLanguages = [];
-			  d3.selectAll(".location").classed('brushhidden',function(d){
-					//console.log(d);
-					//return false;
-					if( e[0][0] > projection([d.longitude,d.latitude])[0] 
-								|| projection([d.longitude,d.latitude])[0] > e[1][0]
-						|| e[0][1] > projection([d.longitude,d.latitude])[1] 
-								|| projection([d.longitude,d.latitude])[1] > e[1][1]){
-						
-						return true;
-					}
-					else{
-						selLanguages.push(d);
-						return false;
-					}
-			  });			  
-		}
-			
-		*/
+
 		brushed2();
 		
 			
@@ -534,7 +509,7 @@ function sunburst(languagedata){
 			  .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
 			  ;
 			  
-			  g.append('svg:path')
+			  var path = g.append('svg:path')
 				  .attr('class',function(d){ 
 					  //console.log(d);
 						return "sun sun_" + d.name.replace(/\s/g,'_');
@@ -650,15 +625,26 @@ function sunburst(languagedata){
 						.html("&nbsp;");
 					
 				  })
-				  /*
-				  .append('title')
-				  .text(function(d){
-				  	
-					var outputname =  d.name.split('_');
-					return outputname[outputname.length-1];
-				  })
-				  */
+				  .on('click',click)
 				  ;
+
+				  function click(d) {
+				    g.transition()
+				      .duration(750)
+				      .attrTween("d", arcTween(d));
+				  }
+
+				  // Interpolate the scales!
+				function arcTween(d) {
+				  var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
+				      yd = d3.interpolate(y.domain(), [d.y, 1]),
+				      yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
+				  return function(d, i) {
+				    return i
+				        ? function(t) { return arc(d); }
+				        : function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
+				  };
+				}
 
 				  
 				  
@@ -711,6 +697,8 @@ function rescaleMap(){
                     return 1/scaleFactor;
                 }); 
 }
+
+
 
 function moveMap(ew,ns){
 	g.attr("transform","translate(" + ew + "," + ns + ")scale(1)");
