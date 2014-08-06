@@ -537,7 +537,7 @@ function sunburst(languagedata){
 					})
 					;
 
-				console.log(d.name,langByFam[d.name],langByGen[d.name],genByFam[d.name]);
+				//console.log(d.name,langByFam[d.name],langByGen[d.name],genByFam[d.name]);
 				if(d.name in langByFam){
 					d3.selectAll('.sun_fam_' + langByFam[d.name].replace(/[-\s]/g,'_'))
 							.style('fill','#444')
@@ -607,7 +607,6 @@ function sunburst(languagedata){
 		      ;
 
 		  function click(d) {
-		  	console.log("click");
 		    path.transition()
 		      .duration(750)
 		      .attrTween("d", arcTween(d));
@@ -617,7 +616,6 @@ function sunburst(languagedata){
 
 		// Interpolate the scales!
 		function arcTween(d) {
-			console.log("arcTween");
 		  var xd = d3.interpolate(xscale.domain(), [d.x, d.x + d.dx]),
 		      yd = d3.interpolate(yscale.domain(), [d.y, 1]),
 		      yr = d3.interpolate(yscale.range(), [d.y ? 20 : 0, radius]);
@@ -690,25 +688,25 @@ function moveMap(ew,ns){
  ;
 
   d3.select("#west").on('click',function(){
-  		ew += 100*scaleFactor;
+  		ew += 100;
  		redrawMap();         
  })
  ;
 
    d3.select("#east").on('click',function(){
- 		ew -= 100*scaleFactor;
+ 		ew -= 100;
  		redrawMap();         
  })
  ;
 
    d3.select("#north").on('click',function(){
- 		ns += 100*scaleFactor;
+ 		ns += 100;
  		redrawMap();         
  })
  ;
 
    d3.select("#south").on('click',function(){
- 		ns -= 100*scaleFactor;
+ 		ns -= 100;
  		redrawMap();         
  })
  ;

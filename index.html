@@ -73,8 +73,10 @@
                             <div class="box box-primary">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">          
+                                    <div class="pull-right box-tools">       
                                         <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
+                                        title="Mouse over the features to show only languages with the feature" style="margin-right: 5px;"><i class="fa fa-info"></i></button> 
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-tags"></i>
@@ -96,7 +98,9 @@
                                 <div class="box-header">
                                     <!-- tools box -->
                                     <div class="pull-right box-tools">          
-                                        <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button> 
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
+                                        title="Click on the map and drag area to select languages" style="margin-right: 5px;"><i class="fa fa-info"></i></button>  
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-globe"></i>
@@ -112,16 +116,16 @@
                                     <button id="resetmap" class="btn btn-primary btn-xs">Reset map</button>
                                     <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <button id="biggerDots" class="btn btn-primary btn-xs"><i class="fa fa-plus"></i></button>
-                                    <button id="smallerDots" class="btn btn-primary btn-xs"><i class="fa fa-minus"></i></button>
+                                    <button id="biggerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Larger dots"><i class="fa fa-plus"></i></button>
+                                    <button id="smallerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Smaller dots"><i class="fa fa-minus"></i></button>
                                     <br>
-                                    <button id="bigger" class="btn btn-primary btn-xs"><i class="fa fa-search-plus"></i></button>
-                                    <button id="smaller" class="btn btn-primary btn-xs"><i class="fa fa-search-minus"></i></button>
+                                    <button id="bigger" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom in"><i class="fa fa-search-plus"></i></button>
+                                    <button id="smaller" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom out"><i class="fa fa-search-minus"></i></button>
                                     
-                                    <button id="west" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-left"></i></button>
-                                    <button id="north" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-up"></i></button>
-                                    <button id="south" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-down"></i></button>
-                                    <button id="east" class="btn btn-primary btn-xs"><i class="fa fa-arrow-circle-right"></i></button>
+                                    <button id="west" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go west"><i class="fa fa-arrow-circle-left"></i></button>
+                                    <button id="north" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go north"><i class="fa fa-arrow-circle-up"></i></button>
+                                    <button id="south" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go south"><i class="fa fa-arrow-circle-down"></i></button>
+                                    <button id="east" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go east"><i class="fa fa-arrow-circle-right"></i></button>
                                     </div>
 
                                     <div id="mapinfo">&nbsp;</div>
@@ -143,6 +147,8 @@
                                     <!-- tools box -->
                                     <div class="pull-right box-tools">          
                                         <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
+                                        title="Click on a segment of the sunburst to zoom in on the subfamily. Click on the center to go back." style="margin-right: 5px;"><i class="fa fa-info"></i></button> 
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-bar-chart-o"></i>
@@ -191,11 +197,11 @@
                                  
 
                                                         <!-- Description box -->
-                            <div class="box box-success">
+                            <div class="box box-danger">
                                 <div class="box-header">
                                     <!-- tools box -->
                                     <div class="pull-right box-tools">          
-                                        <button class="btn btn-success btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-danger btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-info-circle"></i>
@@ -211,7 +217,8 @@
                                     a <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/" target="_blank">sunburst visualization</a>
                                     (Stasko and Zhang 2000). The map and the sunburst is enhanced with interactive functionalities. 
                                     You can select a region in the world map and get only those languages spoken in that area
-                                    displayed in the sunburst.
+                                    displayed in the sunburst. The sunburst itself is zoomable. If you click on a segment, only 
+                                    the languages of the respective subfamily are displayed. 
                                     </p>
                                     
                                 </div><!-- /.box-body-->
@@ -229,11 +236,11 @@
 
 
                             <!-- References box -->
-                            <div class="box box-success">
+                            <div class="box box-warning">
                                 <div class="box-header">
                                     <!-- tools box -->
                                     <div class="pull-right box-tools">          
-                                        <button class="btn btn-success btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-warning btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-file-text"></i>
