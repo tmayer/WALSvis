@@ -745,8 +745,7 @@ d3.select('#resetmap').on('click',function(a){
          return 1/scaleFactor;
      }); 
      
-     zoom.scale(1);
-     zoom.translate([0,0]);
+     
  
   
 });
