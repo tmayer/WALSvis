@@ -11,10 +11,12 @@ var langByGenFamily;
 var codeByLang;
 var featureByName = {};
 var selLanguages = [];
+var catSelection = [];
 var allLanguages = [];
 var zoompan = false;
 var radius;
 var fam;
+var featureSet = {};
 
 //############### projection settings ###############
 var projection = d3.geo.mercator() 
@@ -24,9 +26,6 @@ var projection = d3.geo.mercator()
 	.translate([290,171])
 	;
 
-
-
-	
 //############### make basic plot ###############
 var svg = d3.select("#map").append("svg") 
 	.attr("width", width)
@@ -87,7 +86,7 @@ var brush = d3.svg.brush()
 	
 function brushed2(){
 		if(brush.empty()){
-			selLanguages = allLanguages;
+			selLanguages = catSelection;
 		}
 		else{
 			
@@ -105,7 +104,9 @@ function brushed2(){
 						return true;
 					}
 					else{
-						selLanguages.push(d);
+						if(featureSet[d.value.split(',')[0]] == 1){
+							selLanguages.push(d);
+						}
 						return false;
 					}
 			  });			  
@@ -118,7 +119,7 @@ function brushed(p) {
   var e = brush.extent();
   if(brush.empty()){
 	d3.selectAll(".location").classed('brushhidden', false);
-	selLanguages = allLanguages;
+	selLanguages = catSelection;
 	d3.select('#sunburst svg').remove();
 	sunburst(selLanguages);
   }
@@ -135,7 +136,9 @@ function brushed(p) {
 				return true;
 			}
 			else{
-				selLanguages.push(d);
+				if(featureSet[d.value.split(',')[0]] == 1){
+					selLanguages.push(d);
+				}
 				return false;
 			}
 	  });
@@ -144,11 +147,6 @@ function brushed(p) {
   }
 
 }
-
-
-
-
-
 
 
 //############### get information about features for drowdown menu ###############
@@ -194,6 +192,7 @@ function loaddata(feature){
 		
 
 		allLanguages = parsedCSV;
+		catSelection = allLanguages;
 		
 		var allValues = parsedCSV.map(function(d) { return d.value; });
 		var uniquevalues = d3.set(allValues).values().sort();
@@ -304,6 +303,9 @@ function loaddata(feature){
 		// legend names 
 		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
 		var unis = d3.set(dataset).values().sort();
+		unis.forEach(function(a){
+			featureSet[a.split(',')[0]] = 1;
+		})
 		//console.log(unis);
 		
 		legend.selectAll('legcircle')
@@ -317,37 +319,91 @@ function loaddata(feature){
 			.attr("r",8)
 			.style("fill",function(d){return groupScale(d.split(',')[0]);})
 			.style('cursor','pointer')
-			.on('mouseover',function(d){
-				d3.selectAll('.location')
-					.classed('hidden',function(n){
-						//console.log(d,n);
-						return d.split(',')[0] != n.value;
+			.on('click',function(d){
+
+				currfeat = d.split(',')[0];
+
+				// remove feature
+				if(featureSet[currfeat]){
+					d3.select(this)
+					.style("fill","white")
+					.style("stroke",function(d){
+						return groupScale(d.split(',')[0]);
+					})
+					.style("stroke-width",2)
+					;
+
+					featureSet[currfeat] = 0;
+
+					relFeatures = {};
+					for(f in featureSet){
+						if(featureSet[f] == 1){
+							relFeatures[f] = 1;
+						}
+					}
+					selLanguages = allLanguages.filter(function(e){ 
+						//console.log(e.value,relFeatures);
+						return e.value in relFeatures; 
 					})
 
+					d3.selectAll('.location')
+						//.data(selLanguages)
+						//.update()
+						.classed("invisible",function(d){
+							return featureSet[d.value.split(',')[0]] == 0;
+						})
+					;
 
-				  selLanguages = [];
-				  parsedCSV.forEach(function(item){
-				  	currCat = d.split(',')[0];
-				  	if(currCat == item.value){
-				  		selLanguages.push(item);
-				  	}
-				  });
+					catSelection = selLanguages;
+					
 
-				  d3.select('#sunburst svg').remove();
-				  sunburst(selLanguages);
-			})
-			.on('mouseout',function(d){
-				d3.selectAll('.location')
-					.classed('hidden',false);
-
-					//selLanguages = allLanguages;
 					d3.select('#sunburst svg').remove();
 					brushed2();
 					sunburst(selLanguages);
 
+				}
+
+				// activate feature
+				else{
+					d3.select(this)
+					.style("fill",function(d){
+						return groupScale(d.split(',')[0]);
+					})
+					.style("stroke","black")
+					.style("stroke-width",0.5)	
+					;
+					featureSet[currfeat] = 1;
+
+					relFeatures = {};
+					for(f in featureSet){
+						if(featureSet[f] == 1){
+							relFeatures[f] = 1;
+						}
+					}
+					addLanguages = allLanguages.filter(function(e){ 
+						//console.log(e.value,relFeatures);
+						return e.value == currfeat; 
+					})
+					selLanguages = selLanguages.concat(addLanguages);
+
+					catSelection = selLanguages;
+
+					d3.selectAll('.location')
+						//.data(selLanguages)
+						//.update()
+						.classed("invisible",function(d){
+							return featureSet[d.value.split(',')[0]] == 0;
+						})
+					;
+
+					d3.select('#sunburst svg').remove();
+					brushed2();
+					sunburst(selLanguages);
+
+				}
 			})
 			;
-			
+
 		legend.selectAll("legtext") 
 			.data(unis) 
 			.enter() 
@@ -357,33 +413,6 @@ function loaddata(feature){
 			.style("font-size",11)
 			.style("font-family","Helvectica,Arial,Verdana,sans-serif") 
 			.text(function(d){return d.split(',')[1];}) 
-			.style('cursor','pointer')
-			.on('mouseover',function(d){
-				d3.selectAll('.location')
-					.classed('hidden',function(n){
-						//console.log(d,n);
-						return d.split(',')[0] != n.value;
-					})
-
-				selLanguages = [];
-				  parsedCSV.forEach(function(item){
-				  	currCat = d.split(',')[0];
-				  	if(currCat == item.value){
-				  		selLanguages.push(item);
-				  	}
-				  });
-
-				  d3.select('#sunburst svg').remove();
-				  sunburst(selLanguages);
-			})
-			.on('mouseout',function(d){
-				d3.selectAll('.location')
-					.classed('hidden',false);
-
-				d3.select('#sunburst svg').remove();
-				brushed2();
-				sunburst(selLanguages);
-			})
 			;
 			
 		
@@ -640,6 +669,11 @@ d3.select('#features').on('change',function(){
 	loaddata(feature);
 })
 ;
+
+function updateSelection(){
+
+
+}
 
 function redrawMap(){
 	g.transition()
