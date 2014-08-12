@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>WALS Explorer</title>
+        <title>The WALS Explorer</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -12,6 +12,7 @@
         <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
         <!-- Theme style -->
         <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
@@ -30,7 +31,7 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        WALS Explorer
+                        The WALS Explorer
                         <small>Combining areal and genealogical information of the WALS database</small>
                     </h1>
 
@@ -43,9 +44,10 @@
                     </ol>
                     <hr/>
                     <div>
-                    <label><i class="fa fa-folder-open"></i> Select WALS feature: </label>
-                            <select id="features">
+                    <label for="features"><i class="fa fa-folder-open"></i> Select WALS feature: &nbsp;
+                            <select id="features" class="selectpicker" data-live-search="true">
                             </select>
+                        </label>
                     </div>
                 </section>
 
@@ -86,9 +88,10 @@
                                         <i class="fa fa-external-link"></i> see on WALS website</a>)</small>
                                     </h3>
                                 </div>
-                                <div class="box-body" style="height: 170px; overflow-y: scroll;">
+                                <!--<div class="box-body" style="height: 170px; overflow-y: scroll;">-->
+                                <div class="box-body" id="legendbody">
 
-                                    <div id="legend"></div>
+                                    <div id="legend" style="margin-top: -20px;"></div>
                                 </div><!-- /.box-body-->
                                 
                             </div>
@@ -212,7 +215,7 @@
                                 <div class="box-body">
                                     
                                     <p style="text-align: justify;">
-                                    The WALS explorer shows the values for all <a href='http://wals.info' target="_blank">WALS</a>
+                                    The <b>WALS Explorer</b> shows the values for all <a href='http://wals.info' target="_blank">WALS</a>
                                     features by combining the geolocation of the respective languages with their genealogy in 
                                     a <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/" target="_blank">sunburst visualization</a>
                                     (Stasko and Zhang 2000). The map and the sunburst is enhanced with interactive functionalities. 
@@ -226,9 +229,12 @@
                                     target="_blank">http://wals.info/</a>.
                                     </p>
 
-                                    <p>
-                                        If you use the WALS Explorer in your research, please cite the first paper in the References section (Mayer et al. 2014).
+                                    <p style="text-align: justify;">
+                                        If you use the <b>WALS Explorer</b> in your research, please cite the first paper in the References section (Mayer et al. 2014). The <b>WALS Explorer</b> is based on the <em>World's Languages Explorer</em> 
+                                        by Christian Rohrdantz, Michael Hund, Thomas Mayer, Bernhard Wälchli and Daniel A. Keim 
+                                        (Rohrdantz et al. 2012).
                                     </p>
+
                                     
                                 </div><!-- /.box-body-->
                                 
@@ -275,6 +281,14 @@
                                         target="_blank">link</a>]</p>
 
                                     </li>
+
+                                    <li>
+                                        <p style="text-align: justify;">
+                                        Stasko, John and Eugene Zhang. 2000. Focus+context display and navigation techniques for 
+                                        enhancing radial, space-filling hierarchy visualizations. In <i>Proceedings of the IEEE Symposium on Information Visualization</i>, 57–65. Los Alamitos CA: IEEE Computer Society.
+                                        </p>
+
+                                    </li>
                                         </ul>
                                 </div><!-- /.box-body-->
                                 
@@ -300,22 +314,25 @@
         </div><!-- ./wrapper -->
 
 
-        <script src="d3/d3.min.js"></script>
-        <script src="d3/topojson.js"></script> 
-        <script src="js/wals.js"></script>
-
         <!-- jQuery 2.0.2 -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <!-- jQuery UI 1.10.3 -->
         <script src="js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
         <!-- Bootstrap -->
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap-select.js" type="text/javascript"></script>
 
         <!-- AdminLTE App -->
         <script src="js/AdminLTE/app.js" type="text/javascript"></script>
         
         <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-        <script src="js/AdminLTE/dashboard.js" type="text/javascript"></script>     
+        <script src="js/AdminLTE/dashboard.js" type="text/javascript"></script>    
+
+        
+
+        <script src="d3/d3.min.js"></script>
+        <script src="d3/topojson.js"></script> 
+        <script src="js/wals.js"></script> 
         
 
 

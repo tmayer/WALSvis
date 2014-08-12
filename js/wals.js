@@ -1,6 +1,8 @@
 
 //############### global variables ###############
-var width = 580, height = 370; 
+var width = 580; //0.48 * $(document).width();
+var height = 380;  //0.26 * $(document).width();
+var mapscale = 80; //width/7.9;
 var radSmall = 2.5;
 var radFocus = 6;
 var scaleFactor = 1;
@@ -22,7 +24,7 @@ var featureSet = {};
 var projection = d3.geo.mercator() 
 	.center([0,50])
 	.rotate([-162.5,0])
-	.scale(90)
+	.scale(mapscale)
 	.translate([290,171])
 	;
 
@@ -162,6 +164,13 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 	});
 	loaddata('1A');
 	//console.log(featureByName);
+
+	// enable select picker
+	$('.selectpicker').selectpicker({
+      style: 'btn-default btn-sm',
+      size: 20,
+      width: 'auto'
+  	});
 });
 
 
@@ -307,6 +316,13 @@ function loaddata(feature){
 			featureSet[a.split(',')[0]] = 1;
 		})
 		//console.log(unis);
+
+		// resize the legend widget
+		$("#legendbody").css("height",function(){ 
+			var legheight = unis.length * 25;
+			console.log(legheight);
+			return legheight;
+		});
 		
 		legend.selectAll('legcircle')
 			.data(unis)
@@ -661,7 +677,8 @@ function sunburst(languagedata){
 
 
 //############### listener to feature selection ###############
-d3.select('#features').on('change',function(){
+//d3.select('#features').on('change',function(){
+	$('.selectpicker').on('change',function(){
 	feature = this.value;
 	d3.select('.nodeCircles').remove();
 	d3.select('#legend svg').remove();
@@ -783,6 +800,8 @@ d3.select('#resetmap').on('click',function(a){
  
   
 });
+
+
 
 
 
