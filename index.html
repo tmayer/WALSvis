@@ -112,23 +112,24 @@
                                         Map
                                     </h3>
                                 </div>
-                                <div class="box-body" style="height: 460px;">
+                                <div class="box-body" style="height: 460px;" id="mapcontainer">
                                     
                                     <div id="map" style="text-align: center;"></div>
+
                                     <div class="pull-right">
                                     
-                                    <button id="resetmap" class="btn btn-primary btn-xs">Reset map</button>
-                                    <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
-                                    <button id="biggerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Larger dots"><i class="fa fa-plus"></i></button>
-                                    <button id="smallerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Smaller dots"><i class="fa fa-minus"></i></button>
-                                    <br>
-                                    <button id="bigger" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom in"><i class="fa fa-search-plus"></i></button>
-                                    <button id="smaller" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom out"><i class="fa fa-search-minus"></i></button>
-                                    
-                                    <button id="west" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go west"><i class="fa fa-arrow-circle-left"></i></button>
-                                    <button id="north" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go north"><i class="fa fa-arrow-circle-up"></i></button>
-                                    <button id="south" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go south"><i class="fa fa-arrow-circle-down"></i></button>
-                                    <button id="east" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go east"><i class="fa fa-arrow-circle-right"></i></button>
+                                        <button id="resetmap" class="btn btn-primary btn-xs">Reset map</button>
+                                        <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
+                                        <button id="biggerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Larger dots"><i class="fa fa-plus"></i></button>
+                                        <button id="smallerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Smaller dots"><i class="fa fa-minus"></i></button>
+                                        <br>
+                                        <button id="bigger" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom in"><i class="fa fa-search-plus"></i></button>
+                                        <button id="smaller" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom out"><i class="fa fa-search-minus"></i></button>
+                                        
+                                        <button id="west" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go west"><i class="fa fa-arrow-circle-left"></i></button>
+                                        <button id="north" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go north"><i class="fa fa-arrow-circle-up"></i></button>
+                                        <button id="south" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go south"><i class="fa fa-arrow-circle-down"></i></button>
+                                        <button id="east" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go east"><i class="fa fa-arrow-circle-right"></i></button>
                                     </div>
 
                                     <div id="mapinfo">&nbsp;</div>
@@ -159,7 +160,7 @@
                                         Sunburst
                                     </h3>
                                 </div>
-                                <div class="box-body" style="height: 703px;">
+                                <div class="box-body" style="height: 703px;" id="sunburstcontainer">
                                     
                                     <div id="sunburst" style="text-align: center;"></div>
                                     <br>
@@ -219,13 +220,13 @@
                                     features by combining the geolocation of the respective languages with their genealogy in 
                                     a <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/" target="_blank">sunburst visualization</a>
                                     (Stasko and Zhang 2000). The map and the sunburst is enhanced with interactive functionalities. 
-                                    You can select a region in the world map and get only those languages spoken in that area
+                                    You can select a region in the world map to get only those languages spoken in that area
                                     displayed in the sunburst. The sunburst itself is zoomable. If you click on a segment, only 
                                     the languages of the respective subfamily are displayed. 
                                     </p>
 
                                     <p>
-                                    WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/" 
+                                    All data for the <b>WALS Explorer</b> has been taken from WALS Online (Dryer and Haspelmath 2013). WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/" 
                                     target="_blank">http://wals.info/</a>.
                                     </p>
 
@@ -269,6 +270,13 @@
                                         <li>
                                         <p style="text-align: justify;">
                                     Mayer, Thomas, Bernhard Wälchli, Christian Rohrdantz and Michael Hund. 2014. From the extraction of continuous features in parallel texts to visual analytics of heterogeneous areal-typological datasets. In Nolan, Brian and Carlos Pascual-Periñán (eds.),&nbsp;<em>Language processing and grammars: The role of functionally oriented computational models</em> (SLCS) (Serie: Studies in Language). Amsterdam: John Benjamins, 13-38.</p>
+
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                        Dryer, Matthew S. and Martin Haspelmath (eds.). 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at <a href="http://wals.info/">http://wals.info/</a>, Accessed on 2014-08-13.)
+                                        </p>
 
                                     </li>
 

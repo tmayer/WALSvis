@@ -1,8 +1,11 @@
 
 //############### global variables ###############
-var width = 580; //0.48 * $(document).width();
-var height = 380;  //0.26 * $(document).width();
-var mapscale = 80; //width/7.9;
+var widthbox = parseInt(d3.select('#map').style('width')); 
+var width = 580; 
+widthbox < width ? width = widthbox - 100 : width = width;
+var mapRatio = .7;
+var height = width * mapRatio;  //0.26 * $(document).width();
+var mapscale = width/10; //width/7.9;
 var radSmall = 2.5;
 var radFocus = 6;
 var scaleFactor = 1;
@@ -21,12 +24,27 @@ var fam;
 var featureSet = {};
 
 //############### projection settings ###############
+var margin = {top: 10, left: 10, bottom: 80, right: 10}
+  , width = parseInt(d3.select('#map').style('width'));
+
+if(width > 580){ width = 580;}
+
+var width = width - margin.left - margin.right
+  , mapRatio = .8
+  , height = width * mapRatio - margin.bottom;
+
+
 var projection = d3.geo.mercator() 
+	.scale(width/8)
+    .translate([width / 2 , height / 2])
 	.center([0,50])
 	.rotate([-162.5,0])
-	.scale(mapscale)
-	.translate([290,171])
+	//.scale(mapscale) //.scale(mapscale)
+	//.translate([290,171])
 	;
+
+
+$('#mapcontainer').css("height",function(){return height + 120;});
 
 //############### make basic plot ###############
 var svg = d3.select("#map").append("svg") 
@@ -169,7 +187,7 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 	$('.selectpicker').selectpicker({
       style: 'btn-default btn-sm',
       size: 20,
-      width: 'auto'
+      width: width//'auto'
   	});
 });
 
@@ -320,7 +338,7 @@ function loaddata(feature){
 		// resize the legend widget
 		$("#legendbody").css("height",function(){ 
 			var legheight = unis.length * 25;
-			console.log(legheight);
+			//console.log(legheight);
 			return legheight;
 		});
 		
@@ -506,9 +524,11 @@ function sunburst(languagedata){
 		
 		//############# CONSTRUCT SUNBURST #############
 		
-		var width = 550,
-	    height = 550,
+		//var width = 550,
+	    height = width,
 	    radius = Math.min(width-30, height-30) / 2;
+
+	    $('#sunburstcontainer').css("height",function(){return height + 150;});
 
 		var xscale = d3.scale.linear()
 		    .range([0, 2 * Math.PI]);

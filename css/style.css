@@ -2,15 +2,16 @@ body {
 	font-family:Helvectica,Arial,Verdana,sans-serif; 
 	font-size: 11pt;
 	}  
-#map { 
+#map svg { 
 	/*
 	position: absolute; 
 	top: 50px; 
 	left: 30px; 
-	border: thin solid #ccc;
-	border-radius: 10px;
 	*/
-	padding: 3px;
+	border: thin solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 0px;
 }
 #legend {
 	/*
