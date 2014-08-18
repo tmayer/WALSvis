@@ -1,3 +1,21 @@
+//############### check for window width #########
+
+if (window.innerWidth < 1200)  {
+        $("#warningbox").css("display","block");
+};
+
+window.onresize = function(event) {
+
+	if (window.innerWidth < 1200)  {
+	        $("#warningbox").css("display","block");
+	}
+	else{
+		$("#warningbox").css("display","none");
+	}
+
+}
+
+
 
 //############### global variables ###############
 var widthbox = parseInt(d3.select('#map').style('width')); 
@@ -545,7 +563,7 @@ function sunburst(languagedata){
 		    .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
 
 		var partition = d3.layout.partition()
-		    .value(function(d) { return 1; });
+		    .value(function(d) { console.log(d); return 1; });
 
 
 		var arc = d3.svg.arc()

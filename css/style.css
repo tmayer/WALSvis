@@ -72,3 +72,8 @@ circle.hidden {
 	background-color: red;
 	border-color: red;
 }
+
+#warningbox {
+
+	display: none;
+}

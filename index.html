@@ -5,7 +5,7 @@
         <title>The WALS Explorer</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
         <!-- font Awesome -->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Ionicons -->
@@ -69,6 +69,26 @@
                         <!-- Left col -->
                         <section class="col-lg-6 connectedSortable"> 
                             <!-- Box (with bar chart) -->
+
+
+                            <!-- Warning box -->
+                            <div class="box box-danger" id="warningbox">
+                                <div class="box-header">
+                                    <!-- tools box -->
+                                    <div class="pull-right box-tools">       
+                                        <button class="btn btn-danger btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-danger btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>   
+                                    </div><!-- /. tools -->
+
+                                    <i class="fa fa-warning"></i>
+                                    <h3 class="box-title">
+                                        <div style="font-size: 100%;">The tool is best viewed in the two-column layout with a browser window size of minimum 1,200px.</div>
+                                    </h3>
+                                </div>
+
+                                
+                            </div>
+                            <!-- /.box -->
                                  
 
                             <!-- Legend box -->
@@ -155,7 +175,7 @@
                                         title="Click on a segment of the sunburst to zoom in on the subfamily. Click on the center to go back." style="margin-right: 5px;"><i class="fa fa-info"></i></button> 
                                     </div><!-- /. tools -->
 
-                                    <i class="fa fa-bar-chart-o"></i>
+                                    <i class="fa fa-sun-o"></i>
                                     <h3 class="box-title">
                                         Sunburst
                                     </h3>
@@ -200,7 +220,7 @@
                             <!-- Box (with bar chart) -->
                                  
 
-                                                        <!-- Description box -->
+                            <!-- Description box -->
                             <div class="box box-success">
                                 <div class="box-header">
                                     <!-- tools box -->
@@ -226,7 +246,7 @@
                                     </p>
 
                                     <p>
-                                    All data for the <b>WALS Explorer</b> has been taken from WALS Online (Dryer and Haspelmath 2013). WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/" 
+                                    All data for the <b>WALS Explorer</b> (including the genealogical information) has been taken from WALS Online (Dryer and Haspelmath 2013). WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/" 
                                     target="_blank">http://wals.info/</a>.
                                     </p>
 
