@@ -249,13 +249,13 @@ function loaddata(feature){
 
 		// determine color scale
 		if(featurenames.indexOf("Small") != -1 || featurenames.indexOf("1") != -1 ||
-			featurenames.indexOf("Two") != -1 || featurenames.indexOf("2 cases" != -1)){
+			featurenames.indexOf("Two") != -1 || featurenames.indexOf("2 cases") != -1){
 			groupScale = d3.scale.ordinal()
 				.range(colorbrewer.OrRd[featurenames.length]);
 			console.log("ordinal");
 		}
 		else{
-			groupScale = uniquevalues.length > 10 ? d3.scale.category10() : d3.scale.category20();
+			groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
 		}
 		//console.log(uniquevalues);
 		
