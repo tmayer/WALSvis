@@ -18,12 +18,7 @@ window.onresize = function(event) {
 
 
 //############### global variables ###############
-var widthbox = parseInt(d3.select('#map').style('width')); 
-var width = 580; 
-widthbox < width ? width = widthbox - 100 : width = width;
-var mapRatio = .7;
-var height = width * mapRatio;  //0.26 * $(document).width();
-var mapscale = width/10; //width/7.9;
+
 var radSmall = 2.5;
 var radFocus = 6;
 var scaleFactor = 1;
@@ -40,6 +35,7 @@ var zoompan = false;
 var radius;
 var fam;
 var featureSet = {};
+var groupScale;
 
 //############### projection settings ###############
 var margin = {top: 10, left: 10, bottom: 80, right: 10}
@@ -48,7 +44,7 @@ var margin = {top: 10, left: 10, bottom: 80, right: 10}
 if(width > 580){ width = 580;}
 
 var width = width - margin.left - margin.right
-  , mapRatio = .8
+  , mapRatio = .9
   , height = width * mapRatio - margin.bottom;
 
 
@@ -78,7 +74,6 @@ var overall = g.append('g').attr('class','overAll');
 // define scales and projections 
 var path = d3.geo.path()
 	.projection(projection);
-var groupScale = d3.scale.category10();
 var weightScale = d3.scale.linear()
 	.domain([0,2,4,6,8]) 
 	.range(['blue','green','yellow','orange','red']);
@@ -241,8 +236,28 @@ function loaddata(feature){
 		
 		var allValues = parsedCSV.map(function(d) { return d.value; });
 		var uniquevalues = d3.set(allValues).values().sort();
-		groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
-		//console.log(parsedCSV);
+
+		// legend names 
+		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
+		var unis = d3.set(dataset).values().sort();
+		var featurenames = [];
+		unis.forEach(function(a){
+			featureSet[a.split(',')[0]] = 1;
+			featurenames.push(a.split(',')[1]);
+		})
+		console.log(featurenames);
+
+		// determine color scale
+		if(featurenames.indexOf("Small") != -1 || featurenames.indexOf("1") != -1 ||
+			featurenames.indexOf("Two") != -1 || featurenames.indexOf("2 cases" != -1)){
+			groupScale = d3.scale.ordinal()
+				.range(colorbrewer.OrRd[featurenames.length]);
+			console.log("ordinal");
+		}
+		else{
+			groupScale = uniquevalues.length > 10 ? d3.scale.category10() : d3.scale.category20();
+		}
+		//console.log(uniquevalues);
 		
 		//############### plot locations ###############
 		nodeCircles.selectAll("path")
@@ -324,12 +339,6 @@ function loaddata(feature){
 
 				d3.select("#sunburstinfo").html("&nbsp;");
 			})
-			/*
-			.append("title") 
-			.text(function(d){ 
-				return d.name; 
-			})
-			*/
 			;
 
 		// get selection from brush
@@ -345,13 +354,7 @@ function loaddata(feature){
 			.attr('class','legendbox')
 			;
 		
-		// legend names 
-		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
-		var unis = d3.set(dataset).values().sort();
-		unis.forEach(function(a){
-			featureSet[a.split(',')[0]] = 1;
-		})
-		//console.log(unis);
+
 
 		// resize the legend widget
 		$("#legendbody").css("height",function(){ 
@@ -563,7 +566,7 @@ function sunburst(languagedata){
 		    .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
 
 		var partition = d3.layout.partition()
-		    .value(function(d) { console.log(d); return 1; });
+		    .value(function(d) { return 1; });
 
 
 		var arc = d3.svg.arc()
