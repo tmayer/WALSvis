@@ -717,7 +717,6 @@ function sunburst(languagedata){
 
 
 
-
 };
 
 
