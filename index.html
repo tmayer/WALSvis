@@ -140,6 +140,7 @@
                                     
                                         <button id="resetmap" class="btn btn-primary btn-xs">Reset map</button>
                                         <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
+                                        <button id="zoomtofit" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom to selection"><i class="fa fa-search"></i></button>
                                         <button id="biggerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Larger dots"><i class="fa fa-plus"></i></button>
                                         <button id="smallerDots" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Smaller dots"><i class="fa fa-minus"></i></button>
                                         <br>
@@ -152,7 +153,10 @@
                                         <button id="east" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go east"><i class="fa fa-arrow-circle-right"></i></button>
                                     </div>
 
-                                    <div id="mapinfo">&nbsp;</div>
+                                    <div>
+                                        <div class="infoicon" style="display: none;"><i class="fa fa-square"></i></div>&nbsp;
+                                        <div class="iteminfo" style="display: inline;"></div>
+                                    </div>
                                 </div><!-- /.box-body-->
                                 
                             </div>
@@ -185,7 +189,11 @@
                                     <div id="sunburst" style="text-align: center;"></div>
                                     <br>
 
-                                    <div id="sunburstinfo" style="margin-top: 50px;">&nbsp;</div>
+                                    <div style="margin-top: 10px;">
+                                        <div class="infoicon" style="display: none;"><i class="fa fa-square"></i></div>&nbsp;
+                                        <div class="iteminfo" style="display: inline;"></div>
+
+                                    </div>
                                 </div><!-- /.box-body-->
                                 
                             </div>
@@ -316,7 +324,7 @@
 
                                     <li>
                                         <p style="text-align: justify;">
-                                            Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. 2011. D3: Data-driven documents. <i>IEEE Transactions on Visualization & Computer Graphics</i> (Proc. InfoVis), 17(12):2301–2309.
+                                            Bostock, Michael, Vadim Ogievetsky and Jeffrey Heer. 2011. D3: Data-driven documents. <i>IEEE Transactions on Visualization & Computer Graphics</i> (Proc. InfoVis), 17(12):2301–2309.
                                         </p>
 
                                     </li>
