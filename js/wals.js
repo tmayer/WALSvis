@@ -18,12 +18,7 @@ window.onresize = function(event) {
 
 
 //############### global variables ###############
-var widthbox = parseInt(d3.select('#map').style('width')); 
-var width = 580; 
-widthbox < width ? width = widthbox - 100 : width = width;
-var mapRatio = .7;
-var height = width * mapRatio;  //0.26 * $(document).width();
-var mapscale = width/10; //width/7.9;
+
 var radSmall = 2.5;
 var radFocus = 6;
 var scaleFactor = 1;
@@ -40,6 +35,7 @@ var zoompan = false;
 var radius;
 var fam;
 var featureSet = {};
+var groupScale;
 
 //############### projection settings ###############
 var margin = {top: 10, left: 10, bottom: 80, right: 10}
@@ -48,11 +44,11 @@ var margin = {top: 10, left: 10, bottom: 80, right: 10}
 if(width > 580){ width = 580;}
 
 var width = width - margin.left - margin.right
-  , mapRatio = .8
+  , mapRatio = .9
   , height = width * mapRatio - margin.bottom;
 
 
-var projection = d3.geo.mercator() 
+var projection = d3.geo.mercator()
 	.scale(width/8)
     .translate([width / 2 , height / 2])
 	.center([0,50])
@@ -65,33 +61,32 @@ var projection = d3.geo.mercator()
 $('#mapcontainer').css("height",function(){return height + 120;});
 
 //############### make basic plot ###############
-var svg = d3.select("#map").append("svg") 
+var svg = d3.select("#map").append("svg")
 	.attr("width", width)
 	.attr("height", height)
 	.style('cursor',"crosshair")
 	;
 var g = svg.append("g");
 var mapPoly = g.append('g').attr('class','mapPoly')
-var edgeArcs = g.append('g').attr('class','edgeArcs'); 
+var edgeArcs = g.append('g').attr('class','edgeArcs');
 var overall = g.append('g').attr('class','overAll');
 
-// define scales and projections 
+// define scales and projections
 var path = d3.geo.path()
 	.projection(projection);
-var groupScale = d3.scale.category10();
 var weightScale = d3.scale.linear()
-	.domain([0,2,4,6,8]) 
+	.domain([0,2,4,6,8])
 	.range(['blue','green','yellow','orange','red']);
-	
+
 // load and display the World
-d3.json("world-110m.json", function(error, topology) { 
-	var countrydata = topojson.object(topology,topology.objects.countries).geometries;          
+d3.json("world-110m.json", function(error, topology) {
+	var countrydata = topojson.object(topology,topology.objects.countries).geometries;
 	mapPoly.selectAll("path")
-		.data(topojson.object(topology, topology.objects.countries) 
-		.geometries) 
-		.enter() 
+		.data(topojson.object(topology, topology.objects.countries)
+		.geometries)
+		.enter()
 		.append("path")
-		.attr("d", path) 
+		.attr("d", path)
 		.style("fill",function(d){
 			return "#f0f0f0";
 		 })
@@ -99,7 +94,7 @@ d3.json("world-110m.json", function(error, topology) {
 		.style('stroke-width',function(d){
 			return 1/scaleFactor;
 		})
-		; 
+		;
 });
 
 //############### brushing ###############
@@ -121,24 +116,24 @@ var brush = d3.svg.brush()
 	.y(y)
 	.on("brush", brushed)
 	;
-	
+
 function brushed2(){
 		if(brush.empty()){
 			selLanguages = catSelection;
 		}
 		else{
-			
+
 			var e = brush.extent();
-			
+
 			  selLanguages = [];
 			  d3.selectAll(".location").classed('brushhidden',function(d){
 					//console.log(d);
 					//return false;
-					if( e[0][0] > projection([d.longitude,d.latitude])[0] 
+					if( e[0][0] > projection([d.longitude,d.latitude])[0]
 								|| projection([d.longitude,d.latitude])[0] > e[1][0]
-						|| e[0][1] > projection([d.longitude,d.latitude])[1] 
+						|| e[0][1] > projection([d.longitude,d.latitude])[1]
 								|| projection([d.longitude,d.latitude])[1] > e[1][1]){
-						
+
 						return true;
 					}
 					else{
@@ -147,13 +142,13 @@ function brushed2(){
 						}
 						return false;
 					}
-			  });			  
+			  });
 		}
 }
 
 function brushed(p) {
   //console.log(brush.extent());
-  
+
   var e = brush.extent();
   if(brush.empty()){
 	d3.selectAll(".location").classed('brushhidden', false);
@@ -166,11 +161,11 @@ function brushed(p) {
 	  d3.selectAll(".location").classed('brushhidden',function(d){
 			//console.log(d);
 			//return false;
-			if( e[0][0] > projection([d.longitude,d.latitude])[0] 
+			if( e[0][0] > projection([d.longitude,d.latitude])[0]
 						|| projection([d.longitude,d.latitude])[0] > e[1][0]
-				|| e[0][1] > projection([d.longitude,d.latitude])[1] 
+				|| e[0][1] > projection([d.longitude,d.latitude])[1]
 						|| projection([d.longitude,d.latitude])[1] > e[1][1]){
-				
+
 				return true;
 			}
 			else{
@@ -190,7 +185,7 @@ function brushed(p) {
 //############### get information about features for drowdown menu ###############
 d3.tsv('wals_data/features.tab').get(function (err, results){
 
-	var select = document.getElementById("features");  
+	var select = document.getElementById("features");
 	results.forEach(function(a){
 		featureByName[a.id] = a.name;
 		var el = document.createElement("option");
@@ -212,17 +207,17 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 
 //############### load data ###############
 function loaddata(feature){
-// load data 
+// load data
 	//console.log(url);
 
 	d3.select("#legendname").text(feature);
 	d3.select("#legendlink").attr('href',"http://wals.info/feature/" + feature);
-	
+
 	var nodeCircles = g.append('g').attr('class','nodeCircles');
 	langByValue = {};
 	codeByLang = {};
 	walsByInfo = {};
-	
+
 	d3.selection.prototype.moveToFront = function() {
 	  return this.each(function(){
 	  this.parentNode.appendChild(this);
@@ -234,30 +229,52 @@ function loaddata(feature){
 		var dirtyCSV = response.responseText;
 		var cleanCSV = dirtyCSV.split('\n').slice(7).join('\n');
 		var parsedCSV = d3.tsv.parse(cleanCSV);
-		
+
 
 		allLanguages = parsedCSV;
 		catSelection = allLanguages;
-		
+
 		var allValues = parsedCSV.map(function(d) { return d.value; });
 		var uniquevalues = d3.set(allValues).values().sort();
-		groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
-		//console.log(parsedCSV);
-		
+
+		// legend names
+		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
+		var unis = d3.set(dataset).values().sort();
+		var featurenames = [];
+		unis.forEach(function(a){
+			featureSet[a.split(',')[0]] = 1;
+			featurenames.push(a.split(',')[1]);
+		})
+        featurenamesstring = featurenames.join(" ");
+        //console.log(featurenames);
+
+		// determine color scale
+		if(featurenamesstring.indexOf("Small") != -1 || featurenamesstring.indexOf("1") != -1 ||
+			featurenamesstring.indexOf("Two") != -1 || featurenamesstring.indexOf("2") != -1 ||
+            featurenamesstring.indexOf("low") != -1 || featurenamesstring.indexOf("3") != -1){
+			groupScale = d3.scale.ordinal()
+				.range(colorbrewer.OrRd[featurenames.length]);
+			//console.log("ordinal");
+		}
+		else{
+			groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
+		}
+		//console.log(uniquevalues);
+
 		//############### plot locations ###############
 		nodeCircles.selectAll("path")
 			.data(parsedCSV)
 			.enter()
 			.append("circle")
 			.attr('class',function(d){
-				walsByInfo[d['wals code']] = d['name'] + " [" + d['wals code'] + "] " 
-					+ d['family'] 
+				walsByInfo[d['wals code']] = d['name'] + " [" + d['wals code'] + "] "
+					+ d['family']
 					+ ", " + d['genus'] + "";
-				return 'location loc_' + d['wals code'] + 
+				return 'location loc_' + d['wals code'] +
 					" loc_gen_" + d['genus'].replace(/[-\s]/g,'_') + " loc_fam_" + d['family'].replace(/[-\s]/g,'_');
 			})
 			.attr('cx',function(d){
-				return projection([d.longitude, d.latitude])[0];	
+				return projection([d.longitude, d.latitude])[0];
 			})
 			.attr('cy', function(d){
 				return projection([d.longitude, d.latitude])[1];
@@ -272,15 +289,17 @@ function loaddata(feature){
 			})
 			.style("stroke","black")
 			.style("stroke-width", function(){ return 0.2/scaleFactor;})
-			.style("cursor","pointer") 
+			.style("cursor","pointer")
 			.on("mouseover",function(d){
-				
 
-				d3.select("#mapinfo").text(walsByInfo[d['wals code']]);
 
-				$("#mapinfo").css("color",function(){
+				d3.selectAll(".iteminfo").text(walsByInfo[d['wals code']]);
+
+				$(".infoicon").css("color",function(){
 					return groupScale(d.value);
-				});
+				})
+				.css("display","inline")
+				;
 
 
 				// sunburst interaction
@@ -300,21 +319,14 @@ function loaddata(feature){
 						.style("fill",'#444');
 				}
 
-				d3.select("#sunburstinfo")
-					.text(walsByInfo[dname])
-					;
 
-				$("#sunburstinfo")
-					.css("color",function(){
-						return d.children ? "#444" : groupScale(langByValue[dname]);
-					});
-					
-				
+
+
 			})
 			.on("mouseout",function(d){
-				
 
-				d3.select("#mapinfo").html('&nbsp;');
+
+				d3.selectAll(".iteminfo").html('&nbsp;');
 
 				d3.selectAll('.sun')
 					.style('fill',function(e){
@@ -322,44 +334,32 @@ function loaddata(feature){
 					})
 				;
 
-				d3.select("#sunburstinfo").html("&nbsp;");
+				$(".infoicon").css("display","none");
 			})
-			/*
-			.append("title") 
-			.text(function(d){ 
-				return d.name; 
-			})
-			*/
 			;
 
 		// get selection from brush
 
 		brushed2();
-		
-			
+
+
 		//############### legend ###############
-		legend = d3.select("#legend").append("svg") 
+		legend = d3.select("#legend").append("svg")
 			.attr("width", 450)
 			.attr("height", 606)
 			.append('g')
 			.attr('class','legendbox')
 			;
-		
-		// legend names 
-		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
-		var unis = d3.set(dataset).values().sort();
-		unis.forEach(function(a){
-			featureSet[a.split(',')[0]] = 1;
-		})
-		//console.log(unis);
+
+
 
 		// resize the legend widget
-		$("#legendbody").css("height",function(){ 
+		$("#legendbody").css("height",function(){
 			var legheight = unis.length * 25;
 			//console.log(legheight);
 			return legheight;
 		});
-		
+
 		legend.selectAll('legcircle')
 			.data(unis)
 			.enter()
@@ -393,9 +393,9 @@ function loaddata(feature){
 							relFeatures[f] = 1;
 						}
 					}
-					selLanguages = allLanguages.filter(function(e){ 
+					selLanguages = allLanguages.filter(function(e){
 						//console.log(e.value,relFeatures);
-						return e.value in relFeatures; 
+						return e.value in relFeatures;
 					})
 
 					d3.selectAll('.location')
@@ -407,7 +407,7 @@ function loaddata(feature){
 					;
 
 					catSelection = selLanguages;
-					
+
 
 					d3.select('#sunburst svg').remove();
 					brushed2();
@@ -422,7 +422,7 @@ function loaddata(feature){
 						return groupScale(d.split(',')[0]);
 					})
 					.style("stroke","black")
-					.style("stroke-width",0.5)	
+					.style("stroke-width",0.5)
 					;
 					featureSet[currfeat] = 1;
 
@@ -432,9 +432,9 @@ function loaddata(feature){
 							relFeatures[f] = 1;
 						}
 					}
-					addLanguages = allLanguages.filter(function(e){ 
+					addLanguages = allLanguages.filter(function(e){
 						//console.log(e.value,relFeatures);
-						return e.value == currfeat; 
+						return e.value == currfeat;
 					})
 					selLanguages = selLanguages.concat(addLanguages);
 
@@ -456,22 +456,22 @@ function loaddata(feature){
 			})
 			;
 
-		legend.selectAll("legtext") 
-			.data(unis) 
-			.enter() 
-			.append("svg:text") 
+		legend.selectAll("legtext")
+			.data(unis)
+			.enter()
+			.append("svg:text")
 			.attr("x",35)
-			.attr("y",function(d,i){return 24 + i * 20;}) 
+			.attr("y",function(d,i){return 24 + i * 20;})
 			.style("font-size",11)
-			.style("font-family","Helvectica,Arial,Verdana,sans-serif") 
-			.text(function(d){return d.split(',')[1];}) 
+			.style("font-family","Helvectica,Arial,Verdana,sans-serif")
+			.text(function(d){return d.split(',')[1];})
 			;
-			
-		
+
+
 		sunburst(selLanguages);
 
 	});
-	
+
 
 
 };
@@ -479,7 +479,7 @@ function loaddata(feature){
 overall.append("g").attr("class","brush").call(brush);
 
 function sunburst(languagedata){
-		
+
 		//############### construct genealogy ###############
 		families = {};
 		langByFam = {};
@@ -502,7 +502,7 @@ function sunburst(languagedata){
 				}
 				// add genus to family
 				else{
-					
+
 					families[d.family][d.genus] = [];
 					families[d.family][d.genus].push(d['wals code']);
 				}
@@ -515,7 +515,7 @@ function sunburst(languagedata){
 			}
 		});
 		//console.log(families);
-		
+
 		fam['name'] = 'root'
 		fam['children'] = [];
 		for(var famkey in families){
@@ -537,16 +537,16 @@ function sunburst(languagedata){
 			}
 			fam['children'].push(newFam);
 		}
-		
+
 		//console.log(fam);
-		
+
 		//############# CONSTRUCT SUNBURST #############
-		
+
 		//var width = 550,
 	    height = width,
 	    radius = Math.min(width-30, height-30) / 2;
 
-	    $('#sunburstcontainer').css("height",function(){return height + 150;});
+	    $('#sunburstcontainer').css("height",function(){return height + 130;});
 
 		var xscale = d3.scale.linear()
 		    .range([0, 2 * Math.PI]);
@@ -563,7 +563,7 @@ function sunburst(languagedata){
 		    .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
 
 		var partition = d3.layout.partition()
-		    .value(function(d) { console.log(d); return 1; });
+		    .value(function(d) { return 1; });
 
 
 		var arc = d3.svg.arc()
@@ -573,26 +573,28 @@ function sunburst(languagedata){
 		    .outerRadius(function(d) { return Math.max(0, yscale(d.y + d.dy)); });
 
 
-		  var path = svg.datum(fam).selectAll("path")
+		  var g = svg.datum(fam).selectAll("path")
 		      .data(partition.nodes)
-		    .enter().append("path")
+		    .enter().append("g");
+
+		    var path = g.append("path")
 		      .attr("d", arc)
-			  .attr('class',function(d){ 
+			  .attr('class',function(d){
 				  //console.log(d);
 					return "sun sun_" + d.name.replace(/[-\s]/g,'_');
-				  
+
 			  })
 		      .style("cursor","pointer")
 			  .style("stroke", "#fff")
-		      .style("fill", function(d) { 
-		      	//return color((d.children ? d : d.parent).name); 
+		      .style("fill", function(d) {
+		      	//return color((d.children ? d : d.parent).name);
 		      	return d.name == "root" ? "#999" : d.children ? "#ccc" : groupScale(langByValue[d.name]);
 		      })
 			  .style("fill-rule", "evenodd")
 			  .on('mouseover',function(d){
 				//console.log(d);
 				d3.selectAll('.location').classed('hidden',true);
-			  
+
 				d3.selectAll(".loc_" + d.name.replace(/[-\s]/g,'_'))
 					.attr('r',function(){
 						return radSmall/scaleFactor;
@@ -602,17 +604,18 @@ function sunburst(languagedata){
 					})
 					.classed('hidden',false)
 					;
-					
+
 				var sel = d3.select(".loc_" + d.name.replace(/[-\s]/g,'_'));
 				sel.moveToFront();
-				
-				
+
+
 				if(d.name.length == 3){
 					outname = walsByInfo[d.name];
 				}
 				else{
 					outname = d.name.substring(4);
 				}
+
 
 				d3.selectAll('.sun_' + d.name.replace(/[-\s]/g,'_'))
 					.style('fill',function(d){
@@ -639,26 +642,24 @@ function sunburst(languagedata){
 
 
 				// sunburst info box
-				
-				d3.select("#sunburstinfo")
+
+				d3.selectAll(".iteminfo")
 					.text(outname)
 					;
 
-				$("#sunburstinfo")
-					.css("color",function(){
-						return d.children ? "#444" : groupScale(langByValue[d.name]);
-					});
+				if(outname != ""){
 
-				d3.select("#mapinfo")
-					.text(outname)
-					;
+					$(".infoicon")
+						.css("color",function(){
+							return d.children ? "#444" : groupScale(langByValue[d.name]);
+						})
+						.css("display","inline")
+						;
 
-				$("#mapinfo")
-					.css("color",function(){
-						return d.children ? "#444" : groupScale(langByValue[d.name]);
-					});
+				}
 
-				
+
+
 			  })
 			  .on('mouseout',function(d){
 				d3.selectAll(".location")
@@ -669,30 +670,35 @@ function sunburst(languagedata){
 						return 0.2/scaleFactor;
 					})
 					;
-					
+
 				d3.selectAll('.location').classed('hidden',false);
-					
-				
+
+
+
 				d3.selectAll('.sun')
 					.style('fill',function(d){
 						return d.name == "root" ? "#999" : d.children ? "#ccc" : groupScale(langByValue[d.name]);
 					})
 				;
 
-				d3.select("#sunburstinfo")
+				d3.selectAll(".iteminfo")
 					.html("&nbsp;");
 
-				d3.select("#mapinfo")
-					.html("&nbsp;");
-				
+				$(".infoicon").css("display","none");
+
 			  })
 		      .on("click", click)
 		      ;
 
+
+
+
 		  function click(d) {
-		    path.transition()
+		    var pathtr = path.transition()
 		      .duration(750)
 		      .attrTween("d", arcTween(d));
+
+
 		  }
 
 
@@ -708,8 +714,10 @@ function sunburst(languagedata){
 		        : function(t) { xscale.domain(xd(t)); yscale.domain(yd(t)).range(yr(t)); return arc(d); };
 		  };
 		}
-		  
-				  
+
+
+
+
 };
 
 
@@ -734,7 +742,7 @@ function redrawMap(){
 	g.transition()
 		.duration(750)
 		.attr("transform","translate(" + ew + "," + ns + ")scale("+scaleFactor+")");
-            
+
 
     g.selectAll("circle")
         .attr("d", path.projection(projection))
@@ -745,72 +753,133 @@ function redrawMap(){
             return 0.2/scaleFactor;
         })
     ;
-    
-    g.selectAll("path")  
+
+    g.selectAll("path")
         .attr("d", path.projection(projection))
         .style('stroke-width',function(d){
             return 1/scaleFactor;
-        }); 
-    
+        });
+
 }
 
+function resizeMap(){
+	g.transition()
+		.duration(750)
+		.attr("transform","translate(0,0)scale("+scaleFactor+")");
 
 
+    g.selectAll("circle")
+        .attr("d", path.projection(projection))
+        .attr("r",function(d){
+            return radSmall/scaleFactor;
+        })
+        .style('stroke-width',function(d){
+            return 0.2/scaleFactor;
+        })
+    ;
 
-function moveMap(ew,ns){
-	g.attr("transform","translate(" + ew + "," + ns + ")scale(1)");
-	//g.attr("transform","translate(-100,0)scale(1)");
+    g.selectAll("path")
+        .attr("d", path.projection(projection))
+        .style('stroke-width',function(d){
+            return 1/scaleFactor;
+        });
 }
 
  d3.select("#bigger").on('click',function(){
  	scaleFactor <= 4.9 ? scaleFactor += 0.8 : scaleFactor = 5;
+ 			ew -= 200/scaleFactor;
+ 			ns -= 200/scaleFactor;
 	            redrawMap();
-	             
+
  })
  ;
 
   d3.select("#smaller").on('click',function(){
- 	scaleFactor >= 1.1 ? scaleFactor -= 0.8 : scaleFactor = 1;
+  	if(scaleFactor != 1){
+ 		scaleFactor >= 1.1 ? scaleFactor -= 0.8 : scaleFactor = 1;
+
+ 			ew += 100*scaleFactor;
+ 			ns += 100*scaleFactor;
+ 	
 	            redrawMap();
-	             
+	}
+
  })
  ;
 
   d3.select("#west").on('click',function(){
   		ew += 100;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
 
    d3.select("#east").on('click',function(){
  		ew -= 100;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
 
    d3.select("#north").on('click',function(){
  		ns += 100;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
 
    d3.select("#south").on('click',function(){
  		ns -= 100;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
 
     d3.select("#biggerDots").on('click',function(){
  		radSmall += 0.5;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
 
      d3.select("#smallerDots").on('click',function(){
  		radSmall -= 0.5;
- 		redrawMap();         
+ 		redrawMap();
  })
  ;
+
+
+ d3.select("#zoomtofit").on("click",function(d){
+ 	  var bounds = brush.extent();
+
+ 	  console.log(bounds);
+  var dx = bounds[1][0] - bounds[0][0],
+      dy = bounds[1][1] - bounds[0][1],
+      x = (bounds[0][0] + bounds[1][0]) / 2,
+      y = (bounds[0][1] + bounds[1][1]) / 2,
+      scale = .9 / Math.max(dx / width, dy / height),
+      translate = [width / 2 - scale * x, height / 2 - scale * y - 50];
+
+  g.transition()
+      .duration(750)
+      .style("stroke-width", 1.5 / scale + "px")
+      .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+
+
+	 scaleFactor = scale;
+	 ew = translate[0];
+	 ns = translate[1];
+	  g.selectAll("circle")
+	                 .attr("d", path.projection(projection))
+	                 .attr("r",function(d){
+	                     return radSmall/scaleFactor;
+	                 })
+	                 .style('stroke-width',function(d){
+	                     return 0.2/scaleFactor;
+	                 })
+	             ;
+	 g.selectAll("path")
+	     .attr("d", path.projection(projection))
+	     .style('stroke-width',function(d){
+	         return 1/scaleFactor;
+	     });
+ 
+});
 
 d3.select('#resetmap').on('click',function(a){
 	radSmall = 2.5;
@@ -828,18 +897,13 @@ d3.select('#resetmap').on('click',function(a){
                      return 0.2/scaleFactor;
                  })
              ;
- g.selectAll("path")  
+ g.selectAll("path")
      .attr("d", path.projection(projection))
      .style('stroke-width',function(d){
          return 1/scaleFactor;
-     }); 
-     
-     
- 
-  
+     });
+
+
+
+
 });
-
-
-
-
-

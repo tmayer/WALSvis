@@ -64,7 +64,7 @@ circle.hidden {
 	text-align: justify;
 }
 
-#mapinfo,#sunburstinfo {
+.iteminfo,.infoicon {
 	font-size: 16pt;
 }
 
@@ -77,3 +77,5 @@ circle.hidden {
 
 	display: none;
 }
+
+
