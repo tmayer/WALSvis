@@ -278,7 +278,7 @@ function loaddata(feature){
 				scaleType = "nominal";
 			}
 		//}
-		if(scaleType == "ordinal" && featurenames.length < 10){
+		if(scaleType == "ordinal" && featurenames.length < 10 && featurenames.length > 2){
 			groupScale = d3.scale.ordinal()
 					.range(colorbrewer.OrRd[featurenames.length]);
 			document.getElementById("ScaleTypeSelect").selectedIndex = "1";
@@ -287,7 +287,7 @@ function loaddata(feature){
 			groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
 			document.getElementById("ScaleTypeSelect").selectedIndex = "0";
 		}
-		if(featurenames.length > 9){
+		if(featurenames.length > 9 || featurenames.length < 3){
 			$("#ordinalSelect").attr("disabled","disabled");
 		}
 		else{
@@ -774,7 +774,7 @@ function sunburst(languagedata){
 $('.selectpickerScale').on('change',function(){
 	scaleType = this.value;
 
-	if(scaleType == "ordinal" && featurenames.length < 10){
+	if(scaleType == "ordinal" && featurenames.length < 10 && featurenames.length > 2){
 		groupScale = d3.scale.ordinal()
 				.range(colorbrewer.OrRd[featurenames.length]);
 		document.getElementById("ScaleTypeSelect").selectedIndex = "1";
