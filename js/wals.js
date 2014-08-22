@@ -36,6 +36,12 @@ var radius;
 var fam;
 var featureSet = {};
 var groupScale;
+var startFeature = "30A";
+var scaleType = "nominal";
+var currfeature;
+var changeScale = true;
+var uniquevalues;
+var featurenames;
 
 //############### projection settings ###############
 var margin = {top: 10, left: 10, bottom: 80, right: 10}
@@ -191,9 +197,10 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 		var el = document.createElement("option");
 		el.textContent = a.id + ": " + a.name;
 		el.value = a.id;
+		if(a.id == startFeature){el.selected = true;}
 		select.appendChild(el);
 	});
-	loaddata('1A');
+	loaddata(startFeature);
 	//console.log(featureByName);
 
 	// enable select picker
@@ -202,6 +209,12 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
       size: 20,
       width: width//'auto'
   	});
+
+  	$('.selectpickerScale').selectpicker({
+      style: 'btn-default btn-xs',
+      size: 20,
+      width: 200//'auto'
+  	});
 });
 
 
@@ -209,6 +222,7 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 function loaddata(feature){
 // load data
 	//console.log(url);
+	currfeature = feature;
 
 	d3.select("#legendname").text(feature);
 	d3.select("#legendlink").attr('href',"http://wals.info/feature/" + feature);
@@ -227,6 +241,9 @@ function loaddata(feature){
 	// get feature values from feature file
 	d3.xhr('wals_data/features/' + feature + '.tab').get(function (err, response) {
 		var dirtyCSV = response.responseText;
+		var title = dirtyCSV.split('\n')[0];
+		$("#featuretitle").text(title);
+		//console.log(title);
 		var cleanCSV = dirtyCSV.split('\n').slice(7).join('\n');
 		var parsedCSV = d3.tsv.parse(cleanCSV);
 
@@ -235,12 +252,12 @@ function loaddata(feature){
 		catSelection = allLanguages;
 
 		var allValues = parsedCSV.map(function(d) { return d.value; });
-		var uniquevalues = d3.set(allValues).values().sort();
+		uniquevalues = d3.set(allValues).values().sort();
 
 		// legend names
 		var dataset = parsedCSV.map(function(d) { return [d.value,d.description]; });
 		var unis = d3.set(dataset).values().sort();
-		var featurenames = [];
+		featurenames = [];
 		unis.forEach(function(a){
 			featureSet[a.split(',')[0]] = 1;
 			featurenames.push(a.split(',')[1]);
@@ -249,16 +266,35 @@ function loaddata(feature){
         //console.log(featurenames);
 
 		// determine color scale
-		if(featurenamesstring.indexOf("Small") != -1 || featurenamesstring.indexOf("1") != -1 ||
-			featurenamesstring.indexOf("Two") != -1 || featurenamesstring.indexOf("2") != -1 ||
-            featurenamesstring.indexOf("low") != -1 || featurenamesstring.indexOf("3") != -1){
+		//if(changeScale == true){
+			if(featurenamesstring.indexOf("Small") != -1 || featurenamesstring.indexOf("1") != -1 ||
+				featurenamesstring.indexOf("Two") != -1 || featurenamesstring.indexOf("2") != -1 ||
+	            featurenamesstring.indexOf("low") != -1 || featurenamesstring.indexOf("3") != -1){
+
+				//console.log("ordinal");
+				scaleType = "ordinal";
+			}
+			else{
+				scaleType = "nominal";
+			}
+		//}
+		if(scaleType == "ordinal" && featurenames.length < 10){
 			groupScale = d3.scale.ordinal()
-				.range(colorbrewer.OrRd[featurenames.length]);
-			//console.log("ordinal");
+					.range(colorbrewer.OrRd[featurenames.length]);
+			document.getElementById("ScaleTypeSelect").selectedIndex = "1";
 		}
 		else{
 			groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
+			document.getElementById("ScaleTypeSelect").selectedIndex = "0";
 		}
+		if(featurenames.length > 9){
+			$("#ordinalSelect").attr("disabled","disabled");
+		}
+		else{
+			$("#ordinalSelect").attr("disabled",false);
+		}
+		$('.selectpickerScale').selectpicker('refresh');
+		changeScale = true;
 		//console.log(uniquevalues);
 
 		//############### plot locations ###############
@@ -355,7 +391,7 @@ function loaddata(feature){
 
 		// resize the legend widget
 		$("#legendbody").css("height",function(){
-			var legheight = unis.length * 25;
+			var legheight = unis.length * 25 + 20;
 			//console.log(legheight);
 			return legheight;
 		});
@@ -364,6 +400,7 @@ function loaddata(feature){
 			.data(unis)
 			.enter()
 			.append("circle")
+			.attr("class","legendCircle")
 			.attr("cx",20)
 			.attr("cy",function(d,i){ return 20 + i * 20;})
 			.style("stroke","black")
@@ -464,7 +501,7 @@ function loaddata(feature){
 			.attr("y",function(d,i){return 24 + i * 20;})
 			.style("font-size",11)
 			.style("font-family","Helvectica,Arial,Verdana,sans-serif")
-			.text(function(d){return d.split(',')[1];})
+			.text(function(d){return d.split(',').slice(1).join(",");})
 			;
 
 
@@ -732,10 +769,70 @@ function sunburst(languagedata){
 })
 ;
 
-function updateSelection(){
+//############### listener to scale selection ###############
+//d3.select('#features').on('change',function(){
+$('.selectpickerScale').on('change',function(){
+	scaleType = this.value;
 
+	if(scaleType == "ordinal" && featurenames.length < 10){
+		groupScale = d3.scale.ordinal()
+				.range(colorbrewer.OrRd[featurenames.length]);
+		document.getElementById("ScaleTypeSelect").selectedIndex = "1";
+		$('.selectpickerScale').selectpicker('refresh');
+	}
+	else{
+		groupScale = uniquevalues.length > 10 ? d3.scale.category20() : d3.scale.category10();
+		document.getElementById("ScaleTypeSelect").selectedIndex = "0";
+		$('.selectpickerScale').selectpicker('refresh');
+	}
+	// map points
+	d3.selectAll('.location')
+		.transition().duration(1000)
+		.style('fill',function(d){
+			langByValue[d['wals code']] = d.value;
+			return groupScale(d.value);
+		});
 
-}
+	// sunburst segments
+	d3.selectAll('.sun')
+		.transition().duration(1000)
+		.style('fill',function(d){
+			return d.name == "root" ? "#999" : d.children ? "#ccc" : groupScale(langByValue[d.name]);
+		});
+
+	// legend dots
+	d3.selectAll('.legendCircle')
+		.transition().duration(1000)
+		.style('fill',function(d){
+			currfeat = d.split(',')[0];
+			if(featureSet[currfeat]){
+				return groupScale(d.split(',')[0]);
+			}
+			else{
+				return "white";
+			}
+		})
+		.style("stroke",function(d){
+			currfeat = d.split(',')[0];
+			if(featureSet[currfeat]){
+				return "black";
+			}
+			else{
+				return groupScale(d.split(',')[0]);
+			}
+		})
+		.style("stroke-width",function(d){
+			currfeat = d.split(',')[0];
+			if(featureSet[currfeat]){
+				return 0.5;
+			}
+			else{
+				return 1;
+			}
+		});
+})
+;
+
 
 function redrawMap(){
 	g.transition()

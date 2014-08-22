@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>The WALS Explorer</title>
+        <title>The WALS Sunburst Explorer</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -31,12 +31,14 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        The WALS Explorer
+                        The WALS Sunburst Explorer
                         <small>Combining areal and genealogical information of the WALS database</small>
                     </h1>
 
                     <ol class="breadcrumb">
-                        <li><i class="fa fa-male"></i> by <a href="http://th-mayer.de" class="text-blue">Thomas Mayer</a>
+
+                        <li>
+                            <i class="fa fa-code"></i> <a href="http://th-mayer.de" class="text-blue">Thomas Mayer</a>
                             <br>
                             <i class="fa fa-github"></i> Code on <a href="https://github.com/tmayer/WALSvis" class="text-blue">Github</a>
                         </li>
@@ -45,7 +47,7 @@
                     <hr/>
                     <div>
                     <label for="features"><i class="fa fa-folder-open"></i> Select WALS feature: &nbsp;
-                            <select id="features" class="selectpicker" data-live-search="true">
+                            <select id="features" class="selectpicker show-tick" data-live-search="true">
                             </select>
                         </label>
                     </div>
@@ -54,12 +56,12 @@
                 <!-- Main content -->
                 <section class="content">
 
-                    
+
 
                     <!-- top row -->
                     <div class="row">
                         <div class="col-xs-12 connectedSortable">
-                            
+
                         </div><!-- /.col -->
                     </div>
                     <!-- /.row -->
@@ -67,7 +69,7 @@
                     <!-- Main row -->
                     <div class="row">
                         <!-- Left col -->
-                        <section class="col-lg-6 connectedSortable"> 
+                        <section class="col-lg-6 connectedSortable">
                             <!-- Box (with bar chart) -->
 
 
@@ -75,9 +77,9 @@
                             <div class="box box-danger" id="warningbox">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">       
+                                    <div class="pull-right box-tools">
                                         <button class="btn btn-danger btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
-                                        <button class="btn btn-danger btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>   
+                                        <button class="btn btn-danger btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-warning"></i>
@@ -86,45 +88,59 @@
                                     </h3>
                                 </div>
 
-                                
+
                             </div>
                             <!-- /.box -->
-                                 
+
 
                             <!-- Legend box -->
                             <div class="box box-primary">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">       
+                                    <div class="pull-right box-tools">
                                         <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
-                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
-                                        title="Click on the colored circles to remove/add languages exhibiting the feature" style="margin-right: 5px;"><i class="fa fa-info"></i></button> 
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip"
+                                        title="Click on the colored circles to remove/add languages exhibiting the feature" style="margin-right: 5px;"><i class="fa fa-info"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-tags"></i>
                                     <h3 class="box-title">
-                                        Legend for feature <span id="legendname" data-toggle="tooltip" title="WALS Online data export created 2013-10-29 23:06:51.451389 from http://wals.info/"></span> 
-                                        <small>(<a id="legendlink" class="text-blue" href="">
+                                        Legend for feature <span id="legendname" data-toggle="tooltip" title="WALS Online data export created 2013-10-29 23:06:51.451389 from http://wals.info/"></span><br>
+                                        <small><span id="featuretitle"></span>
+                                        (<a id="legendlink" class="text-blue" href="">
                                         <i class="fa fa-external-link"></i> see on WALS website</a>)</small>
                                     </h3>
                                 </div>
                                 <!--<div class="box-body" style="height: 170px; overflow-y: scroll;">-->
-                                <div class="box-body" id="legendbody">
+                                <div class="box-body" id="legendbody" style="padding-left: 45px;">
 
-                                    <div id="legend" style="margin-top: -20px;"></div>
+                                    <div id="legendcontrol" style="margin-top: -20px;">
+                                         <label for="scaleType">Select scale type: &nbsp;
+                                            <select id="ScaleTypeSelect" class="selectpickerScale show-tick">
+                                                <option id="nominalSelect" value="nominal">Nominal Scale</option>
+                                                <option id="ordinalSelect" value="ordinal">Ordinal Scale</option>
+                                            </select>
+                                        </label>
+                                    </div>
+
+
+                                    <div id="legend" style="margin-top: -10px;"></div>
+
+
+
                                 </div><!-- /.box-body-->
-                                
+
                             </div>
                             <!-- /.box -->
-                            
+
                             <!-- Map box -->
                             <div class="box box-primary">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">          
-                                        <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button> 
-                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
-                                        title="Click on the map and drag cursor to select an area" style="margin-right: 5px;"><i class="fa fa-info"></i></button>  
+                                    <div class="pull-right box-tools">
+                                        <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip"
+                                        title="Click on the map and drag cursor to select an area" style="margin-right: 5px;"><i class="fa fa-info"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-globe"></i>
@@ -133,11 +149,11 @@
                                     </h3>
                                 </div>
                                 <div class="box-body" style="height: 460px;" id="mapcontainer">
-                                    
+
                                     <div id="map" style="text-align: center;"></div>
 
                                     <div class="pull-right">
-                                    
+
                                         <button id="resetmap" class="btn btn-primary btn-xs">Reset map</button>
                                         <!--<button id="movemap" class="btn btn-primary btn-sm">Move map</button>-->
                                         <button id="zoomtofit" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom to selection"><i class="fa fa-search"></i></button>
@@ -146,7 +162,7 @@
                                         <br>
                                         <button id="bigger" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom in"><i class="fa fa-search-plus"></i></button>
                                         <button id="smaller" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Zoom out"><i class="fa fa-search-minus"></i></button>
-                                        
+
                                         <button id="west" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go west"><i class="fa fa-arrow-circle-left"></i></button>
                                         <button id="north" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go north"><i class="fa fa-arrow-circle-up"></i></button>
                                         <button id="south" class="btn btn-primary btn-xs" data-toggle="tooltip" title="Go south"><i class="fa fa-arrow-circle-down"></i></button>
@@ -158,13 +174,13 @@
                                         <div class="iteminfo" style="display: inline;"></div>
                                     </div>
                                 </div><!-- /.box-body-->
-                                
+
                             </div>
                             <!-- /.box -->
 
 
-                                                
-                            
+
+
 
                         </section><!-- /.Left col -->
                         <!-- right col (We are only adding the ID to make the widgets sortable)-->
@@ -173,10 +189,10 @@
                             <div class="box box-primary">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">          
+                                    <div class="pull-right box-tools">
                                         <button class="btn btn-primary btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
-                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip" 
-                                        title="Click on a segment of the sunburst to zoom in on the subfamily. Click on the center to go back." style="margin-right: 5px;"><i class="fa fa-info"></i></button> 
+                                        <button class="btn btn-primary btn-sm pull-right" data-toggle="tooltip"
+                                        title="Click on a segment of the sunburst to zoom in on the subfamily. Click on the center to go back." style="margin-right: 5px;"><i class="fa fa-info"></i></button>
                                     </div><!-- /. tools -->
 
                                     <i class="fa fa-sun-o"></i>
@@ -185,7 +201,7 @@
                                     </h3>
                                 </div>
                                 <div class="box-body" style="height: 703px;" id="sunburstcontainer">
-                                    
+
                                     <div id="sunburst" style="text-align: center;"></div>
                                     <br>
 
@@ -195,11 +211,11 @@
 
                                     </div>
                                 </div><!-- /.box-body-->
-                                
+
                             </div>
                             <!-- /.box -->
 
-                           
+
 
                         </section><!-- right col -->
                     </div><!-- /.row (main row) -->
@@ -211,12 +227,12 @@
 <!-- Main content -->
                 <section class="content">
 
-                    
+
 
                     <!-- top row -->
                     <div class="row">
                         <div class="col-xs-12 connectedSortable">
-                            
+
                         </div><!-- /.col -->
                     </div>
                     <!-- /.row -->
@@ -224,15 +240,15 @@
                     <!-- Main row -->
                     <div class="row">
                         <!-- Left col -->
-                        <section class="col-lg-6 connectedSortable"> 
+                        <section class="col-lg-6 connectedSortable">
                             <!-- Box (with bar chart) -->
-                                 
+
 
                             <!-- Description box -->
                             <div class="box box-success">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">          
+                                    <div class="pull-right box-tools">
                                         <button class="btn btn-success btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
                                     </div><!-- /. tools -->
 
@@ -242,52 +258,52 @@
                                     </h3>
                                 </div>
                                 <div class="box-body">
-                                    
+
                                     <p style="text-align: justify;">
-                                    The <b>WALS Explorer</b> shows the values for all <a href='http://wals.info' target="_blank">WALS</a>
-                                    features by combining the geolocation of the respective languages with their genealogy in 
-                                    a <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/" target="_blank">sunburst visualization</a>
-                                    (Stasko and Zhang 2000). The map and the sunburst is enhanced with interactive functionalities. 
+                                    The <b>WALS Sunburst Explorer</b> shows the values for all <a href='http://wals.info' target="_blank"><i class="fa fa-external-link"></i> WALS</a>
+                                    features by combining the geolocation of the respective languages with their genealogy in
+                                    a <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/" target="_blank"><i class="fa fa-external-link"></i> sunburst visualization</a>
+                                    (Stasko and Zhang 2000). The map and the sunburst is enhanced with interactive functionalities.
                                     You can select a region in the world map to get only those languages spoken in that area
-                                    displayed in the sunburst. The sunburst itself is zoomable. If you click on a segment, only 
-                                    the languages of the respective subfamily are displayed. 
+                                    displayed in the sunburst. The sunburst itself is zoomable. If you click on a segment, only
+                                    the languages of the respective subfamily are displayed.
                                     </p>
 
                                     <p style="text-align: justify;">
-                                    All data for the <b>WALS Explorer</b> (including the genealogical information) has been taken from WALS Online (Dryer and Haspelmath 2013). WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/" 
-                                    target="_blank">http://wals.info/</a>.
+                                    All data for the <b>WALS Sunburst Explorer</b> (including the genealogical information) has been taken from WALS Online (Dryer and Haspelmath 2013). WALS Online data export created 2013-10-29 23:06:51.451389 from <a href="http://wals.info/"
+                                    target="_blank"><i class="fa fa-external-link"></i> http://wals.info/</a>.
                                     </p>
 
                                     <p style="text-align: justify;">
-                                        If you use the <b>WALS Explorer</b> in your research, please cite the first paper in the References section (Mayer et al. 2014). The <b>WALS Explorer</b> is based on the <em>World's Languages Explorer</em> 
-                                        by Christian Rohrdantz, Michael Hund, Thomas Mayer, Bernhard Wälchli and Daniel A. Keim 
+                                        If you use the <b>WALS Sunburst Explorer</b> in your research, please cite the first paper in the References section (Mayer et al. 2014). The <b>WALS Sunburst Explorer</b> is based on the <em>World's Languages Explorer</em>
+                                        by Christian Rohrdantz, Michael Hund, Thomas Mayer, Bernhard Wälchli and Daniel A. Keim
                                         (Rohrdantz et al. 2012).
                                     </p>
 
                                     <p style="text-align: justify:">
-                                        The <b>WALS Explorer</b> is implemented in JavaScript using the D3 library (Bostock et al. 2011). The ordinal scale is taken from <a href="http://colorbrewer2.org/" target="_blank">Cynthia Brewer's colorbrewer</a>.
+                                        The <b>WALS Sunburst Explorer</b> is implemented in JavaScript using the D3 library (Bostock et al. 2011). The ordinal scale is taken from <a href="http://colorbrewer2.org/" target="_blank"><i class="fa fa-external-link"></i> Cynthia Brewer's colorbrewer</a>.
                                     </p>
 
-                                    
+
                                 </div><!-- /.box-body-->
-                                
+
                             </div>
                             <!-- /.box -->
 
-                                                
-                            
+
+
 
                         </section><!-- /.Left col -->
                         <!-- right col (We are only adding the ID to make the widgets sortable)-->
                         <section class="col-lg-6 connectedSortable">
-                    
+
 
 
                             <!-- References box -->
                             <div class="box box-success">
                                 <div class="box-header">
                                     <!-- tools box -->
-                                    <div class="pull-right box-tools">          
+                                    <div class="pull-right box-tools">
                                         <button class="btn btn-success btn-sm pull-right" data-widget='collapse' data-toggle="tooltip" title="Collapse" style="margin-right: 5px;"><i class="fa fa-compress"></i></button>
                                     </div><!-- /. tools -->
 
@@ -297,7 +313,7 @@
                                     </h3>
                                 </div>
                                 <div class="box-body">
-                                    
+
                                      <ul>
                                         <li>
                                         <p style="text-align: justify;">
@@ -307,18 +323,18 @@
 
                                     <li>
                                         <p style="text-align: justify;">
-                                        Dryer, Matthew S. and Martin Haspelmath (eds.). 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at <a href="http://wals.info/">http://wals.info/</a>, Accessed on 2014-08-13.)
+                                        Dryer, Matthew S. and Martin Haspelmath (eds.). 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online at <a href="http://wals.info/"><i class="fa fa-external-link"></i> http://wals.info/</a>, Accessed on 2014-08-13.)
                                         </p>
 
                                     </li>
 
                                         <li>
                                             <p style="text-align: justify;">
-                                        Rohrdantz, Christian, Michael Hund, Thomas Mayer, Bernhard Wälchli and Daniel A. Keim. 2012. 
-                                        The World’s Languages Explorer: Visual analysis of language features in genealogical and areal 
-                                        contexts. In <i>Computer Graphic Forum</i>, 31(3), 935–944. 
-                                        [<a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03086.x/abstract" 
-                                        target="_blank">link</a>]</p>
+                                        Rohrdantz, Christian, Michael Hund, Thomas Mayer, Bernhard Wälchli and Daniel A. Keim. 2012.
+                                        The World’s Languages Explorer: Visual analysis of language features in genealogical and areal
+                                        contexts. In <i>Computer Graphic Forum</i>, 31(3), 935–944.
+                                        [<a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03086.x/abstract"
+                                        target="_blank"><i class="fa fa-external-link"></i> link</a>]</p>
 
                                     </li>
 
@@ -331,20 +347,20 @@
 
                                     <li>
                                         <p style="text-align: justify;">
-                                        Stasko, John and Eugene Zhang. 2000. Focus+context display and navigation techniques for 
+                                        Stasko, John and Eugene Zhang. 2000. Focus+context display and navigation techniques for
                                         enhancing radial, space-filling hierarchy visualizations. In <i>Proceedings of the IEEE Symposium on Information Visualization</i>, 57–65. Los Alamitos CA: IEEE Computer Society.
                                         </p>
 
                                     </li>
                                         </ul>
                                 </div><!-- /.box-body-->
-                                
+
                             </div>
                             <!-- /.box -->
 
-                            
 
-                           
+
+
 
                         </section><!-- right col -->
                     </div><!-- /.row (main row) -->
@@ -371,17 +387,17 @@
 
         <!-- AdminLTE App -->
         <script src="js/AdminLTE/app.js" type="text/javascript"></script>
-        
-        <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-        <script src="js/AdminLTE/dashboard.js" type="text/javascript"></script>    
 
-        
+        <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+        <script src="js/AdminLTE/dashboard.js" type="text/javascript"></script>
+
+
 
         <script src="d3/d3.min.js"></script>
-        <script src="d3/topojson.js"></script> 
-        <script src="js/wals.js"></script> 
+        <script src="d3/topojson.js"></script>
+        <script src="js/wals.js"></script>
         <script src="js/colorbrewer.v1.min.js"></script>
-        
+
 
 
     </body>
