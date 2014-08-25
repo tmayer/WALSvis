@@ -78,3 +78,6 @@ circle.hidden {
 	display: none;
 }
 
+.connectedSortable {
+    min-height: 100px;
+}
