@@ -15,7 +15,7 @@ $(function() {
         handle: ".box-header, .nav-tabs",
         forcePlaceholderSize: true,
         zIndex: 999999
-    }).disableSelection();
+    });
     $(".box-header, .nav-tabs").css("cursor","move");
     //jQuery UI sortable for the todo list
     $(".todo-list").sortable({
