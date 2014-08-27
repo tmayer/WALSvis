@@ -51,9 +51,11 @@ $(function() {
         var bf = box.find(".box-body, .box-footer");
         if (!box.hasClass("collapsed-box")) {
             box.addClass("collapsed-box");
+            $(this).children(".fa-minus").removeClass("fa-minus").addClass("fa-plus");
             bf.slideUp();
         } else {
             box.removeClass("collapsed-box");
+            $(this).children(".fa-plus").removeClass("fa-plus").addClass("fa-minus");
             bf.slideDown();
         }
     });

@@ -1,12 +1,12 @@
 //############### check for window width #########
 
-if (window.innerWidth < 1200)  {
+if (window.innerWidth < 1000)  {
         $("#warningbox").css("display","block");
 };
 
 window.onresize = function(event) {
 
-	if (window.innerWidth < 1200)  {
+	if (window.innerWidth < 1000)  {
 	        $("#warningbox").css("display","block");
 	}
 	else{
@@ -58,9 +58,8 @@ var projection = d3.geo.mercator()
 	.scale(width/8)
     .translate([width / 2 , height / 2])
 	.center([0,50])
-	.rotate([-162.5,0])
-	//.scale(mapscale) //.scale(mapscale)
-	//.translate([290,171])
+	//.rotate([-140,0])
+	.rotate([-153,0])
 	;
 
 
@@ -74,6 +73,7 @@ var svg = d3.select("#map").append("svg")
 	;
 var g = svg.append("g");
 var mapPoly = g.append('g').attr('class','mapPoly')
+var macroAreas = g.append('g').attr('class','macroAreas');
 var edgeArcs = g.append('g').attr('class','edgeArcs');
 var overall = g.append('g').attr('class','overAll');
 
@@ -101,6 +101,48 @@ d3.json("world-110m.json", function(error, topology) {
 			return 1/scaleFactor;
 		})
 		;
+});
+
+
+//############## Macro Areas ############
+
+macroAreaFiles = [
+["australiaNewGuinea.csv","blue"],
+["africa.csv","red"],
+["eurasia.csv","yellow"],
+["northAmerica.csv","green"],
+["southAmerica.csv","orange"],
+["southEastAsia.csv","purple"]
+];
+
+macroAreaFiles.forEach(function(marea){
+
+	d3.csv("data/" + marea[0],function(ausdata){
+		console.log(ausdata);
+		var australiaNewGuinea = [];
+		ausdata.forEach(function(a){
+			australiaNewGuinea.push(projection([a.lat,a.lon]));
+		});
+		console.log(australiaNewGuinea);
+
+	    // make a black border around the Hesse area
+	    macroAreas.selectAll('polygon2')
+	        .data([australiaNewGuinea])
+	        .enter()
+	        .append("polygon")
+	        .attr("points",function(d,i) { 
+	            //console.log(d);
+	            return d.map(function(m){
+	                return [m[0],m[1]].join(',');
+	            }).join(" ");
+	        })
+	        .attr('fill',marea[1])
+	        .attr('opacity',0.2)
+	        .attr("stroke","black")
+	        .attr("stroke-width",0.2)
+	        ;
+	});
+
 });
 
 //############### brushing ###############
@@ -241,7 +283,7 @@ function loaddata(feature){
 	// get feature values from feature file
 	d3.xhr('wals_data/features/' + feature + '.tab').get(function (err, response) {
 		var dirtyCSV = response.responseText;
-		var title = dirtyCSV.split('\n')[0];
+		var title = dirtyCSV.split('\n')[0].replace("..",".");
 		$("#featuretitle").text(title);
 		//console.log(title);
 		var cleanCSV = dirtyCSV.split('\n').slice(7).join('\n');
@@ -391,7 +433,7 @@ function loaddata(feature){
 
 		// resize the legend widget
 		$("#legendbody").css("height",function(){
-			var legheight = unis.length * 25 + 20;
+			var legheight = unis.length * 25 + 70;
 			//console.log(legheight);
 			return legheight;
 		});
@@ -999,7 +1041,17 @@ d3.select('#resetmap').on('click',function(a){
          return 1/scaleFactor;
      });
 
+});
 
 
 
+d3.select('#showmacroareas').on('click',function(a){
+	if($(".macroAreas").css("visibility") == "hidden"){
+		$(".macroAreas").css("visibility","visible");
+		$("#showmacroareas").attr("class","btn btn-primary btn-xs");
+	}
+	else{
+		$(".macroAreas").css("visibility","hidden");
+		$("#showmacroareas").attr("class","btn btn-danger btn-xs");
+	}
 });
