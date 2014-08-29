@@ -403,6 +403,11 @@ function loaddata(feature){
 							.style('fill','#444')
 						;
 				}
+				if(dname in langByCont){
+					d3.selectAll(".sun_con_" + langByCont[dname].replace(/[-\s]/g,'_'))
+						.style("fill","#444")
+					;
+				}
 				if(dname.length == 3){
 					d3.selectAll('.sun_' + dname)
 						.style("fill",'#444');
@@ -621,31 +626,10 @@ function sunburst(languagedata){
 				continents[currcont][d.family][d.genus].push(d['wals code']);
 			}
 
-			/* old families
-			if(families[d.family]){
-				if(families[d.family][d.genus]){
-					families[d.family][d.genus].push(d['wals code']);
-				}
-				// add genus to family
-				else{
 
-					families[d.family][d.genus] = [];
-					families[d.family][d.genus].push(d['wals code']);
-				}
-			}
-			// add family
-			else{
-				families[d.family] = {};
-				families[d.family][d.genus] = [];
-				families[d.family][d.genus].push(d['wals code']);
-			}
-			*/
 		});
-		//console.log(families);
 
-
-
-
+		/* construct hierarchy */
 		fam['name'] = 'root'
 		fam['children'] = [];
 
@@ -675,29 +659,6 @@ function sunburst(languagedata){
 			fam['children'].push(newCont);
 		}
 
-		/*
-		for(var famkey in families){
-			var newFam = {};
-			newFam['name'] = 'fam_' + famkey;
-			newFam['children'] = [];
-			for(var genkey in families[famkey]){
-				var newGen = {};
-				newGen['name'] = 'gen_' + genkey;
-				var childrenGen = [];
-				for(var i=0;i<families[famkey][genkey].length;i++){
-					var newLang = {};
-					newLang['name'] = families[famkey][genkey][i];
-					newLang['size'] = 1;
-					childrenGen.push(newLang);
-				}
-				newGen['children'] = childrenGen;
-				newFam['children'].push(newGen);
-			}
-			fam['children'].push(newFam);
-		}
-		*/
-
-		//console.log(fam);
 
 		//############# CONSTRUCT SUNBURST #############
 
