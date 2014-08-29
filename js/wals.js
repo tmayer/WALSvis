@@ -42,6 +42,7 @@ var currfeature;
 var changeScale = true;
 var uniquevalues;
 var featurenames;
+var fam2macro = {};
 
 //############### projection settings ###############
 var margin = {top: 10, left: 10, bottom: 80, right: 10}
@@ -116,17 +117,16 @@ macroAreaFiles = [
 ["northAmerica2.csv","green"]
 ];
 
+// go through all polygon files to draw them
 macroAreaFiles.forEach(function(marea){
 
 	d3.csv("data/" + marea[0],function(ausdata){
-		console.log(ausdata);
 		var australiaNewGuinea = [];
 		ausdata.forEach(function(a){
 			australiaNewGuinea.push(projection([a.lat,a.lon]));
 		});
-		console.log(australiaNewGuinea);
 
-	    // make a black border around the Hesse area
+	    // draw the polygon
 	    macroAreas.selectAll('polygon2')
 	        .data([australiaNewGuinea])
 	        .enter()
@@ -144,6 +144,14 @@ macroAreaFiles.forEach(function(marea){
 	        ;
 	});
 
+});
+
+//############# family to macro area #####
+d3.tsv("data/familiescontinents.txt",function(macdata){
+	//console.log(macdata);
+	macdata.forEach(function(f){
+		fam2macro[f.family] = f.continent;
+	});
 });
 
 //############### brushing ###############
@@ -350,7 +358,9 @@ function loaddata(feature){
 					+ d['family']
 					+ ", " + d['genus'] + "";
 				return 'location loc_' + d['wals code'] +
-					" loc_gen_" + d['genus'].replace(/[-\s]/g,'_') + " loc_fam_" + d['family'].replace(/[-\s]/g,'_');
+					" loc_gen_" + d['genus'].replace(/[-\s]/g,'_') + 
+					" loc_fam_" + d['family'].replace(/[-\s]/g,'_') + 
+					" loc_con_" + fam2macro[d.family].replace(/[-\s]/g,'_');
 			})
 			.attr('cx',function(d){
 				return projection([d.longitude, d.latitude])[0];
@@ -434,7 +444,7 @@ function loaddata(feature){
 
 		// resize the legend widget
 		$("#legendbody").css("height",function(){
-			var legheight = unis.length * 25 + 70;
+			var legheight = unis.length * 30 + 80;
 			//console.log(legheight);
 			return legheight;
 		});
@@ -566,16 +576,52 @@ function sunburst(languagedata){
 		langByGen = {};
 		genByFam = {};
 		upperByLower = {};
-		fam = {};
+		fam = {};		
+		continents = {};
+		contByFam = {};
+		langByCont = {};
+		famByCont = {};
+		genByCont = {};
 		languagedata.forEach(function(d){
 			//console.log(d);
 			//langByGenFamily[d['wals code']] = [d.family,d.genus];
 			d.family in upperByLower ? upperByLower[d.family].push(d.genus) : upperByLower[d.family] = [d.genus];
 			d.genus in upperByLower ? upperByLower[d.genus].push(d['wals code']) : upperByLower[d.genus] = [d['wals code']];
+			var currcont = fam2macro[d.family];
+			contByFam[currcont] = d.family;
 
+			langByCont[d['wals code']] = currcont;
 			langByGen[d['wals code']] = d.genus;
 			langByFam[d['wals code']] = d.family;
 			genByFam[d.genus] = d.family;
+			famByCont[d.family] = currcont;
+			genByCont[d.genus] = currcont;
+
+			if(continents[currcont]){
+				if(continents[currcont][d.family]){
+					if(continents[currcont][d.family][d.genus]){
+						continents[currcont][d.family][d.genus].push(d['wals code']);
+					}
+					else{ // genus not in family yet
+						continents[currcont][d.family][d.genus] = [];
+						continents[currcont][d.family][d.genus].push(d['wals code']);
+					}
+				}
+				else{ // family not in continent yet
+					continents[currcont][d.family] = {};
+					continents[currcont][d.family][d.genus] = [];
+					continents[currcont][d.family][d.genus].push(d['wals code']);
+				}
+
+			}
+			else{ // continent not yet available
+				continents[currcont] = {};
+				continents[currcont][d.family] = {};
+				continents[currcont][d.family][d.genus] = [];
+				continents[currcont][d.family][d.genus].push(d['wals code']);
+			}
+
+			/* old families
 			if(families[d.family]){
 				if(families[d.family][d.genus]){
 					families[d.family][d.genus].push(d['wals code']);
@@ -593,11 +639,43 @@ function sunburst(languagedata){
 				families[d.family][d.genus] = [];
 				families[d.family][d.genus].push(d['wals code']);
 			}
+			*/
 		});
 		//console.log(families);
 
+
+
+
 		fam['name'] = 'root'
 		fam['children'] = [];
+
+		for(var contkey in continents){
+			var newCont = {};
+			newCont['name'] = "con_" + contkey;
+			newCont['children'] = [];
+			for(var famkey in continents[contkey]){
+				var newFam = {};
+				newFam['name'] = 'fam_' + famkey;
+				newFam['children'] = [];
+				for(var genkey in continents[contkey][famkey]){
+					var newGen = {};
+					newGen['name'] = 'gen_' + genkey;
+					var childrenGen = [];
+					for(var i=0;i<continents[contkey][famkey][genkey].length;i++){
+						var newLang = {};
+						newLang['name'] = continents[contkey][famkey][genkey][i];
+						newLang['size'] = 1;
+						childrenGen.push(newLang);
+					}
+					newGen['children'] = childrenGen;
+					newFam['children'].push(newGen);
+				}
+				newCont['children'].push(newFam);
+			}
+			fam['children'].push(newCont);
+		}
+
+		/*
 		for(var famkey in families){
 			var newFam = {};
 			newFam['name'] = 'fam_' + famkey;
@@ -617,6 +695,7 @@ function sunburst(languagedata){
 			}
 			fam['children'].push(newFam);
 		}
+		*/
 
 		//console.log(fam);
 
@@ -704,6 +783,11 @@ function sunburst(languagedata){
 					;
 
 				//console.log(d.name,langByFam[d.name],langByGen[d.name],genByFam[d.name]);
+				if(d.name in langByCont){
+					d3.selectAll('.sun_con_' + langByCont[d.name].replace(/[-\s]/g,'_'))
+						.style('fill','#444')
+					;
+				}
 				if(d.name in langByFam){
 					d3.selectAll('.sun_fam_' + langByFam[d.name].replace(/[-\s]/g,'_'))
 							.style('fill','#444')
@@ -718,6 +802,16 @@ function sunburst(languagedata){
 					d3.selectAll('.sun_fam_' + genByFam[outname].replace(/[-\s]/g,'_'))
 							.style('fill','#444')
 						;
+				}
+				if(outname in famByCont){
+					d3.selectAll('.sun_con_' + famByCont[outname].replace(/[-\s]/g,'_'))
+						.style("fill","#444")
+					;
+				}
+				if(outname in genByCont){
+					d3.selectAll(".sun_con_" + genByCont[outname].replace(/[-\s]/g,'_'))
+						.style("fill","#444")
+					;
 				}
 
 
