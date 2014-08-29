@@ -112,7 +112,8 @@ macroAreaFiles = [
 ["eurasia.csv","yellow"],
 ["northAmerica.csv","green"],
 ["southAmerica.csv","orange"],
-["southEastAsia.csv","purple"]
+["southEastAsia.csv","purple"],
+["northAmerica2.csv","green"]
 ];
 
 macroAreaFiles.forEach(function(marea){
@@ -130,7 +131,7 @@ macroAreaFiles.forEach(function(marea){
 	        .data([australiaNewGuinea])
 	        .enter()
 	        .append("polygon")
-	        .attr("points",function(d,i) { 
+	        .attr("points",function(d,i) {
 	            //console.log(d);
 	            return d.map(function(m){
 	                return [m[0],m[1]].join(',');
@@ -938,7 +939,7 @@ function resizeMap(){
 
  			ew += 100*scaleFactor;
  			ns += 100*scaleFactor;
- 	
+
 	            redrawMap();
 	}
 
@@ -1016,7 +1017,7 @@ function resizeMap(){
 	     .style('stroke-width',function(d){
 	         return 1/scaleFactor;
 	     });
- 
+
 });
 
 d3.select('#resetmap').on('click',function(a){
@@ -1048,10 +1049,10 @@ d3.select('#resetmap').on('click',function(a){
 d3.select('#showmacroareas').on('click',function(a){
 	if($(".macroAreas").css("visibility") == "hidden"){
 		$(".macroAreas").css("visibility","visible");
-		$("#showmacroareas").attr("class","btn btn-primary btn-xs");
+		$("#showmacroareas").attr("class","btn btn-danger btn-xs");
 	}
 	else{
 		$(".macroAreas").css("visibility","hidden");
-		$("#showmacroareas").attr("class","btn btn-danger btn-xs");
+		$("#showmacroareas").attr("class","btn btn-primary btn-xs");
 	}
 });

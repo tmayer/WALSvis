@@ -81,3 +81,7 @@ circle.hidden {
 .connectedSortable {
     min-height: 100px;
 }
+
+.macroAreas {
+	visibility: hidden;
+}
