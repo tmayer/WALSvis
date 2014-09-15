@@ -1041,7 +1041,7 @@ function resizeMap(){
  d3.select("#zoomtofit").on("click",function(d){
  	  var bounds = brush.extent();
 
- 	  console.log(bounds);
+ 	  //console.log(bounds);
   var dx = bounds[1][0] - bounds[0][0],
       dy = bounds[1][1] - bounds[0][1],
       x = (bounds[0][0] + bounds[1][0]) / 2,
