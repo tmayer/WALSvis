@@ -258,10 +258,15 @@ d3.tsv('wals_data/features.tab').get(function (err, results){
 
 	/* check for URL parameter for feature */
 	var inputfeature = window.location.hash.substring(1);
-	console.log(inputfeature);
+	if(inputfeature.charAt(inputfeature.length - 1) == "/"){
+		inputfeature = inputfeature.substring(0,inputfeature.length-1);
+	}
+	
 	if(inputfeature in featureByName){
 		startFeature = inputfeature;
 	}
+	location.hash = "#" + startFeature + "/";
+	
 	document.getElementById("features").selectedIndex = featureIdByNumber[startFeature];
 
 	loaddata(startFeature);
@@ -883,6 +888,7 @@ function sunburst(languagedata){
 	d3.select('#legend svg').remove();
 	d3.select('#sunburst svg').remove();
 	loaddata(feature);
+	location.hash = "#" + feature + "/";
 })
 ;
 
