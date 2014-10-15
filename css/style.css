@@ -85,3 +85,18 @@ circle.hidden {
 .macroAreas {
 	visibility: hidden;
 }
+
+#tt {
+    position:absolute;
+    display:block;
+}
+
+#ttcont {
+    display:block;
+    padding:1px 3px 3px 3px;
+    margin-left:1px;
+    background:#333;
+    color:#FFF;
+    border-radius: 3px;
+    opacity: 0.85;
+}
