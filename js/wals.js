@@ -243,16 +243,28 @@ function brushed(p) {
 d3.tsv('wals_data/features.tab').get(function (err, results){
 
 	var select = document.getElementById("features");
+	var featureIdByNumber = {};
+	var featurecount = 0;
 	results.forEach(function(a){
 		featureByName[a.id] = a.name;
+		featureIdByNumber[a.id] = "" + featurecount;
+		featurecount += 1;
 		var el = document.createElement("option");
 		el.textContent = a.id + ": " + a.name;
 		el.value = a.id;
 		if(a.id == startFeature){el.selected = true;}
 		select.appendChild(el);
 	});
+
+	/* check for URL parameter for feature */
+	var inputfeature = window.location.hash.substring(1);
+	console.log(inputfeature);
+	if(inputfeature in featureByName){
+		startFeature = inputfeature;
+	}
+	document.getElementById("features").selectedIndex = featureIdByNumber[startFeature];
+
 	loaddata(startFeature);
-	//console.log(featureByName);
 
 	// enable select picker
 	$('.selectpicker').selectpicker({
