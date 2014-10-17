@@ -812,7 +812,7 @@ function sunburst(languagedata){
 
 				var iconcolor = d.children ? "#444" : groupScale(langByValue[d.name]);
 				if(d.name != "root"){
-					tooltip.show('<i class="fa fa-square" style="color: ' + iconcolor + '"></i><span style="text-transform: capitalize;"> ' + outname + "</span>");
+					tooltip.show('<i class="fa fa-square" style="color: ' + iconcolor + '"></i><span> ' + outname + "</span>");
 				}
 
 
